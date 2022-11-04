@@ -1,0 +1,19 @@
+﻿@* Bu partial viewin görevi TEK BİR PRODUCT göstermektir. *@
+@model Product
+
+<div class="col-4">
+    <div class="card mb-2">
+        <div class="card-img text-center p-2">
+            <img src="~/images/@Model.ImageUrl" alt="">
+        </div>
+        <div class=card-body>
+            <h5 class="card-title text-primary text-center">@Model.Name</h5>
+            <div class="text-muted ps-2 text-center">@Model.Price</div>
+        </div>
+        <div class="card-footer bg-light d-flex justify-content-around">
+            <a class="btn btn-sm btn-primary" asp-controller="Home" asp-action="Details"
+               asp-route-url=@Model.Url>Details</a>
+            <a class="btn btn-sm btn-success" href="#">Add to Card</a>
+        </div>
+    </div>
+</div>

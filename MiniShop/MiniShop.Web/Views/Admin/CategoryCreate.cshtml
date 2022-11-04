@@ -1,0 +1,39 @@
+﻿@model CategoryModel
+<h1>Create Category</h1>
+<hr />
+<form asp-controller="Admin" asp-action="CategoryCreate" method="post" enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-md-8">
+            @*Buraya Product bilgileri gelecek*@
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="Name"></label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" asp-for="Name" />
+                </div>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="Description"></label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" asp-for="Description" />
+                </div>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+              <div class="form-group row mb-2">
+                <div class="col-md-10 offset-2">
+                    <button class="btn btn-success" type="submit">Save</button>
+                </div>
+
+            </div>
+        </div>
+     </div>
+</form>
+
+@section Scripts{
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+            }

@@ -1,0 +1,117 @@
+﻿@model ProductWithCategoriesModel
+
+<h1>Edit Product</h1>
+<hr />
+@*Method="post" -> kayıt yapıcagımız da kullanılır*@
+<form asp-controller="Admin" asp-action="ProductEdit" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="ProductId" value=@Model.Id />
+    <div class="row">
+        <div class="col-md-8">
+            @*Buraya Product bilgileri gelecek*@
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="Name"></label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" asp-for="Name" />
+                </div>
+                @* asp-validation-for => yazdığımız hata mesajlarını gösterir*@
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="Properties"></label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" asp-for="Properties" />
+                </div>
+                <span asp-validation-for="Properties" class="text-danger"></span>
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="Price" ></label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" asp-for="Price" />
+                    
+                </div>
+                <span asp-validation-for="Price" class="text-danger"></span>
+
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="ImageUrl">Image</label>
+                </div>
+
+
+                <div class="col-md-10">
+                    <img id="imgViewer" src="~/images/@Model.ImageUrl" />
+                    <input class="d-none" type="file" name="file" id="formFile" accept="image/" />
+                    <div>
+                        <label class="btn btn-light" for="formFile">Upload Image</label>
+                        <label id="imageUrl">@Model.ImageUrl</label>
+                    </div>
+                </div>
+                <span class="text-danger">@ViewBag.ImageErrorMessage</span>
+
+            </div>
+
+            <div class="form-group row mb-2">
+                <div class="col-md-10 offset-2">
+                    <button class="btn btn-success" type="submit">Save Changes</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            @*Buraya Category listesi, IsHome, IsApproved gelecek*@
+
+
+            @foreach (var category in (List<Category>)ViewBag.Categories)
+            {
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox"
+                       class="form-check-input"
+                       value="@category.Id"
+                       name="categoryIds"
+                       @if (Model.SelectedCategories!=null)
+                       {
+                       @(Model.SelectedCategories.Any(c=>c.Id==category.Id) ? "checked" : "")
+                       }
+                       @*Bu kodu any ile yazmak yerine klasik bir döngü yapısı kullanarak yeniden yazmayı deneyiniz.*@ />
+
+
+
+
+                    <label class="custom-control-label">@category.Name</label>
+                </div>
+            }
+            <span class="text-danger">@ViewBag.CategoryErrorMessage</span>
+            <hr />
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="form-check-input" asp-for="IsApproved" />
+                <label class="custom-control-label">Is Approved?</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="form-check-input" asp-for="IsHome" />
+                <label class="custom-control-label">Is Home?</label>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts{
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
+
+<script>
+    let formFile = document.getElementById("formFile");
+    let imgViewer = document.getElementById("imgViewer");
+    let imgUrl = document.getElementById("imageUrl");
+
+    formFile.addEventListener("change", function (event) {
+        let files = event.target.files;
+        imgViewer.setAttribute("src", window.URL.createObjectURL(files[0]));
+        imgUrl.innerText = imgViewer.getAttribute("src");
+    });
+</script>

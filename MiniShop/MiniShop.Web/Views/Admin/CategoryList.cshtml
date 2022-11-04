@@ -1,0 +1,127 @@
+﻿@model List<Category>
+
+<h1 class="display-5 text-primary">Category List</h1>
+<hr />
+<div>
+    <a class="btn btn-sm btn-primary" asp-controller="Admin" asp-action="CategoryCreate">Create Category</a>
+    @if (Model.Count > 0)
+    {
+        @if (ViewBag.IsDeleted)
+        {
+            <a class="btn btn-sm btn-danger" asp-controller="Admin" asp-action="CategoryList" asp-route-isDeleted="false">Show Undeleted Categories</a>
+        }
+        else
+        {
+            <a class="btn btn-sm btn-danger" asp-controller="Admin" asp-action="CategoryList" asp-route-isDeleted="true">Show Deleted Categories</a>
+        }
+    }
+    else
+    {
+
+        <a class="btn btn-sm btn-danger" asp-controller="Admin" asp-action="CategoryList" asp-route-isDeleted="false">Show Undeleted Categories</a>
+
+
+        <a class="btn btn-sm btn-danger" asp-controller="Admin" asp-action="CategoryList" asp-route-isDeleted="true">Show Deleted Categories</a>
+
+    }
+
+    <hr />
+    @if (Model.Count > 0)
+    {
+
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var category in Model)
+                {
+                    <tr>
+
+                        <td>@category.Id</td>
+                        <td>@category.Name</td>
+                        <td>@category.Description</td>
+                        <td>
+                            @if (!category.IsDeleted)
+                            {
+                                <a asp-controller="Admin"
+                       asp-action="CategoryEdit"
+                       asp-route-id=@category.Id
+                       class="btn btn-sm btn-warning">Edit</a>
+                                <!-- Button trigger DeleteModal -->
+                                <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#DeleteModal_@category.Id">
+                                    Delete
+                                </button>
+
+                                <!-- DeleteModal -->
+                                <div class="modal fade" id="DeleteModal_@category.Id" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Warning!</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-danger">This category will be deleted!</p>
+                                                <p>Are you sure?</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                                <a asp-controller="Admin"
+                                       asp-action="CategoryDelete"
+                                       asp-route-id=@category.Id
+                                       class="btn btn-danger">Yes</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                            else{
+                                <a asp-controller="Admin"
+                                   asp-action="CategoryDelete"
+                                   asp-route-id=@category.Id
+                                   class="btn btn-sm btn-warning">Undo</a>
+                                <!-- Button trigger DeleteModal -->
+                                <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#DeleteModal_@category.Id">
+                                    Permanently Delete
+                                </button>
+
+                                <!-- DeleteModal -->
+                                <div class="modal fade" id="DeleteModal_@category.Id" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Warning!</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-danger">This category will be deleted!</p>
+                                                <p>Are you sure?</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                                <a asp-controller="Admin"
+                                                   asp-action="CategoryDeletePermanently"
+                                                   asp-route-id=@category.Id
+                                                   class="btn btn-danger">Yes</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </td>
+                            
+                    </tr>
+                }
+            </tbody>
+    </table>
+    }
+    else{
+        @await Html.PartialAsync("_NoCategory");
+    }

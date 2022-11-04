@@ -1,0 +1,57 @@
+﻿@model List<IdentityRole>
+@section Styles{
+    @await Html.PartialAsync("_DataTablesCssPartial")
+}
+@section Scripts{
+    @await Html.PartialAsync("_DataTablesScriptsPartial")
+}
+
+    <div class="row">
+        <div class="col-md-12">
+            <h6 class="display-4">Role List</h6>
+            <hr />
+            <a 
+                asp-controller="Admin"
+                asp-action="RoleCreate"
+                class="btn btn-sm btn-primary">Create Role</a>
+            <hr />
+            <table class="table table-sm table-striped table-hover" id="myTable">
+                <thead>
+                    <tr>
+                        <td>Id</td>
+                        <td>Name</td>
+                        <td>Actions</td>
+                    </tr>
+                </thead>
+                <tbody>
+                @if (Model.Count() > 0)
+                {
+                    @foreach (var role in Model)
+                    {
+                        <tr>
+                            <td>@role.Id</td>
+                            <td>@role.Name</td>
+                            <td>
+                                <a asp-controller="Admin"
+                                   asp-action="RoleEdit"
+                                   asp-route-id=@role.Id
+                                   class="btn btn-sm btn-warning me-2">Edit</a>
+                                <form
+                                    asp-controller="Admin"
+                                    asp-action="RoleDelete"
+                                    asp-route-id=@role.Id
+                                    method="post" class="d-inline">
+                                    <button class="btn btn-sm btn-danger me-2">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    @await Html.PartialAsync("_NoRecord")
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

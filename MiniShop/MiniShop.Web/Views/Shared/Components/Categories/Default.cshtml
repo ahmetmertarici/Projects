@@ -1,0 +1,10 @@
+﻿@model List<Category>
+<div class="list-group">
+    <a class='list-group-item list-group-item-action @(ViewBag.SelectedCategory==null ? "active" : "")'
+       asp-controller="Home" asp-action="ProductList" asp-route-category="">Show All</a>
+    @foreach (var category in Model)
+    {
+        <a class="list-group-item list-group-item-action @(ViewBag.SelectedCategory==category.Url ? "active" : "") "
+       asp-controller="Home" asp-action="ProductList" asp-route-category=@category.Url>@category.Name</a>
+    }
+</div>
