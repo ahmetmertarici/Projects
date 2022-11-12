@@ -61,16 +61,7 @@ namespace MiniShop.Web.Controllers
             {
                 var list = await _userManager.IsInRoleAsync(user, role.Name) ? members : nonMembers;
                 list.Add(user);
-                #region UzunYol
-                //if (await _userManager.IsInRoleAsync(user, role.Name))
-                //{
-                //    members.Add(user);
-                //}
-                //else
-                //{
-                //    nonMembers.Add(user);
-                //}
-                #endregion
+                
             }
             RoleDetails roleDetails = new RoleDetails()
             {
@@ -85,7 +76,6 @@ namespace MiniShop.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                //Seçili role eklenecek userlar
                 foreach (var userId in roleEditModel.IdsToAdd ?? new string[] { })
                 {
                     var user = await _userManager.FindByIdAsync(userId);
@@ -101,8 +91,6 @@ namespace MiniShop.Web.Controllers
                         }
                     }
                 }
-
-                //Seçili rolden çıkarılacak userlar
                 foreach (var userId in roleEditModel.IdsToRemove ?? new string[] { })
                 {
                     var user = await _userManager.FindByIdAsync(userId);
@@ -157,7 +145,6 @@ namespace MiniShop.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> UserCreate(UserModel userModel, string[] selectedRoles)
         {
-            //List<string> roles = null;
             if (ModelState.IsValid)
             {
                 MyIdentityUser user = new MyIdentityUser()
@@ -247,15 +234,7 @@ namespace MiniShop.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> ChangeUserPassword(ChangePasswordModel changePasswordModel)
         {
-            //var user = await _userManager.FindByIdAsync(changePasswordModel.UserId);
-            //user.PasswordHash = _userManager.PasswordHasher.HashPassword(user, changePasswordModel.NewPassword);
-            //var result = await _userManager.UpdateAsync(user);
-            //if (result.Succeeded)
-            //{
-            //    TempData["AlertMessage"] = Jobs.CreateMessage("Başarılı!", "Tebrikler, şifre değişti", "success");
-            //    return RedirectToAction("UserList");
-            //}
-            //return View(changePasswordModel);
+            
 
             var user = await _userManager.FindByIdAsync(changePasswordModel.UserId);
             var userPassToken = await _userManager.GeneratePasswordResetTokenAsync(user);
@@ -362,7 +341,6 @@ namespace MiniShop.Web.Controllers
                 {
                     return NotFound();
                 }
-                //efcore otomatik olarak ismin değişiğ değişmediğini kontrol eder.Değişirse yansıtır.
                 product.Name = productModel.Name;
                 product.Url = url;
                 product.Price = productModel.Price;
@@ -416,7 +394,6 @@ namespace MiniShop.Web.Controllers
                 await _productService.CreateAsync(product, categoryIds);
                 return RedirectToAction("ProductList");
             }
-            //Buradan itibaren hata kontrolleri
             if (categoryIds.Length==0)
             {
                 ViewBag.CategoryErrorMessage = "Lütfen bir kategori seç!";

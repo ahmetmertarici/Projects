@@ -16,8 +16,7 @@ namespace MiniShop.Web.Controllers
 
         public async Task<IActionResult> Index()
         {
-            //Burası ne zaman çalışıyor?
-            //Productları ana sayfada göstermek istiyoruz. Home productları.
+          
             var homeProducts = await _productService.GetHomeProductsAsync(null);
             return View(homeProducts);
         }

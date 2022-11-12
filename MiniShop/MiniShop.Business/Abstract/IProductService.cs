@@ -10,7 +10,6 @@ namespace MiniShop.Business.Abstract
 {
     public interface IProductService
     {
-        //Gerek generic metotların tümü, gerekse de Product'a özgü metotların tümünü çağıracak metotların imzaları burada olacak.
         #region Generics
         Task<Product> GetByIdAsync(int id);
         Task<List<Product>> GetAllAsync(Expression<Func<Product, bool>> expression);

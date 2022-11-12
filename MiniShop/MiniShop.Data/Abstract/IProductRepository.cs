@@ -9,7 +9,6 @@ namespace MiniShop.Data.Abstract
 {
     public interface IProductRepository : IRepository<Product>
     {
-        //Burada IRepository'de bulunun tüm imzalar Product'a göre yapılandırılmış şekilde miras alındı.
         Task CreateAsync(Product product, int[] categoryIds);
         Task<List<Product>> GetApprovedProductsAsync();
         Task<List<Product>> GetHomeProductsAsync(string category);

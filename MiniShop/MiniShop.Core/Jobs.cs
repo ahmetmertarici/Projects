@@ -12,10 +12,7 @@ namespace MiniShop.Core
     {
         public static string UploadImage(IFormFile file, string url)
         {
-            //url=iphone-13-pro
-            //file.FileName=iphone 13.png
-            //randomName=iphone-13-pro-dsfaasdfadsfsadfasd0329438wasdfdsfads.png
-            //path=MiniShop.WebUI/wwwroot/images/iphone-13-pro-dsfaasdfadsfsadfasd0329438wasdfdsfads.png
+            
             var extension = Path.GetExtension(file.FileName);
             var randomName = $"{url}-{Guid.NewGuid()}{extension}";
             var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", randomName);
@@ -28,7 +25,6 @@ namespace MiniShop.Core
 
         public static string MakeUrl(string url)
         {
-            //Iphone 13 Pro Max İşçi Şehri
             url = url.Replace("I", "i");
             url = url.Replace("İ", "i");
             url = url.Replace("ı", "i");
@@ -47,7 +43,6 @@ namespace MiniShop.Core
             url = url.Replace(" ", "-");
 
             return url;
-            //iphone-13-pro-max-isci-sehri
         }
 
         public static string CreateMessage(string title, string message, string alertType)

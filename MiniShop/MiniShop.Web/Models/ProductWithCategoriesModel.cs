@@ -3,9 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MiniShop.Web.Models
 {
-    //View'e yollamak için model yaparız.
-    //Product'la categories'i bu model ile paketleriz.
-    //Validasyon işlemlerini mordel de yaparız.
+
     public class ProductWithCategoriesModel
     {
         public int Id { get; set; }
