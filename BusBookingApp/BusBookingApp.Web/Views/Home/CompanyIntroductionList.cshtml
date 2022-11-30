@@ -1,0 +1,9 @@
+﻿@using BusBookingApp.Entity
+
+@model List<CompanyIntroduction>
+
+    @foreach (var item in Model)
+    {
+        <h1>@item.CompanyDescriptionTitle</h1>
+        <p>@item.CompanyDescription</p>
+    }

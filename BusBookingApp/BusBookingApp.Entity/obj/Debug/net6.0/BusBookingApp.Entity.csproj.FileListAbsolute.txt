@@ -1,0 +1,120 @@
+C:\Users\asus\OneDrive\Masaüstü\BAU\repos\PROJELERIM\BusBookingApp\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.deps.json
+C:\Users\asus\OneDrive\Masaüstü\BAU\repos\PROJELERIM\BusBookingApp\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\repos\PROJELERIM\BusBookingApp\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\repos\PROJELERIM\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\repos\PROJELERIM\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\BAU\repos\PROJELERIM\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\repos\PROJELERIM\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\BAU\repos\PROJELERIM\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\repos\PROJELERIM\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\repos\PROJELERIM\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\refint\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\repos\PROJELERIM\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\repos\PROJELERIM\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\ref\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.deps.json
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\refint\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\ref\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp3\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.deps.json
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp3\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp3\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp3\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp3\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp3\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp3\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp3\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp3\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp3\BusBookingApp.Entity\obj\Debug\net6.0\refint\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp3\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp-stringe çevrildi\BusBookingApp3\BusBookingApp.Entity\obj\Debug\net6.0\ref\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp3\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.deps.json
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp3\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp3\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp3\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp3\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp3\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp3\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp3\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp3\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp3\BusBookingApp.Entity\obj\Debug\net6.0\refint\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp3\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp3\BusBookingApp.Entity\obj\Debug\net6.0\ref\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.deps.json
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\refint\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\ref\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_frontend\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.deps.json
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_frontend\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_frontend\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_frontend\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_frontend\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_frontend\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_frontend\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_frontend\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_frontend\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_frontend\BusBookingApp.Entity\obj\Debug\net6.0\refint\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_frontend\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_frontend\BusBookingApp.Entity\obj\Debug\net6.0\ref\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_customerdüzenlemeöncesi\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.deps.json
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_customerdüzenlemeöncesi\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_customerdüzenlemeöncesi\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_customerdüzenlemeöncesi\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_customerdüzenlemeöncesi\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_customerdüzenlemeöncesi\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_customerdüzenlemeöncesi\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_customerdüzenlemeöncesi\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_customerdüzenlemeöncesi\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_customerdüzenlemeöncesi\BusBookingApp.Entity\obj\Debug\net6.0\refint\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_customerdüzenlemeöncesi\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_customerdüzenlemeöncesi\BusBookingApp.Entity\obj\Debug\net6.0\ref\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\yeni tablolarla metin işlemlerine başlandı\BusBookingApp\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.deps.json
+C:\Users\asus\OneDrive\Masaüstü\yeni tablolarla metin işlemlerine başlandı\BusBookingApp\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\yeni tablolarla metin işlemlerine başlandı\BusBookingApp\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\yeni tablolarla metin işlemlerine başlandı\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\yeni tablolarla metin işlemlerine başlandı\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\yeni tablolarla metin işlemlerine başlandı\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\yeni tablolarla metin işlemlerine başlandı\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\yeni tablolarla metin işlemlerine başlandı\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\yeni tablolarla metin işlemlerine başlandı\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\yeni tablolarla metin işlemlerine başlandı\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\refint\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\yeni tablolarla metin işlemlerine başlandı\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\yeni tablolarla metin işlemlerine başlandı\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\ref\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_iyzico\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.deps.json
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_iyzico\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_iyzico\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_iyzico\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_iyzico\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_iyzico\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_iyzico\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_iyzico\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_iyzico\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_iyzico\BusBookingApp.Entity\obj\Debug\net6.0\refint\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_iyzico\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BusBookingApp_iyzico\BusBookingApp.Entity\obj\Debug\net6.0\ref\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.deps.json
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\refint\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\ref\BusBookingApp.Entity.dll

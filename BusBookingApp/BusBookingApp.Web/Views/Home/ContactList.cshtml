@@ -1,0 +1,20 @@
+﻿@using BusBookingApp.Entity
+
+@model List<Contact>
+<div class="row">
+    @foreach (var contact in Model)
+    {
+        <div class="col-md-3 p-3">
+            <div class="card border border-3" style="height:200px">
+                <div class="card-body text-center">
+                    <h5 class="card-title">@contact.BranchName</h5>
+                    <h5 class="card-title">@contact.BranchPhone</h5>
+                    <p class="card-text">@contact.BranchAddress</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+

@@ -1,0 +1,56 @@
+﻿@using BusBookingApp.Entity
+
+@model List<Support>
+
+<h1>
+    Manage Account
+</h1>
+<br />
+<div class="row">
+    <div class="col-md-3">
+        <h5 class="col-form-label">User Name:</h5>
+    </div>
+    <div class="col-md-6">
+        <p class="d-inline">@User.Identity.Name</p>
+    </div>
+</div>
+<div class="row">
+    <h3>Support Messages</h3>
+    <hr />
+    @foreach (var item in Model)
+    {
+        <div class="border border-3 m-md-2">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5 class="col-form-label">Topic:</h5>
+                </div>
+                <div class="col-md-6">
+                    <p class="d-inline">@item.Topic</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <h5 class="col-form-label">Text:</h5>
+                </div>
+                <div class="col-md-6">
+                    <p class="d-inline">@item.Text</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <h5 class="col-form-label">Answer:</h5>
+                </div>
+                <div class="col-md-6">
+                    <p class="d-inline">@item.Answer</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+
+
+
+

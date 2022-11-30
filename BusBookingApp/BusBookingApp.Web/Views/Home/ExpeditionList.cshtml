@@ -1,0 +1,75 @@
+﻿@model List<ExpeditionListModel>
+
+<form>
+    <div class="row">
+        <div class="col input-group">
+            <input class="form-control" type="date" name="date"  />
+        </div>
+        <div class="col">
+            <select name="departureId" class="form-select">
+                <option selected>Kalkış Şehri.</option>
+                @foreach (var city in ViewBag.Cities)
+                {
+                    <option value="@city.CityId">@city.CityName</option>
+                }
+            </select>
+        </div>
+        <div class="col">
+            <select name="arrivalId" class="form-select">
+                <option selected>Varış Şehri.</option>
+                @foreach (var city in ViewBag.Cities)
+                {
+                    <option value="@city.CityId">@city.CityName</option>
+                }
+            </select>
+        </div>
+        <div class="d-grid col mx-auto">
+            <button asp-controller="Home" asp-action="ExpeditionList" type="submit" class="btn btn-outline-success">Sefer Sorgula</button>
+        </div>
+    </div>
+</form>
+
+@foreach (var item in Model)
+{
+    <div class="card shadow w-100 mt-5 mb-5 border border-5 ">
+        <div class="card-body row align-items-center">
+            <div class="col-md-3 card-text text-center">
+                <h5 class="fst-italic fw-light align-items-center">Departure-Arrival</h5>
+                <p class="text-body fw-bolder font-weight-bolder">
+                    @item.DepartureCity.CityName <i class="fas fa-long-arrow-alt-right"></i>
+                    @item.ArrivalCity.CityName
+                </p>
+            </div>
+            <div class="col-md-2 card-text p-2 text-center">
+                <h5 style="margin-bottom: 12px ;" class="fst-italic fw-light align-items-center">Properties</h5>
+                <div class="">
+                    <i class="fa-solid fa-wifi"></i>
+                    <i class="fa-solid fa-tv"></i>
+                    <i class="fa-solid fa-plug"></i>
+                    <i class="fa-solid fa-utensils"></i>
+                    <i class="fa-brands fa-android"></i>
+                </div>
+                
+            </div>
+            <div class="col-md-3 card-text text-center">
+                <h5 class="fst-italic fw-light align-items-center">Date/Time</h5>
+                <h5 style="margin-top: 10px;">@item.Date / @item.Time</h5>
+            </div>
+            <div class="col-md-2  card-text text-center">
+                <div class="m-2">
+                    <h5 class="fst-italic fw-light align-items-center">Price</h5>
+                    <h5>@item.Price <i class="fa-solid fa-turkish-lira-sign"></i></h5>
+                </div>
+            </div>
+            <div class="col-md-2 d-flex align-items-center card-text text-center">
+                <a asp-controller="Ticket" asp-action="ExpeditionReservation" asp-route-id="@item.TravelDetailId"
+               class="btn btn-sm m-2 btn-secondary">Sefer Seç</a>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+
+

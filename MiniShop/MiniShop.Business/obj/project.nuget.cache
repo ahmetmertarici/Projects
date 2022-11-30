@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z4UUQzIn/Xz9i51CX0P6YoHGr3t5tUJFf7OwEL71d1yHpW5+RXS6Z9lZLaw3W32xN5Id55pLztOJzyHz9g8Rng==",
+  "dgSpecHash": "ptDy3uxC9cp4ed2NLvJZ3qONLqGOcgNXY0d/jAzETiehhbtcnV2+k6xm7oQicGXeR2x7fNRkyrxpq5G+nQghbA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.Business\\MiniShop.Business.csproj",
+  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.Business\\MiniShop.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.10\\microsoft.data.sqlite.core.6.0.10.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",

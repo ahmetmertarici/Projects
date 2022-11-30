@@ -1,0 +1,110 @@
+﻿<section class="wrapper2">
+    <div class="container">
+        <div class="heading fw-semibold">
+            <h2>FACILITIES</h2>
+        </div>
+        <div class="content grid mtop">
+            <div class="box">
+                <i class="fas fa-tv"></i>
+                <h3>10" HD Monitor</h3>
+                <p>ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae</p>
+                <span class='fas fa-arrow-right'></span>
+            </div>
+            <div class="box">
+                <i class="fas fa-plug"></i>
+                <h3>220 V Socket</h3>
+                <p>ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae</p>
+                <span class='fas fa-arrow-right'></span>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Catering Service</h3>
+                <p>ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae</p>
+                <span class='fas fa-arrow-right'></span>
+            </div>
+            <div class="box">
+                <i class="fas fa-wifi"></i>
+                <h3>3G Internet</h3>
+                <p>ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae</p>
+                <span class='fas fa-arrow-right'></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    h2{
+        font-family:Garamond;
+        margin-bottom:10px;
+    }
+    .wrapper2 {
+        position: relative;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+        .wrapper2 .grid {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .wrapper2 .box {
+            box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+            padding: 20px;
+            transition: 0.5s;
+        }
+
+        .wrapper2 i {
+            margin: 10px 0 15px 0;
+            color: #7895B2;
+            font-size: 30px;
+        }
+        .wrapper2 p {
+            padding-bottom: 10px;
+        }
+
+        .wrapper2 h3 {
+            font-size: 20px;
+        }
+
+        .wrapper2 span {
+            padding: 20px;
+            background: #F5E8D1;
+            color: #7895B2;
+            border-radius: 50%;
+        }
+
+        .wrapper2 .box:hover {
+            background: #7895B2;
+            cursor: pointer;
+        }
+
+            .wrapper2 .box:hover span {
+                background: #fff;
+            }
+
+            .wrapper2 .box:hover p,
+            .wrapper2 .box:hover h3,
+            .wrapper2 .box:hover i {
+                color: white;
+            }
+
+        .wrapper2::after {
+            content: '';
+            position: absolute;
+            top: -22%;
+            left: 0;
+            background-image: url("/img/line1.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 75px;
+            width: 100%;
+            z-index: 2;
+        }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 30px;
+    }
+    /*------------wrapper2------------*/
+</style>

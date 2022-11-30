@@ -1,0 +1,17 @@
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Data\bin\Debug\net6.0\MiniShop.Data.deps.json
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Data\bin\Debug\net6.0\MiniShop.Data.runtimeconfig.json
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Data\bin\Debug\net6.0\MiniShop.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Data\bin\Debug\net6.0\MiniShop.Data.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Data\bin\Debug\net6.0\MiniShop.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Data\bin\Debug\net6.0\MiniShop.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Data\obj\Debug\net6.0\MiniShop.Data.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Data\obj\Debug\net6.0\MiniShop.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Data\obj\Debug\net6.0\MiniShop.Data.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Data\obj\Debug\net6.0\MiniShop.Data.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Data\obj\Debug\net6.0\MiniShop.Data.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Data\obj\Debug\net6.0\MiniShop.Data.csproj.CopyComplete
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Data\obj\Debug\net6.0\MiniShop.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Data\obj\Debug\net6.0\refint\MiniShop.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Data\obj\Debug\net6.0\MiniShop.Data.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Data\obj\Debug\net6.0\MiniShop.Data.genruntimeconfig.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Data\obj\Debug\net6.0\ref\MiniShop.Data.dll

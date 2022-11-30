@@ -1,0 +1,93 @@
+﻿@model RoutesListModel
+
+@section Styles{
+    @await Html.PartialAsync("_DataTablesCssPartial")
+}
+    @section Scripts{
+    @await Html.PartialAsync("_DataTablesScriptsPartial")
+}
+
+<div class="container mt-4">
+    <div class="col-sm-12">
+        <h3>Route List</h3>
+        <hr />
+
+        <a class="btn btn-sm btn-primary" asp-controller="Admin" asp-action="CreateRoute">Create Route</a>
+        <br /><br />
+        <table class="table table table-bordered shadow-sm mt-3" id="myTable">
+            <thead>
+                <tr>
+                    <th>TravelDetail ID</th>
+                    <th>Departure City</th>
+                    <th>Arrival City</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.TravelDetails.Count() > 0)
+
+                {
+                    @foreach (var item in Model.TravelDetails)
+                    {
+                        <tr>
+                            <td>@item.TravelDetailId</td>
+                            <td>@item.DepartureCity.CityName</td>
+                            <td>@item.ArrivalCity.CityName</td>
+                            <td>@item.Date</td>
+                            <td>@item.Time</td>
+                            <td>@item.Price ₺</td>
+                            <td>
+                                <a asp-controller="Admin" asp-action="EditRoute" asp-route-id="@item.TravelDetailId" class="btn btn-sm btn-primary">Edit</a>
+                                
+
+                                <!-- Button trigger DeleteModal -->
+                                <button type="button" asp-route-id=@Model.TravelDetailId class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#DeleteModal_@item.TravelDetailId">
+                                    Delete
+                                </button>
+
+                                <!-- DeleteModal -->
+                                <div class="modal fade" id="DeleteModal_@item.TravelDetailId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Warning!</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-danger">This route will be deleted!</p>
+                                                <p>Are you sure?</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                                <a asp-controller="Admin"
+                                                   asp-action="DeleteRoute"
+                                                   asp-route-id="@item.TravelDetailId"
+                                                   class="btn btn-danger">Yes</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                                <a asp-controller="Admin" asp-action="CustomerListByTravel" asp-route-id="@item.TravelDetailId" class="btn btn-sm btn-secondary">Customers</a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td>Sistemde henüz kayıtlı rota yok!</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

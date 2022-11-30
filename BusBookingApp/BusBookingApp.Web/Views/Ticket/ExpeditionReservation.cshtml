@@ -1,0 +1,114 @@
+﻿@model ExpeditionReservationModel
+<div class="row d-flex justify-content-center">
+
+    <div class="col-md-6 ">
+        <div style="background-color:#7393A7" class="border border-4 rounded m-2 pb-3 pt-3 mb-3 text-white">
+            <h2 class="text-center">Travel Information</h2>
+            <hr />
+            <div class="card-text d-inline">
+                <p class="text-body fw-bolder font-weight-bolder">
+                    Departure-Arrival:
+                    @Model.TravelDetail.DepartureCity.CityName
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                    @Model.TravelDetail.ArrivalCity.CityName
+                </p>
+                <p class="text-body fw-bolder font-weight-bolder">
+                    Date : @Model.TravelDetail.Date
+                </p>
+                <p class="text-body fw-bolder font-weight-bolder">
+                    Time : @Model.TravelDetail.Time
+                </p>
+                <p class="text-body fw-bolder font-weight-bolder">
+                    Price : @Model.TravelDetail.Price
+                </p>
+            </div>
+        </div>
+        <div style="background-color:#7393A7" class="p-2 border border-4 rounded m-2 text-white">
+            <h2 class="text-center">Passenger Information</h2>
+            <hr />
+            <form asp-controller="Ticket" asp-action="ExpeditionReservation" method="post">
+                <div class="row">
+                    <div class="">
+                        <div class="form-group row mb-2">
+                            <div class="col-md-3 d-flex align-items-center">
+                                <label asp-for="CustomerName">First Name:</label>
+                            </div>
+                            <div class="col-md-9 ">
+                                <input class="form-control" type="text" asp-for="CustomerName" />
+                            </div>
+                            <span asp-validation-for="CustomerName" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group row mb-2">
+                            <div class="col-md-3 d-flex align-items-center">
+                                <label asp-for="CustomerSurname">Last Name: </label>
+                            </div>
+                            <div class="col-md-9">
+                                <input class="form-control" type="text" asp-for="CustomerSurname" />
+                            </div>
+                            <span asp-validation-for="CustomerSurname" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group row mb-2">
+                            <div class="col-md-3 d-flex align-items-center">
+                                <label asp-for="PhoneNumber">Phone Number:</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input class="form-control" type="text" asp-for="PhoneNumber" />
+                            </div>
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+
+                        </div>
+
+                        <div class="form-group row mb-2">
+                            <div class="col-md-3 d-flex align-items-center">
+                                <label asp-for="Email">Email Adress:</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input class="form-control" type="email" asp-for="Email" />
+                            </div>
+                            <span asp-validation-for="Email" class="text-danger"></span>
+
+                        </div>
+
+                        <div class="form-group row mb-2">
+                            <div class="col-md-3 d-flex align-items-center">
+                                <label>Seat Number:</label>
+                            </div>
+                            <div class="col-md-9">
+                                <select class="form-select" name="seatNumber">
+                                    <option selected disabled>Seats</option>
+
+                                    @foreach (var item in ViewBag.SeatNumbers)
+                                    {
+                                        <option>@item</option>
+                                    }
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row mb-2 mt-3">
+                            <div class="col-md-10 offset-3">
+                                <a asp-controller="Ticket" asp-action="CheckOut" asp-route-id="@Model.TravelDetail.TravelDetailId" class="btn btn-info" type="submit">Save</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+
+        </div>
+
+    </div>
+    <div class="col-md-5 d-flex m-2 align-items-center justify-content-center">
+        @if (ViewBag.Seats == 36)
+        {
+            <partial name="_BusSeatTemplate(36)" />
+        }
+        else
+        {
+            <partial name="_BusSeatTemplate(48)" />
+        }
+    </div>
+</div>
+

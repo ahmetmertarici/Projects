@@ -1,0 +1,17 @@
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Business\bin\Debug\net6.0\MiniShop.Business.deps.json
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Business\bin\Debug\net6.0\MiniShop.Business.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Business\bin\Debug\net6.0\MiniShop.Business.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Business\bin\Debug\net6.0\MiniShop.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Business\bin\Debug\net6.0\MiniShop.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Business\bin\Debug\net6.0\MiniShop.Data.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Business\bin\Debug\net6.0\MiniShop.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Business\obj\Debug\net6.0\MiniShop.Business.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Business\obj\Debug\net6.0\MiniShop.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Business\obj\Debug\net6.0\MiniShop.Business.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Business\obj\Debug\net6.0\MiniShop.Business.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Business\obj\Debug\net6.0\MiniShop.Business.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Business\obj\Debug\net6.0\MiniShop.Business.csproj.CopyComplete
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Business\obj\Debug\net6.0\MiniShop.Business.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Business\obj\Debug\net6.0\refint\MiniShop.Business.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Business\obj\Debug\net6.0\MiniShop.Business.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Business\obj\Debug\net6.0\ref\MiniShop.Business.dll

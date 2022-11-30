@@ -1,0 +1,32 @@
+﻿@model CreateCompanyIntroductionModel
+
+<h5 class="display-4 container">Create Introduction</h5>
+<hr />
+<form asp-controller="Admin" asp-action="CreateCompanyIntroduction" method="post">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group row mb-2">
+                <label class="col-form-label col-sm-3">Company Description Title:</label>
+                <div class="col-sm-9">
+                    <input asp-for="CompanyDescriptionTitle" type="text" class="form-control" />
+                </div>
+                <span asp-validation-for="CompanyDescriptionTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group row mb-2">
+                <label class="col-form-label col-sm-3">Company Description:</label>
+                <div class="col-sm-9">
+                    <textarea asp-for="CompanyDescription" type="text" class="form-control"></textarea>
+                </div>
+                <span asp-validation-for="CompanyDescription" class="text-danger"></span>
+            </div>
+            
+           
+            <div class="form-group row mb-2 mt-3 offset-3">
+                <div class="col-sm-3">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    <button asp-controller="Admin" asp-action="CompanyIntroductionList" type="submit" class="btn btn-warning">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

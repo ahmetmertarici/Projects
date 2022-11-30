@@ -1,0 +1,59 @@
+﻿@using BusBookingApp.Entity
+
+@model List<City>
+
+<div class="container mt-4">
+    <div class="col-sm-12">
+        <h3>City List</h3>
+        <hr />
+
+        <a class="btn btn-sm btn-primary" asp-controller="Admin" asp-action="CreateCity">Create City</a>
+        <br />
+        <table class="table table table-bordered shadow-sm mt-3">
+            <thead>
+                <tr>
+                    <th>City ID</th>
+                    <th>City Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.CityId</td>
+                        <td>@item.CityName</td>
+                        <td>
+                            <!-- Button trigger DeleteModal -->
+                            <button type="button" asp-route-id=@item.CityId class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#DeleteModal_@item.CityId">
+                                Delete
+                            </button>
+                            <!-- DeleteModal -->
+                            <div class="modal fade" id="DeleteModal_@item.CityId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Warning!</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="text-danger">This city will be deleted!</p>
+                                            <p>Are you sure?</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                            <a asp-controller="Admin"
+                                               asp-action="DeleteCity"
+                                               asp-route-id="@item.CityId"
+                                               class="btn btn-danger">Yes</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

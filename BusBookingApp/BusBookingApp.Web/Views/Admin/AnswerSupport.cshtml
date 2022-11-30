@@ -1,0 +1,66 @@
+﻿@model AnswerSupportModel
+
+<h5 class="display-4 container">Answer Support</h5>
+<hr />
+
+<div class="row">
+    <div class="col-md-2">
+        <h5 class="col-form-label col-sm-3">Name:</h5>
+    </div>
+    <div class="col-md-6">
+        <p class="d-inline">@Model.FirstName @Model.LastName</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-2">
+        <h5 class="col-form-label col-sm-3">Email:</h5>
+    </div>
+    <div class="col-md-6">
+        <p class="d-inline">@Model.Email</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-2">
+        <h5 class="col-form-label col-sm-3">Phone Number:</h5>
+    </div>
+    <div class="col-md-6">
+        <p class="d-inline">@Model.PhoneNumber</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-2">
+        <h5 class="col-form-label col-sm-3">Topic:</h5>
+    </div>
+    <div class="col-md-6">
+        <p class="d-inline">@Model.Topic</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-2">
+        <h5 class="col-form-label col-sm-3">Text:</h5>
+    </div>
+    <div class="col-md-6">
+        <p class="d-inline">@Model.Text</p>
+    </div>
+</div>
+
+<hr />
+
+<form asp-controller="Admin" asp-action="AnswerSupport" method="post">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group row mb-2">
+                <label class="col-form-label col-md-3">Messaage:</label>
+                <div class="col-sm-9">
+                    <textarea asp-for="Answer" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="form-group row mb-2 mt-3 offset-3">
+                <div class="col-md-3">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button asp-controller="Admin" asp-action="SupportList" type="submit" class="btn btn-warning">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

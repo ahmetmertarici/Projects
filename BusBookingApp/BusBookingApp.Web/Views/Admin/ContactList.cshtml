@@ -1,0 +1,74 @@
+﻿@using BusBookingApp.Entity
+
+@model List<Contact>
+
+@section Styles{
+    @await Html.PartialAsync("_DataTablesCssPartial")
+}
+    @section Scripts{
+    @await Html.PartialAsync("_DataTablesScriptsPartial")
+}
+
+<div class="container mt-4">
+    <div class="col-sm-12">
+        <h3>Contact List</h3>
+        <hr />
+
+        <a class="btn btn-sm btn-primary" asp-controller="Admin" asp-action="CreateContact">Create Contact</a>
+        <br />
+        <br />
+        <table class="table table table-bordered shadow-sm mt-3" id="myTable">
+            <thead>
+                <tr>
+                    <th>Contact Id</th>
+                    <th>Branch Name</th>
+                    <th>Branch Phone</th>
+                    <th>Branch Adress</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.ContactId</td>
+                        <td>@item.BranchName</td>
+                        <td>@item.BranchPhone</td>
+                        <td>@item.BranchAddress</td>
+                        <td>
+                            <a asp-controller="Admin" asp-action="EditContact" asp-route-id="@item.ContactId" class="btn btn-sm btn-primary">Edit</a>
+
+
+                            <!-- Button trigger DeleteModal -->
+                            <button type="button" asp-route-id=@item.ContactId class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#DeleteModal_@item.ContactId">
+                                Delete
+                            </button>
+                            <!-- DeleteModal -->
+                            <div class="modal fade" id="DeleteModal_@item.ContactId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Warning!</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="text-danger">This contact will be deleted!</p>
+                                            <p>Are you sure?</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                            <a asp-controller="Admin"
+                                           asp-action="DeleteContact"
+                                           asp-route-id="@item.ContactId"
+                                           class="btn btn-danger">Yes</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

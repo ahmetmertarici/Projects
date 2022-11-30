@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xypq0P1YsjR6KL9KdrhFx9pGOKkRdGuWxRC2vYXUK5c9M5D6mnFe1lu/mMaUTjms4VelBv+ESp2wRV2EM9J1Xw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BusBookingApp\\BusBookingApp.Core\\BusBookingApp.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

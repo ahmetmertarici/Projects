@@ -234,8 +234,6 @@ namespace MiniShop.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> ChangeUserPassword(ChangePasswordModel changePasswordModel)
         {
-            
-
             var user = await _userManager.FindByIdAsync(changePasswordModel.UserId);
             var userPassToken = await _userManager.GeneratePasswordResetTokenAsync(user);
             var result = await _userManager.ResetPasswordAsync(user, userPassToken, changePasswordModel.NewPassword);
@@ -245,7 +243,6 @@ namespace MiniShop.Web.Controllers
                 return RedirectToAction("UserList");
             }
             return View(changePasswordModel);
-
         }
         #endregion
 
@@ -408,6 +405,7 @@ namespace MiniShop.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> CategoryCreate(CategoryModel categoryModel)
         {
+            
             if (ModelState.IsValid)
             {
                 var url = Jobs.MakeUrl(categoryModel.Id + categoryModel.Name);

@@ -1,0 +1,63 @@
+﻿<div class="row route_search">
+    <form>
+        <h1>Bus Booking App</h1>
+
+        <div class="form-group row mt-2">
+            <div class="col">
+                <h4 class="fw-light">Gidilecek Tarih</h4>
+                <div class="input-group">
+                    <input class="form-control" type="date" name="date" />
+                </div>
+            </div>
+            <div class="col">
+                <h4 class="fw-light">Nereden</h4>
+                <select class="form-select" name="departureId">
+                    <option selected>Şehir seçiniz.</option>
+                    @foreach (var city in Model.Cities)
+                    {
+                        <option value="@city.CityId">@city.CityName</option>
+                    }
+                </select>
+            </div>
+            <div class="col">
+                <h4 class="fw-light">Nereye</h4>
+                <select class="form-select" name="arrivalId">
+                    <option selected>Şehir seçiniz.</option>
+                    @foreach (var city in Model.Cities)
+                    {
+                        <option value="@city.CityId">@city.CityName</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-grid col-4 offset-4 mt-2">
+                <button asp-controller="Home" asp-action="ExpeditionList" type="submit" class="btn btn-dark">Sefer Sorgula</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<style>
+    .route_search {
+        background-image: url("https://d3hne3c382ip58.cloudfront.net/files/uploads/bookmundi/resized/countrybanner/bus-traveling-on-the-road-1530269547-1920X700.jpg");
+        height: 70vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+
+        .route_search h1 {
+            padding-top: 40px;
+            display: inline-block;
+            font-family: 'Dancing Script', cursive;
+            
+        }
+
+    h4 {
+        font-family: 'Dancing Script', cursive;
+        color: black;
+    }
+</style>

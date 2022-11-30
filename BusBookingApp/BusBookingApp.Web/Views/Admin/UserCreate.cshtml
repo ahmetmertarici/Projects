@@ -1,0 +1,81 @@
+﻿@model UserModel
+<h1 class="display-4">Create User</h1>
+<hr />
+<form asp-controller="Admin" asp-action="UserCreate" method="post">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="FirstName"></label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" asp-for="FirstName" />
+                </div>
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="LastName"></label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" asp-for="LastName" />
+                </div>
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="UserName"></label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" asp-for="UserName" />
+                </div>
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="Email"></label>
+                </div>
+                <div class="col-md-10">
+                    <input asp-for="Email" />
+                </div>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-10 offset-2">
+                    <button class="btn btn-success" type="submit">Save User</button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            @foreach (var role in ViewBag.Roles)
+            {
+                <div class="form-check">
+                    <input type="checkbox"
+                       class="form-check-input"
+                       value=@role
+                       name="selectedRoles"
+                       id=@role
+                       @{
+                           try
+                           {
+                                @(((string[])ViewBag.SelectedRoles).Any(i=>i==role) ? "checked" : "")
+                           }
+                           catch (Exception)
+                           {
+                                
+                           }
+                       }>
+                    <label class="form-check-label">@role</label>
+                </div>
+            }
+        </div>
+    </div>
+</form>
+
+@section Scripts
+{
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

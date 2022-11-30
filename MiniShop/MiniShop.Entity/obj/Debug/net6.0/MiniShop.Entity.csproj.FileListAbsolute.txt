@@ -1,0 +1,12 @@
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Entity\bin\Debug\net6.0\MiniShop.Entity.deps.json
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Entity\bin\Debug\net6.0\MiniShop.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Entity\bin\Debug\net6.0\MiniShop.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Entity\obj\Debug\net6.0\MiniShop.Entity.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Entity\obj\Debug\net6.0\MiniShop.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Entity\obj\Debug\net6.0\MiniShop.Entity.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Entity\obj\Debug\net6.0\MiniShop.Entity.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Entity\obj\Debug\net6.0\MiniShop.Entity.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Entity\obj\Debug\net6.0\MiniShop.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Entity\obj\Debug\net6.0\refint\MiniShop.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Entity\obj\Debug\net6.0\MiniShop.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\MiniShop\MiniShop.Entity\obj\Debug\net6.0\ref\MiniShop.Entity.dll

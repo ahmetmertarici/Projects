@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1k0wSwQFjuKuEs92kRv1Vr+Z7xJvA7OFVv4GZ944wOpw1dO1E/mbC2pJiyjg4o9ifsjupe2TKx4X421IqpxXQA==",
+  "dgSpecHash": "21x4Q4tuEeXXKEZ+rDW/ymfiUAwHSpVIIgnA6NpoWzpE9uQ1YTv609qVDSkWyeJCo2KespEvi8M00YiymcNVPw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.Core\\MiniShop.Core.csproj",
+  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.Core\\MiniShop.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
