@@ -483,5 +483,6 @@ namespace MiniShop.Web.Controllers
             return Redirect("/Admin/CategoryList?isDeleted=true");
         }
 
+
     }
 }
