@@ -4,15 +4,15 @@
 
         <div class="form-group row mt-2">
             <div class="col">
-                <h4 class="fw-light">Gidilecek Tarih</h4>
+                <h4 class="fw-light">Date:</h4>
                 <div class="input-group">
                     <input class="form-control" type="date" name="date" />
                 </div>
             </div>
             <div class="col">
-                <h4 class="fw-light">Nereden</h4>
+                <h4 class="fw-light">Departure City:</h4>
                 <select class="form-select" name="departureId">
-                    <option selected>Şehir seçiniz.</option>
+                    <option selected>Select City</option>
                     @foreach (var city in Model.Cities)
                     {
                         <option value="@city.CityId">@city.CityName</option>
@@ -20,9 +20,9 @@
                 </select>
             </div>
             <div class="col">
-                <h4 class="fw-light">Nereye</h4>
+                <h4 class="fw-light">Arrival City:</h4>
                 <select class="form-select" name="arrivalId">
-                    <option selected>Şehir seçiniz.</option>
+                    <option selected>Select City</option>
                     @foreach (var city in Model.Cities)
                     {
                         <option value="@city.CityId">@city.CityName</option>
@@ -32,7 +32,7 @@
         </div>
         <div class="row">
             <div class="d-grid col-4 offset-4 mt-2">
-                <button asp-controller="Home" asp-action="ExpeditionList" type="submit" class="btn btn-dark">Sefer Sorgula</button>
+                <button asp-controller="Home" asp-action="ExpeditionList" type="submit" class="btn btn-dark">Search</button>
             </div>
         </div>
     </form>

@@ -3,11 +3,11 @@
 <form>
     <div class="row">
         <div class="col input-group">
-            <input class="form-control" type="date" name="date"  />
+            <input class="form-control" type="date" name="date" />
         </div>
         <div class="col">
             <select name="departureId" class="form-select">
-                <option selected>Kalkış Şehri.</option>
+                <option selected>Departure City</option>
                 @foreach (var city in ViewBag.Cities)
                 {
                     <option value="@city.CityId">@city.CityName</option>
@@ -16,7 +16,7 @@
         </div>
         <div class="col">
             <select name="arrivalId" class="form-select">
-                <option selected>Varış Şehri.</option>
+                <option selected>Arrival City</option>
                 @foreach (var city in ViewBag.Cities)
                 {
                     <option value="@city.CityId">@city.CityName</option>
@@ -24,7 +24,7 @@
             </select>
         </div>
         <div class="d-grid col mx-auto">
-            <button asp-controller="Home" asp-action="ExpeditionList" type="submit" class="btn btn-outline-success">Sefer Sorgula</button>
+            <button asp-controller="Home" asp-action="ExpeditionList" type="submit" class="btn btn-outline-success">Search</button>
         </div>
     </div>
 </form>
@@ -49,7 +49,7 @@
                     <i class="fa-solid fa-utensils"></i>
                     <i class="fa-brands fa-android"></i>
                 </div>
-                
+
             </div>
             <div class="col-md-3 card-text text-center">
                 <h5 class="fst-italic fw-light align-items-center">Date/Time</h5>
@@ -63,7 +63,7 @@
             </div>
             <div class="col-md-2 d-flex align-items-center card-text text-center">
                 <a asp-controller="Ticket" asp-action="ExpeditionReservation" asp-route-id="@item.TravelDetailId"
-               class="btn btn-sm m-2 btn-secondary">Sefer Seç</a>
+               class="btn btn-sm m-2 btn-secondary">Choose Expedition</a>
             </div>
         </div>
     </div>

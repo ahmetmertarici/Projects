@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8shCqoQ/d0TC4V+ASJixWZL9FA8uvIZuet8kw6FsWm2wJOjkoDKHXocNsIfiCnLn2AtM21ECOlQpKqr6nS06rQ==",
+  "dgSpecHash": "0GNRMAkCDFu5aB2VcC/zdMTAjkdfPMinZl0IQiPwCJC5fqkmjWvoGTLcUkCWoywxKqTWsCvMAoiMeC7hxTK6rA==",
   "success": true,
   "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BusBookingApp\\BusBookingApp.Web\\BusBookingApp.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\iyzipay\\2.1.45\\iyzipay.2.1.45.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\iyzipay\\2.1.46\\iyzipay.2.1.46.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.11\\microsoft.aspnetcore.cryptography.internal.6.0.11.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.11\\microsoft.aspnetcore.cryptography.keyderivation.6.0.11.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.11\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.11.nupkg.sha512",

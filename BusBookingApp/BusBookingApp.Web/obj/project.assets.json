@@ -11,10 +11,10 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
-      "Iyzipay/2.1.45": {
+      "Iyzipay/2.1.46": {
         "type": "package",
         "dependencies": {
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
           "lib/netstandard2.0/Iyzipay.dll": {}
@@ -617,14 +617,14 @@
         "logo.png"
       ]
     },
-    "Iyzipay/2.1.45": {
-      "sha512": "xGpTJtBOsgvDPOackSDnuWJmGnrPulpVjpnHRn1aKwE7y0yEEhr/ejQPFtW+/Zwm9PcccNb9bIkQB4dSxqPcZw==",
+    "Iyzipay/2.1.46": {
+      "sha512": "gdTPfF0jCDT8IquJZzwn6lHHDZXZUkABbne8QZrMWGo49xItOlJLVLOo2vjAHO9XGjDugPxmGsGPKqBlxPo9mA==",
       "type": "package",
-      "path": "iyzipay/2.1.45",
+      "path": "iyzipay/2.1.46",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "iyzipay.2.1.45.nupkg.sha512",
+        "iyzipay.2.1.46.nupkg.sha512",
         "iyzipay.nuspec",
         "lib/net45/Iyzipay.dll",
         "lib/netstandard1.3/Iyzipay.dll",
@@ -1417,7 +1417,7 @@
       "BusBookingApp.Business >= 1.0.0",
       "BusBookingApp.Core >= 1.0.0",
       "BusBookingApp.Data >= 1.0.0",
-      "Iyzipay >= 2.1.45",
+      "Iyzipay >= 2.1.46",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.10"
     ]
@@ -1473,7 +1473,7 @@
         "dependencies": {
           "Iyzipay": {
             "target": "Package",
-            "version": "[2.1.45, )"
+            "version": "[2.1.46, )"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",

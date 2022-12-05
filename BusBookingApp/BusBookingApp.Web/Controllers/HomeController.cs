@@ -53,7 +53,6 @@ public class HomeController : Controller
         return View(expeditionListModels);
     }
 
-
     public async Task<IActionResult> ContactList()
     {
         var contacts = await _contactService.GetAllAsync();

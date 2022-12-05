@@ -3,12 +3,14 @@ using BusBookingApp.Core;
 using BusBookingApp.Entity;
 using BusBookingApp.Web.Identity;
 using BusBookingApp.Web.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace BusBookingApp.Web.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {
         private ITicketService _ticketService;
@@ -295,7 +297,10 @@ namespace BusBookingApp.Web.Controllers
                 await _travelDetailService.CreateAsync(travelDetail);
                 return RedirectToAction("ListRoutes");
             }
-            
+            else
+            {
+                ViewBag.ErrorMessage = "Can not be left empty!";
+            }
             ViewBag.Cities = await _cityService.GetAllAsync();
             ViewBag.Buses = await _busService.GetAllAsync();
             return View(createRouteModel);
@@ -388,12 +393,20 @@ namespace BusBookingApp.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                City city = new()
+                var cities = await _cityService.GetAllAsync();
+                if (cities.Any(x => x.CityName == createCityModel.CityName))
                 {
-                    CityName = createCityModel.CityName
-                };
-                await _cityService.CreateAsync(city);
-                return RedirectToAction("ListCities");
+                    TempData["AlertMessage"] = Jobs.CreateMessage("Başarısız!", "Aynı isimde bir şehir zaten eklenmiş.", "danger");
+                }
+                else
+                {
+                    City city = new()
+                    {
+                        CityName = createCityModel.CityName
+                    };
+                    await _cityService.CreateAsync(city);
+                    return RedirectToAction("ListCities");
+                }
             }
             return View(createCityModel);
         }

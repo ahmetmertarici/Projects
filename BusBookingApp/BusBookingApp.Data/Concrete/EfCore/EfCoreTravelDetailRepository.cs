@@ -50,10 +50,5 @@ namespace BusBookingApp.Data.Concrete.EfCore
                 .Include(td => td.ArrivalCity)
                 .ToListAsync();
         }
-
-        public Task<TravelDetail> GetPriceAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

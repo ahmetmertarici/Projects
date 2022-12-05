@@ -53,11 +53,6 @@ namespace BusBookingApp.Business.Concrete
             return await _travelDetailRepository.GetExpeditionListAsync(departureId, arrivalId, date);
         }
 
-        public async Task<TravelDetail> GetPriceAsync(int id)
-        {
-            return await _travelDetailRepository.GetPriceAsync(id);
-        }
-
         public void Update(TravelDetail travelDetail)
         {
             _travelDetailRepository.Update(travelDetail);

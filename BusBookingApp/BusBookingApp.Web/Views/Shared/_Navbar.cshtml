@@ -14,82 +14,84 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
-
-
                         <div class="collapse navbar-collapse navbar-align" id="navbarSupportedContent">
-
-
                             <ul class="navbar-nav ml-auto py-4 py-md-0 ">
-
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
-                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                                        aria-haspopup="true" aria-expanded="false">Text Editor</a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" asp-controller="Admin" asp-action="CompanyIntroductionList">Company Introduction</a>
-                                        <a class="dropdown-item" asp-controller="Admin" asp-action="SupportList">Support</a>
-                                        <a class="dropdown-item" asp-controller="Admin" asp-action="ContactList">Branch Contact</a>
-                                    </div>
-                                </li>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" asp-controller="Admin" asp-action="CompanyIntroductionList">Company Introduction</a>
+                                                <a class="dropdown-item" asp-controller="Admin" asp-action="SupportList">Support</a>
+                                                <a class="dropdown-item" asp-controller="Admin" asp-action="ContactList">Branch Contact</a>
+                                            </div>
+                                        </li>
 
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
-                                    <a class="nav-link text-dark" asp-controller="Admin" asp-action="UserList">Users</a>
-                                </li>
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                                            <a class="nav-link text-dark" asp-controller="Admin" asp-action="UserList">Users</a>
+                                        </li>
 
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
-                                    <a class="nav-link text-dark" asp-controller="Admin" asp-action="RoleList">Roles</a>
-                                </li>
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                                            <a class="nav-link text-dark" asp-controller="Admin" asp-action="RoleList">Roles</a>
+                                        </li>
 
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active ">
-                                    <a class="nav-link" asp-controller="Admin" asp-action="ListRoutes">Routes</a>
-                                </li>
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active ">
+                                            <a class="nav-link" asp-controller="Admin" asp-action="ListRoutes">Routes</a>
+                                        </li>
 
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active ">
-                                    <a class="nav-link" asp-controller="Admin" asp-action="ListBuses">Buses</a>
-                                </li>
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active ">
+                                            <a class="nav-link" asp-controller="Admin" asp-action="ListBuses">Buses</a>
+                                        </li>
 
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active ">
-                                    <a class="nav-link" asp-controller="Admin" asp-action="ListCities">Cities</a>
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active ">
+                                            <a class="nav-link" asp-controller="Admin" asp-action="ListCities">Cities</a>
+                                        </li>
+
+                                    }
+                                }
+
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
                                 </li>
 
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link" asp-controller="Home" asp-action="Index">Anasayfa</a>
-                                </li>
-
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link" asp-controller="Home" asp-action="CompanyIntroductionList">Kurumsal</a>
-                                </li>
-
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                                       aria-haspopup="true" aria-expanded="false">Online İşlemler</a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" asp-controller="Home" asp-action="ExpeditionList">Bilet Satın Al</a>
-                                        <a class="dropdown-item" href="#">Bilet Sorgulama</a>
-                                    </div>
+                                    <a class="nav-link" asp-controller="Home" asp-action="CompanyIntroductionList">Company</a>
                                 </li>
 
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                                       aria-haspopup="true" aria-expanded="false">İletişim</a>
+                                       aria-haspopup="true" aria-expanded="false">Online Services</a>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" asp-controller="Home" asp-action="Support">Destek</a>
-                                        <a class="dropdown-item" asp-controller="Home" asp-action="ContactList">Telefonlarımız</a>
+                                        <a class="dropdown-item" asp-controller="Home" asp-action="ExpeditionList">Buy a Ticket</a>
+                                        <a class="dropdown-item" href="#">Ticket Search</a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                       aria-haspopup="true" aria-expanded="false">Contact</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" asp-controller="Home" asp-action="Support">Support</a>
+                                        <a class="dropdown-item" asp-controller="Home" asp-action="ContactList">Contact</a>
                                     </div>
                                 </li>
 
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-                                       aria-haspopup="true" aria-expanded="false">Hesabım</a>
+                                       aria-haspopup="true" aria-expanded="false">Account</a>
                                     <div class="dropdown-menu">
                                         @if (!User.Identity.IsAuthenticated)
                                         {
-                                            <a class="dropdown-item" asp-controller="Account" asp-action="Login">Üye Girişi</a>
-                                            <a class="dropdown-item" asp-controller="Account" asp-action="Register">Üye Ol</a>
+                                            <a class="dropdown-item" asp-controller="Account" asp-action="Login">Login</a>
+                                            <a class="dropdown-item" asp-controller="Account" asp-action="Register">Register</a>
                                         }
                                         else
                                         {
                                             <a class="dropdown-item" asp-controller="Account" asp-action="ManageAccount">@User.Identity.Name</a>
-                                            <a class="dropdown-item" asp-controller="Account" asp-action="Logout">Çıkış Yap</a>
+                                            <a class="dropdown-item" asp-controller="Account" asp-action="Logout">Logout</a>
                                         }
 
                                     </div>

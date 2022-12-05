@@ -12,6 +12,5 @@ namespace BusBookingApp.Data.Abstract
         Task<List<TravelDetail>> GetExpeditionListAsync(int departureId, int arrivalId, DateTime date);
         Task<List<TravelDetail>> GetAllTravelDetailAsync();
         Task<TravelDetail> GetByIdTravelDetailAsync(int id);
-        Task<TravelDetail> GetPriceAsync(int id);
     }
 }

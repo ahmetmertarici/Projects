@@ -28,76 +28,121 @@
             <hr />
             <form asp-controller="Ticket" asp-action="ExpeditionReservation" method="post">
                 <div class="row">
-                    <div class="">
-                        <div class="form-group row mb-2">
-                            <div class="col-md-3 d-flex align-items-center">
-                                <label asp-for="CustomerName">First Name:</label>
-                            </div>
-                            <div class="col-md-9 ">
-                                <input class="form-control" type="text" asp-for="CustomerName" />
-                            </div>
-                            <span asp-validation-for="CustomerName" class="text-danger"></span>
+                    <div class="form-group row mb-2">
+                        <div class="col-md-3 d-flex align-items-center">
+                            <label asp-for="CustomerName">First Name:</label>
                         </div>
-
-                        <div class="form-group row mb-2">
-                            <div class="col-md-3 d-flex align-items-center">
-                                <label asp-for="CustomerSurname">Last Name: </label>
-                            </div>
-                            <div class="col-md-9">
-                                <input class="form-control" type="text" asp-for="CustomerSurname" />
-                            </div>
-                            <span asp-validation-for="CustomerSurname" class="text-danger"></span>
+                        <div class="col-md-9 ">
+                            <input class="form-control" type="text" asp-for="CustomerName" />
                         </div>
+                        <span asp-validation-for="CustomerName" class="text-danger"></span>
+                    </div>
 
-                        <div class="form-group row mb-2">
-                            <div class="col-md-3 d-flex align-items-center">
-                                <label asp-for="PhoneNumber">Phone Number:</label>
-                            </div>
-                            <div class="col-md-9">
-                                <input class="form-control" type="text" asp-for="PhoneNumber" />
-                            </div>
-                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-
+                    <div class="form-group row mb-2">
+                        <div class="col-md-3 d-flex align-items-center">
+                            <label asp-for="CustomerSurname">Last Name: </label>
                         </div>
-
-                        <div class="form-group row mb-2">
-                            <div class="col-md-3 d-flex align-items-center">
-                                <label asp-for="Email">Email Adress:</label>
-                            </div>
-                            <div class="col-md-9">
-                                <input class="form-control" type="email" asp-for="Email" />
-                            </div>
-                            <span asp-validation-for="Email" class="text-danger"></span>
-
+                        <div class="col-md-9">
+                            <input class="form-control" type="text" asp-for="CustomerSurname" />
                         </div>
+                        <span asp-validation-for="CustomerSurname" class="text-danger"></span>
+                    </div>
 
-                        <div class="form-group row mb-2">
-                            <div class="col-md-3 d-flex align-items-center">
-                                <label>Seat Number:</label>
-                            </div>
-                            <div class="col-md-9">
-                                <select class="form-select" name="seatNumber">
-                                    <option selected disabled>Seats</option>
+                    <div class="form-group row mb-2">
+                        <div class="col-md-3 d-flex align-items-center">
+                            <label asp-for="PhoneNumber">Phone Number:</label>
+                        </div>
+                        <div class="col-md-9">
+                            <input class="form-control" type="text" asp-for="PhoneNumber" />
+                        </div>
+                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
 
-                                    @foreach (var item in ViewBag.SeatNumbers)
-                                    {
-                                        <option>@item</option>
-                                    }
+                    </div>
 
-                                </select>
+                    <div class="form-group row mb-2">
+                        <div class="col-md-3 d-flex align-items-center">
+                            <label asp-for="Email">Email Adress:</label>
+                        </div>
+                        <div class="col-md-9">
+                            <input class="form-control" type="email" asp-for="Email" />
+                        </div>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+
+                    </div>
+
+                    <div class="form-group row mb-2">
+                        <div class="col-md-3 d-flex align-items-center">
+                            <label>Seat Number:</label>
+                        </div>
+                        <div class="col-md-9">
+                            <select class="form-select" name="seatNumber">
+                                <option selected disabled>Seats</option>
+
+                                @foreach (var item in ViewBag.SeatNumbers)
+                                {
+                                    <option>@item</option>
+                                }
+
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <h2 class="text-center">Card Information</h2>
+                <hr />
+                <div class="row">
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <div class="form-group">
+                                <label class="form-label" asp-for="CardHolderName">Card Holder Name:</label>
+                                <input asp-for="CardHolderName" type="text" class="form-control form-control-md" />
+                                <span asp-validation-for="CardHolderName" class="text-danger"></span>
                             </div>
                         </div>
-                        <div class="form-group row mb-2 mt-3">
-                            <div class="col-md-10 offset-3">
-                                <a asp-controller="Ticket" asp-action="CheckOut" asp-route-id="@Model.TravelDetail.TravelDetailId" class="btn btn-info" type="submit">Save</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <div class="form-group">
+                                <label class="form-label" asp-for="CardNumber">Card Number:</label>
+                                <input asp-for="CardNumber" type="text" class="form-control form-control-md" />
+                                <span asp-validation-for="CardNumber" class="text-danger"></span>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="form-group">
+                                <label class="form-label" asp-for="ExpirationMonth">Expiration Month:</label>
+                                <input asp-for="ExpirationMonth" type="text" class="form-control form-control-md" />
+                                <span asp-validation-for="ExpirationMonth" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="form-group">
+                                <label class="form-label" asp-for="Email">Expiration Year:</label>
+                                <input asp-for="ExpirationYear" type="text" class="form-control form-control-md" />
+                                <span asp-validation-for="ExpirationYear" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="form-group">
+                                <label class="form-label" asp-for="Cvc">CVC:</label>
+                                <input asp-for="Cvc" type="text" class="form-control form-control-md" />
+                                <span asp-validation-for="Cvc" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row mb-2 mt-3">
+                        <div class="col-md-10 offset-3">
+                            <button class="btn btn-info" type="submit">Save</button>
                         </div>
                     </div>
                 </div>
             </form>
-
-
         </div>
+
+
+
 
     </div>
     <div class="col-md-5 d-flex m-2 align-items-center justify-content-center">

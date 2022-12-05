@@ -38,6 +38,7 @@ namespace BusBookingApp.Web.Controllers
                 var result = await _userManager.CreateAsync(myIdentityUser, registerModel.Password);
                 if (result.Succeeded)
                 {
+                    TempData["AlertMessage"] = Jobs.CreateMessage("BAŞARILI!", "Kayıt işlemi tamamlandı. Lütfen giriş yapınız.", "success");
                     return RedirectToAction("Login");
                 }
             }
@@ -61,6 +62,7 @@ namespace BusBookingApp.Web.Controllers
                 var result = await _signInManager.PasswordSignInAsync(myIdentityUser, loginModel.Password, loginModel.RememberMe, false);
                 if (result.Succeeded)
                 {
+                    TempData["AlertMessage"] = Jobs.CreateMessage("Başarılı!", "Oturum Açıldı", "success");
                     return RedirectToAction("ManageAccount");
                 }
                 TempData["AlertMessage"] = Jobs.CreateMessage("HATA!", "Kullanıcı adı ya da şifre hatalı!", "danger");
@@ -71,6 +73,7 @@ namespace BusBookingApp.Web.Controllers
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
+            TempData["AlertMessage"] = Jobs.CreateMessage("Çıkış Yapıldı!", "", "danger");
             return Redirect("~/");
         }
         public async Task<IActionResult> ManageAccount()
