@@ -10,32 +10,32 @@
     <li class="row row--1">
       <ol class="seats" type="A">
         <li class="seat">
-          <input type="checkbox" id="1"/>
+          <input type="radio" id="1" name="seatNumber" value="1" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==1) ? "disabled" : "")/>
           <label for="1">1</label>
         </li>
         <li class="seat">
-          <input type="checkbox" disabled id="2" />
+          <input type="radio" id="2" name="seatNumber" value="2" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==2) ? "disabled" : "")/>
           <label for="2">2</label>
         </li>
         <li class="seat">
-          <input type="checkbox" id="3" />
-          <label for="3">3</label>
+          <input type="radio" id="3" name="seatNumber" value="3" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==3) ? "disabled" : "")/>
+          <label>3</label>
         </li>
       </ol>
     </li>
     <li class="row row--2">
       <ol class="seats" type="A">
         <li class="seat">
-          <input type="checkbox" id="4" />
+          <input type="radio" id="4" name="seatNumber" value="4" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==4) ? "disabled" : "")/>
           <label for="4">4</label>
         </li>
         
         <li class="seat">
-          <input type="checkbox" id="5" />
+          <input type="radio" id="5" name="seatNumber" value="5" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==5) ? "disabled" : "")/>
           <label for="5">5</label>
         </li>
         <li class="seat">
-          <input type="checkbox" id="6" />
+          <input type="radio" id="6" name="seatNumber" value="6" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==6) ? "disabled" : "")/>
           <label for="6">6</label>
         </li>
         
@@ -44,16 +44,16 @@
     <li class="row row--3">
       <ol class="seats" type="A">
         <li class="seat">
-          <input type="checkbox" id="7" />
+          <input type="radio" id="7" name="seatNumber" value="7" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==7) ? "disabled" : "")/>
           <label for="7">7</label>
         </li>
         
         <li class="seat">
-          <input type="checkbox" id="8" />
+          <input type="radio" id="8" name="seatNumber" value="8" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==8) ? "disabled" : "")/>
           <label for="8">8</label>
         </li>
         <li class="seat">
-          <input type="checkbox" id="9" />
+          <input type="radio" id="9" name="seatNumber" value="9" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==9) ? "disabled" : "")/>
           <label for="9">9</label>
         </li>
         
@@ -62,52 +62,48 @@
     <li class="row row--4">
       <ol class="seats" type="A">
         <li class="seat">
-          <input type="checkbox" id="10" />
+          <input type="radio" id="10" name="seatNumber" value="10" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==10) ? "disabled" : "")/>
           <label for="10">10</label>
         </li>
-        
         <li class="seat">
-          <input type="checkbox" id="11" />
+          <input type="radio" id="11" name="seatNumber" value="11" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==11) ? "disabled" : "")/>
           <label for="11">11</label>
         </li>
         <li class="seat">
-          <input type="checkbox" id="12" />
+          <input type="radio" id="12" name="seatNumber" value="12" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==12) ? "disabled" : "")/>
           <label for="12">12</label>
         </li>
-        
       </ol>
     </li>
     <li class="row row--5">
       <ol class="seats" type="A">
         <li class="seat">
-          <input type="checkbox" id="13" />
+          <input type="radio" id="13" name="seatNumber" value="13" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==13) ? "disabled" : "")/>
           <label for="13">13</label>
         </li>
-        
         <li class="seat">
-          <input type="checkbox" id="14" />
+          <input type="radio" id="14" name="seatNumber" value="14" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==14) ? "disabled" : "")/>
           <label for="14">14</label>
         </li>
         <li class="seat">
-          <input type="checkbox" id="15" />
+          <input type="radio" id="15" name="seatNumber" value="15" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==15) ? "disabled" : "")/>
           <label for="15">15</label>
         </li>
-        
       </ol>
     </li>
     <li class="row row--6">
       <ol class="seats" type="A">
         <li class="seat">
-          <input type="checkbox" id="16" />
+          <input type="radio" id="16" name="seatNumber" value="16" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==16) ? "disabled" : "")/>
           <label for="16">16</label>
         </li>
         
         <li class="seat">
-          <input type="checkbox" id="17" />
+          <input type="radio" id="17" name="seatNumber" value="17" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==17) ? "disabled" : "")/>
           <label for="17">17</label>
         </li>
-        <li class="seat">
-          <input type="checkbox" id="18" />
+        <li class="seat"> 
+          <input type="radio" id="18" name="seatNumber" value="18" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==18) ? "disabled" : "")/>
           <label for="18">18</label>
         </li>
         
@@ -116,16 +112,16 @@
     <li class="row row--7">
       <ol class="seats" type="A">
         <li class="seat">
-          <input type="checkbox" id="19" />
+          <input type="radio" id="19" name="seatNumber" value="19" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==19) ? "disabled" : "")/>
           <label for="19">19</label>
         </li>
         
         <li class="seat">
-          <input type="checkbox" id="20" />
+          <input type="radio" id="20" name="seatNumber" value="20" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==20) ? "disabled" : "")/>
           <label for="20">20</label>
         </li>
         <li class="seat">
-          <input type="checkbox" id="21" />
+          <input type="radio" id="21" name="seatNumber" value="21" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==21) ? "disabled" : "")/>
           <label for="21">21</label>
         </li>
         
@@ -134,16 +130,16 @@
     <li class="row row--8">
       <ol class="seats" type="A">
         <li class="seat">
-          <input type="checkbox" id="22" />
+          <input type="radio" id="22" name="seatNumber" value="22" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==22) ? "disabled" : "")/>
           <label for="22">22</label>
         </li>
         
         <li class="seat">
-          <input type="checkbox" id="23" />
+          <input type="radio" id="23" name="seatNumber" value="23" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==23) ? "disabled" : "")/>
           <label for="23">23</label>
         </li>
         <li class="seat">
-          <input type="checkbox" id="24" />
+          <input type="radio" id="24" name="seatNumber" value="24" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==24) ? "disabled" : "")/>
           <label for="24">24</label>
         </li>
         
@@ -152,16 +148,16 @@
     <li class="row row--9">
       <ol class="seats" type="A">
         <li class="seat">
-          <input type="checkbox" id="25" />
+          <input type="radio" id="25" name="seatNumber" value="25" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==25) ? "disabled" : "")/>
           <label for="25">25</label>
         </li>
         
         <li class="seat">
-          <input type="checkbox" id="26" />
+          <input type="radio" id="26" name="seatNumber" value="26" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==26) ? "disabled" : "")/>
           <label for="26">26</label>
         </li>
         <li class="seat">
-          <input type="checkbox" id="27" />
+          <input type="radio" id="27" name="seatNumber" value="27" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==27) ? "disabled" : "")/>
           <label for="27">27</label>
         </li>
       </ol>
@@ -169,16 +165,16 @@
     <li class="row row--10">
       <ol class="seats" type="A">
         <li class="seat">
-          <input type="checkbox" id="28" />
+          <input type="radio" id="28" name="seatNumber" value="28" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==28) ? "disabled" : "")/>
           <label for="28">28</label>
         </li>
         
         <li class="seat">
-          <input type="checkbox" id="29" />
+          <input type="radio" id="29" name="seatNumber" value="29" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==29) ? "disabled" : "")/>
           <label for="29">29</label>
         </li>
         <li class="seat">
-          <input type="checkbox" id="30" />
+          <input type="radio" id="30" name="seatNumber" value="30" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==30) ? "disabled" : "")/>
           <label for="30">30</label>
         </li>
       </ol>
@@ -186,16 +182,16 @@
     <li class="row row--11">
       <ol class="seats" type="A">
         <li class="seat">
-          <input type="checkbox" id="31" />
+          <input type="radio" id="31" name="seatNumber" value="31" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==31) ? "disabled" : "")/>
           <label for="31">31</label>
         </li>
         
         <li class="seat">
-          <input type="checkbox" id="32" />
+          <input type="radio" id="32" name="seatNumber" value="32" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==32) ? "disabled" : "")/>
           <label for="32">32</label>
         </li>
         <li class="seat">
-          <input type="checkbox" id="33" />
+          <input type="radio" id="33" name="seatNumber" value="33" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==33) ? "disabled" : "")/>
           <label for="33">33</label>
         </li>
       </ol>
@@ -203,16 +199,16 @@
     <li class="row row--11">
       <ol class="seats" type="A">
         <li class="seat">
-          <input type="checkbox" id="34" />
+          <input type="radio" id="34" name="seatNumber" value="34" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==34) ? "disabled" : "")/>
           <label for="34">34</label>
         </li>
         
         <li class="seat">
-          <input type="checkbox" id="35" />
+          <input type="radio" id="35" name="seatNumber" value="35" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==35) ? "disabled" : "")/>
           <label for="35">35</label>
         </li>
         <li class="seat">
-          <input type="checkbox" id="36" />
+          <input type="radio" id="36" name="seatNumber" value="36" @(((List<int>)ViewData["FullSeat"]).Any(x=>x==36) ? "disabled" : "")/>
           <label for="36">36</label>
         </li>
       </ol>
@@ -239,7 +235,7 @@
 .busContainer {
   font-size: 16px;
   background-color: #7393A7;
-  width:350px;
+  width:300px;
 }
 .theatre {
   margin: 20px auto;
@@ -306,23 +302,23 @@ ol {
 .seat:nth-child(1) {
   margin-right: 14.28571%;
 }
-.seat input[type="checkbox"] {
+.seat input[type="radio"] {
   position: absolute;
   opacity: 0;
 }
-.seat input[type="checkbox"]:checked + label {
+.seat input[type="radio"]:checked + label {
   background: #bada55;
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
   animation-duration: 300ms;
   animation-fill-mode: both;
 }
-.seat input[type="checkbox"]:disabled + label {
+.seat input[type="radio"]:disabled + label {
   background: #ddd;
   text-indent: -9999px;
   overflow: hidden;
 }
-.seat input[type="checkbox"]:disabled + label:after {
+.seat input[type="radio"]:disabled + label:after {
   content: "X";
   text-indent: 0;
   position: absolute;
@@ -330,7 +326,7 @@ ol {
   left: 50%;
   transform: translate(-50%, 0%);
 }
-.seat input[type="checkbox"]:disabled + label:hover {
+.seat input[type="radio"]:disabled + label:hover {
   box-shadow: none;
   cursor: not-allowed;
 }

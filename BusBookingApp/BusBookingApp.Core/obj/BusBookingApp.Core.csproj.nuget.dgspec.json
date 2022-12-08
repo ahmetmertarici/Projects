@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BusBookingApp\\BusBookingApp.Core\\BusBookingApp.Core.csproj": {}
+    "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\AhmetMertArici_Odevler\\BusBookingApp_AhmetMertArıcı\\BusBookingApp.Core\\BusBookingApp.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BusBookingApp\\BusBookingApp.Core\\BusBookingApp.Core.csproj": {
+    "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\AhmetMertArici_Odevler\\BusBookingApp_AhmetMertArıcı\\BusBookingApp.Core\\BusBookingApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BusBookingApp\\BusBookingApp.Core\\BusBookingApp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\AhmetMertArici_Odevler\\BusBookingApp_AhmetMertArıcı\\BusBookingApp.Core\\BusBookingApp.Core.csproj",
         "projectName": "BusBookingApp.Core",
-        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BusBookingApp\\BusBookingApp.Core\\BusBookingApp.Core.csproj",
+        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\AhmetMertArici_Odevler\\BusBookingApp_AhmetMertArıcı\\BusBookingApp.Core\\BusBookingApp.Core.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BusBookingApp\\BusBookingApp.Core\\obj\\",
+        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\AhmetMertArici_Odevler\\BusBookingApp_AhmetMertArıcı\\BusBookingApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

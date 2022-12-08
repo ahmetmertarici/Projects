@@ -24,7 +24,7 @@ namespace BusBookingApp.Data.Concrete.EfCore
         {
             return context
                 .Supports
-                .Where(x => x.Email == email)
+                .Where(x => x.Email.ToLower() == email.ToLower())
                 .ToList();
         }
 

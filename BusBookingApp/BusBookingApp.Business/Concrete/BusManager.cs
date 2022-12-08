@@ -44,7 +44,7 @@ namespace BusBookingApp.Business.Concrete
 
         public void Update(Bus bus)
         {
-            throw new NotImplementedException();
+            _busRepository.Update(bus);
         }
     }
 }

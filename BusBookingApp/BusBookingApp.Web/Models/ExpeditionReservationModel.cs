@@ -5,6 +5,7 @@ namespace BusBookingApp.Web.Models
 {
     public class ExpeditionReservationModel
     {
+        public int id { get; set; }
         [Required(ErrorMessage = "First Name is required.")]
         public string CustomerName { get; set; }
         [Required(ErrorMessage = "Last Name is required.")]

@@ -384,6 +384,29 @@ namespace BusBookingApp.Web.Controllers
             _cityService.Delete(entity);
             return RedirectToAction("ListCities");
         }
+        public async Task<IActionResult> EditCity(int id)
+        {
+            var city = await _cityService.GetByIdAsync(id);
+            EditCityModel editCityModel = new()
+            {
+                id = city.CityId,
+                CityName = city.CityName
+            };
+            return View(editCityModel);
+        }
+        [HttpPost]
+        public async Task<IActionResult> EditCity(EditCityModel editCityModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var city = await _cityService.GetByIdAsync(editCityModel.id);
+
+                city.CityName = editCityModel.CityName;
+                _cityService.Update(city);
+                return RedirectToAction("ListCities");
+            }
+            return View(editCityModel);
+        }
         public async Task<IActionResult> CreateCity()
         {
             return View();
@@ -426,7 +449,29 @@ namespace BusBookingApp.Web.Controllers
         {
             return View();
         }
+        public async Task<IActionResult> EditBus(int id)
+        {
+            var bus = await _busService.GetByIdAsync(id);
+            EditBusModel editBusModel = new()
+            {
+                id=bus.BusId,
+                BusSeatCapacity=bus.BusSeatCapacity
+            };
+            return View(editBusModel);
+        }
         [HttpPost]
+        public async Task<IActionResult> EditBus(EditBusModel editBusModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var bus = await _busService.GetByIdAsync(editBusModel.id);
+                bus.BusSeatCapacity = editBusModel.BusSeatCapacity;
+                _busService.Update(bus);
+                return RedirectToAction("ListBuses");
+            }
+            return View(editBusModel);
+        }
+            [HttpPost]
         public async Task<IActionResult> CreateBus(CreateBusModel createBusModel)
         {
             if (ModelState.IsValid)

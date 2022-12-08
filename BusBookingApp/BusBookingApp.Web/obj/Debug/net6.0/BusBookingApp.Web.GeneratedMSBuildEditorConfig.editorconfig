@@ -8,205 +8,205 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BusBookingApp.Web
 build_property.RootNamespace = BusBookingApp.Web
-build_property.ProjectDir = C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Web\
+build_property.ProjectDir = C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp_AhmetMertArıcı\BusBookingApp.Web\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Web
+build_property.MSBuildProjectDirectory = C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp_AhmetMertArıcı\BusBookingApp.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Account/Login.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Account/ManageAccount.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Account/ManageAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxNYW5hZ2VBY2NvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Account/Register.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/AnswerSupport.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/AnswerSupport.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQW5zd2VyU3VwcG9ydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/ChangeUserPassword.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/ChangeUserPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hhbmdlVXNlclBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/CompanyIntroductionList.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/CompanyIntroductionList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29tcGFueUludHJvZHVjdGlvbkxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/ContactList.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/ContactList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29udGFjdExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/CreateBus.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/CreateBus.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQnVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/CreateCity.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/CreateCity.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQ2l0eS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/CreateCompanyIntroduction.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/CreateCompanyIntroduction.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQ29tcGFueUludHJvZHVjdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/CreateContact.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/CreateContact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/CreateRoute.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/CreateRoute.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlUm91dGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/CustomerListByTravel.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/CustomerListByTravel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3VzdG9tZXJMaXN0QnlUcmF2ZWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/EditContact.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/EditContact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdENvbnRhY3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/EditRoute.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/EditRoute.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFJvdXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/ListBuses.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/ListBuses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlzdEJ1c2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/ListCities.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/ListCities.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlzdENpdGllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/ListRoutes.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/ListRoutes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlzdFJvdXRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/RoleCreate.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/RoleCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9sZUNyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/RoleEdit.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/RoleEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9sZUVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/RoleList.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/RoleList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9sZUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/ShowUnreadMessages.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/ShowUnreadMessages.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd1VucmVhZE1lc3NhZ2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/SupportList.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/SupportList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3VwcG9ydExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/UserCreate.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/UserCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckNyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/UserEdit.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/UserEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Admin/UserList.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Admin/UserList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Home/CompanyIntroductionList.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Home/CompanyIntroductionList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wYW55SW50cm9kdWN0aW9uTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Home/ContactList.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Home/ContactList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0TGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Home/ExpeditionList.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Home/ExpeditionList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFeHBlZGl0aW9uTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Home/Index.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Home/Privacy.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Home/Support.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Home/Support.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdXBwb3J0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Shared/Error.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Shared/_BusSeatTemplate(36).cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Shared/_BusSeatTemplate(36).cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CdXNTZWF0VGVtcGxhdGUoMzYpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Shared/_BusSeatTemplate(48).cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Shared/_BusSeatTemplate(48).cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CdXNTZWF0VGVtcGxhdGUoNDgpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Shared/_DataTablesCSSPartial.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Shared/_DataTablesCSSPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXRhVGFibGVzQ1NTUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Shared/_DataTablesScriptsPartial.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Shared/_DataTablesScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXRhVGFibGVzU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Shared/_Facilities.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Shared/_Facilities.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9GYWNpbGl0aWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Shared/_Footer.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Shared/_Navbar.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Shared/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Shared/_NoRecord.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Shared/_NoRecord.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob1JlY29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Shared/_PopularRoutes.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Shared/_PopularRoutes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qb3B1bGFyUm91dGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Shared/_RouteSearch.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Shared/_RouteSearch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Sb3V0ZVNlYXJjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Ticket/CompletedReservation.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Ticket/CompletedReservation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0XENvbXBsZXRlZFJlc2VydmF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Ticket/ExpeditionReservation.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Ticket/ExpeditionReservation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0XEV4cGVkaXRpb25SZXNlcnZhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/_ViewImports.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/_ViewStart.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Masaüstü/BAU/Projects/Projects/BusBookingApp/BusBookingApp.Web/Views/Shared/_Layout.cshtml]
+[C:/Users/asus/OneDrive/Masaüstü/BAU/AhmetMertArici_Odevler/BusBookingApp_AhmetMertArıcı/BusBookingApp.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-c3z83glxd3

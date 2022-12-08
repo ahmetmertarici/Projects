@@ -37,7 +37,7 @@ namespace BusBookingApp.Business.Concrete
 
         public void Update(City city)
         {
-            throw new NotImplementedException();
+            _cityRepository.Update(city);
         }
     }
 }

@@ -82,15 +82,3 @@ C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp_Ahmet
 C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp_AhmetMertArıcı\BusBookingApp.Core\obj\Debug\net6.0\refint\BusBookingApp.Core.dll
 C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp_AhmetMertArıcı\BusBookingApp.Core\obj\Debug\net6.0\BusBookingApp.Core.pdb
 C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BusBookingApp_AhmetMertArıcı\BusBookingApp.Core\obj\Debug\net6.0\ref\BusBookingApp.Core.dll
-C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Core\bin\Debug\net6.0\BusBookingApp.Core.deps.json
-C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Core\bin\Debug\net6.0\BusBookingApp.Core.dll
-C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Core\bin\Debug\net6.0\BusBookingApp.Core.pdb
-C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Core\obj\Debug\net6.0\BusBookingApp.Core.csproj.AssemblyReference.cache
-C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Core\obj\Debug\net6.0\BusBookingApp.Core.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Core\obj\Debug\net6.0\BusBookingApp.Core.AssemblyInfoInputs.cache
-C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Core\obj\Debug\net6.0\BusBookingApp.Core.AssemblyInfo.cs
-C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Core\obj\Debug\net6.0\BusBookingApp.Core.csproj.CoreCompileInputs.cache
-C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Core\obj\Debug\net6.0\BusBookingApp.Core.dll
-C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Core\obj\Debug\net6.0\refint\BusBookingApp.Core.dll
-C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Core\obj\Debug\net6.0\BusBookingApp.Core.pdb
-C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Core\obj\Debug\net6.0\ref\BusBookingApp.Core.dll

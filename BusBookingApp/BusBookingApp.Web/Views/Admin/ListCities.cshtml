@@ -24,6 +24,7 @@
                         <td>@item.CityId</td>
                         <td>@item.CityName</td>
                         <td>
+                            <a asp-controller="Admin" asp-action="EditCity" asp-route-id="@item.CityId" class="btn btn-sm btn-primary">Edit</a>
                             <!-- Button trigger DeleteModal -->
                             <button type="button" asp-route-id=@item.CityId class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#DeleteModal_@item.CityId">
                                 Delete

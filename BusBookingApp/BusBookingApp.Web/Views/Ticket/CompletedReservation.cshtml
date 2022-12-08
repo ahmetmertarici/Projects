@@ -1,5 +1,36 @@
-﻿
+﻿@model CompletedReservationModel
+
+<div class="row border border-3 d-flex" style="width:600px; height:300px">
+    <div class="col-md-4 border-end border-1 text-center d-flex">
+        <img src="~/logo.png" alt="" style="width:150px; height:100px; margin-top:80px">
+    </div>
+    <div class="col-md-8">
+        <h3 class="text-md-center pt-md-1">Bus Booking App <i class="fas fa-grip-lines-vertical"></i> Ticket</h3>
+        <div class="row pt-md-2">
+            <p class="text-body fw-bolder font-weight-bolder">
+                Departure-Arrival:
+                @Model.TravelDetail.DepartureCity.CityName
+                <i class="fas fa-long-arrow-alt-right"></i>
+                @Model.TravelDetail.ArrivalCity.CityName
+            </p>
+        </div>
+        <div class="row pt-md-2">
+            <div class="col pt-md-1">
+                <label>Date: @Model.TravelDetail.Date</label>
+                <label>Time: @Model.TravelDetail.Time</label>
+                <label>Seat Number: @TempData["SeatNumber"]</label>
+            </div>
+            <div class="col pt-md-2">
+                <label>Price: @Model.TravelDetail.Price<i class="fa-solid fa-turkish-lira-sign"></i></label>
+                <label>Peron Number: @Model.TravelDetail.PeronNumber</label>
+            </div>
+        </div>
+        <div class="row pt-md-2">
+            <label>Customer Name: @Model.CustomerName</label>
+            <label>Customer Surname: @Model.CustomerSurname</label>
+        </div>
+    </div>
+</div>
 
 
-<h1>Reservation Completed...</h1>
 

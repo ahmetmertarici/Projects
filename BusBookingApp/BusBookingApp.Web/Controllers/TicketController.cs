@@ -6,6 +6,7 @@ using Iyzipay;
 using Iyzipay.Model;
 using Iyzipay.Request;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace BusBookingApp.Web.Controllers
 {
@@ -26,20 +27,10 @@ namespace BusBookingApp.Web.Controllers
 
         public async Task<IActionResult> ExpeditionReservation(int id)
         {
-            List<int> seatNumbers = new List<int>(); 
             int seats = _busService.GetSeatCapacity(id); 
             ViewBag.Seats = seats; 
             List<int> fullSeat = _ticketService.GetFullSeat(id); 
-            ViewBag.FullSeat = fullSeat;
-            for (int i = 1; i <= seats; i++)
-            {
-                seatNumbers.Add(i);
-            }
-            foreach (var item in fullSeat)
-            {
-                seatNumbers.Remove(item);
-            }
-            ViewBag.SeatNumbers = seatNumbers;
+            ViewData["FullSeat"] = fullSeat;
             ExpeditionReservationModel expeditionReservationModel = new()
             {
                 TravelDetail = await _travelDetailService.GetByIdTravelDetailAsync(id)
@@ -49,15 +40,16 @@ namespace BusBookingApp.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> ExpeditionReservation(ExpeditionReservationModel expeditionReservationModel, int seatNumber, int id)
         {
-            var travelDetail = await _travelDetailService.GetByIdTravelDetailAsync(id);
-            expeditionReservationModel.TravelDetail = new TravelDetail()
-            {
-                DepartureCity = travelDetail.DepartureCity,
-                ArrivalCity = travelDetail.ArrivalCity,
-                Date = travelDetail.Date,
-                Time=travelDetail.Time,
-                Price = travelDetail.Price
-            };
+           TempData["SeatNumber"]=seatNumber.ToString();
+           var travelDetail = await _travelDetailService.GetByIdTravelDetailAsync(id);
+           expeditionReservationModel.TravelDetail = new TravelDetail()
+           {
+               DepartureCity = travelDetail.DepartureCity,
+               ArrivalCity = travelDetail.ArrivalCity,
+               Date = travelDetail.Date,
+               Time = travelDetail.Time,
+               Price = travelDetail.Price
+           };
             if (ModelState.IsValid && seatNumber != 0)
             {
                 var payment = PaymentProcess(expeditionReservationModel);
@@ -72,32 +64,38 @@ namespace BusBookingApp.Web.Controllers
                     };
                     await _customerService.CreateAsync(customer, seatNumber, id);
                     TempData["AlertMessage"] = Jobs.CreateMessage("BAŞARILI!", "Ödemeniz başarıyla alınmıştır!", "success");
-                    return RedirectToAction("CompletedReservation"); 
+                    return RedirectToAction("CompletedReservation", expeditionReservationModel); 
                 }
                 else
                 {
                     TempData["AlertMessage"] = Jobs.CreateMessage("BAŞARISIZ!", payment.ErrorMessage, "danger");
                 }
             }
-            List<int> seatNumbers = new List<int>(); 
             int seats = _busService.GetSeatCapacity(id);  
             ViewBag.Seats = seats;
-            List<int> fullSeat = _ticketService.GetFullSeat(id); 
-            ViewBag.FullSeat = fullSeat;
-            for (int i = 1; i <= seats; i++)
-            {
-                seatNumbers.Add(i);
-            }
-            foreach (var item in fullSeat)
-            {
-                seatNumbers.Remove(item);
-            }
-            ViewBag.SeatNumbers = seatNumbers;
+            List<int> fullSeat = _ticketService.GetFullSeat(id);
+            ViewData["FullSeat"] = fullSeat;
             return View(expeditionReservationModel);
         }
-        public async Task<IActionResult> CompletedReservation()
+        public async Task<IActionResult> CompletedReservation(ExpeditionReservationModel expeditionReservationModel)
         {
-            return View();
+            var travelDetail = await _travelDetailService.GetByIdTravelDetailAsync(expeditionReservationModel.id);
+            CompletedReservationModel completedReservation = new()
+            {
+                CustomerName=expeditionReservationModel.CustomerName,
+                CustomerSurname=expeditionReservationModel.CustomerSurname,
+                PhoneNumber=expeditionReservationModel.PhoneNumber
+            };
+            completedReservation.TravelDetail = new TravelDetail()
+            {
+                DepartureCity = travelDetail.DepartureCity,
+                ArrivalCity = travelDetail.ArrivalCity,
+                Date = travelDetail.Date,
+                Time = travelDetail.Time,
+                Price = travelDetail.Price,
+                PeronNumber = travelDetail.PeronNumber
+            };
+            return View(completedReservation);
         }
         private Payment PaymentProcess(ExpeditionReservationModel expeditionReservationModel)
         {
