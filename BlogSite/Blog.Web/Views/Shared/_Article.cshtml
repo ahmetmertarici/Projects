@@ -1,0 +1,33 @@
+﻿@using Blog.Entity
+@model Article
+
+
+
+
+<div class="card mb-3" style="max-width: 940px;">
+    <div class="row g-0">
+        <div class="col-md-5 card-images d-flex">
+            <img src="~/images/@Model.ImageUrl" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-7">
+            <div class="card-body">
+                <h5 class="card-title">@Model.Title</h5>
+                <div class="card-text content">
+                    @if (Model.Content.Length > 400)
+                    {
+                    <p>@Html.Raw(Model.Content.Substring(0, 400))...</p>
+                    }
+                    else
+                    {
+                    <p>@Html.Raw(Model.Content)</p>
+                    }
+                </div>
+                <p class="card-text"><small class="text-muted">@Model.CreateDate</small></p>
+                <a asp-controller="Blog" asp-action="ArticleDetails" asp-route-id="@Model.ArticleId" type="button" class="btn btn-outline-secondary">Devamını Oku</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,70 @@
+﻿@model ArticleModel
+
+
+<div class="row">
+    <div class="col-md-9">
+        @if (Model.Articles.Count == 0)
+        {
+            <partial name="_NoArticle" />
+        }
+        else
+        {
+            @foreach (var article in Model.Articles)
+            {
+                @await Html.PartialAsync("_Article", article)
+            }
+        }
+
+        <nav>
+            <ul class="pagination">
+                <li class="page-item ">
+                    <a class="page-link"><<</a>
+                </li>
+
+                @for (int i = 0; i < Model.PageInfo.TotalPages(); i++)
+                {
+
+                    if (string.IsNullOrEmpty(Model.PageInfo.CurrentCategory))
+                    {
+                        <li class='page-item @(Model.PageInfo.CurrentPage==i+1 ? "selected" : "")'>
+                            <a class="page-link"
+                       href="/articles?page=@(i+1)">@(i+1)</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class='page-item @(Model.PageInfo.CurrentPage==i+1 ? "selected" : "")'>
+                            <a class="page-link"
+                       href="/articles/@Model.PageInfo.CurrentCategory?page=@(i+1)">@(i+1)</a>
+                        </li>
+                    }
+                }
+                <li class="page-item">
+                    <a class="page-link" href="#">>></a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+    <div class="col-md-3">
+        @await Component.InvokeAsync("MostReadArticles")
+        <hr class="border border-black border-3 opacity-75">
+        @await Component.InvokeAsync("HighScoresArticles")
+    </div>
+</div>
+
+
+
+
+
+
+
+<style>
+    .selected a {
+        background-color: #FFC107;
+    }
+
+    .page-link {
+        color: #4d4d4d;
+    }
+</style>

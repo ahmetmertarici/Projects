@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "og7aFeAO59LImSdpPAFygfIjsZpMDiwpwzocs5phuHWa9tzGzspbAGQe6qFI1yCiZmErCSiEjHsKMwpeWa35Gw==",
+  "dgSpecHash": "QOah9reC3QvzisY8LpOvOJTHtTUH/m6o0GRXP+A0flqDq/DxVOnXLRQriUbq4jZR7hczvv195tw0u7/YVorKow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\AhmetMertArici_Odevler\\BusBookingApp_AhmetMertArıcı\\BusBookingApp.Core\\BusBookingApp.Core.csproj",
+  "projectFilePath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BusBookingApp\\BusBookingApp.Core\\BusBookingApp.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

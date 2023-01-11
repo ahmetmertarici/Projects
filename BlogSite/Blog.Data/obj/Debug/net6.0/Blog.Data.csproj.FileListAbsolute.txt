@@ -1,0 +1,102 @@
+C:\Users\asus\OneDrive\Masaüstü\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.deps.json
+C:\Users\asus\OneDrive\Masaüstü\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.runtimeconfig.json
+C:\Users\asus\OneDrive\Masaüstü\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.pdb
+C:\Users\asus\OneDrive\Masaüstü\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.CopyComplete
+C:\Users\asus\OneDrive\Masaüstü\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\BlogSite\Blog.Data\obj\Debug\net6.0\refint\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.pdb
+C:\Users\asus\OneDrive\Masaüstü\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.genruntimeconfig.cache
+C:\Users\asus\OneDrive\Masaüstü\BlogSite\Blog.Data\obj\Debug\net6.0\ref\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.deps.json
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.runtimeconfig.json
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.pdb
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.CopyComplete
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1\BlogSite\Blog.Data\obj\Debug\net6.0\refint\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.pdb
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.genruntimeconfig.cache
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1\BlogSite\Blog.Data\obj\Debug\net6.0\ref\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1 - Kopya\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.deps.json
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1 - Kopya\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.runtimeconfig.json
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1 - Kopya\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1 - Kopya\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.pdb
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1 - Kopya\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1 - Kopya\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1 - Kopya\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1 - Kopya\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1 - Kopya\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1 - Kopya\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1 - Kopya\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1 - Kopya\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.CopyComplete
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1 - Kopya\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1 - Kopya\BlogSite\Blog.Data\obj\Debug\net6.0\refint\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1 - Kopya\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.pdb
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1 - Kopya\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.genruntimeconfig.cache
+C:\Users\asus\OneDrive\Masaüstü\blogsite article create denemeleri\deneme1 - Kopya\BlogSite\Blog.Data\obj\Debug\net6.0\ref\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\blogtextdeneme\ckfinder düzeltme\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.deps.json
+C:\Users\asus\OneDrive\Masaüstü\blogtextdeneme\ckfinder düzeltme\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.runtimeconfig.json
+C:\Users\asus\OneDrive\Masaüstü\blogtextdeneme\ckfinder düzeltme\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\blogtextdeneme\ckfinder düzeltme\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.pdb
+C:\Users\asus\OneDrive\Masaüstü\blogtextdeneme\ckfinder düzeltme\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\blogtextdeneme\ckfinder düzeltme\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\blogtextdeneme\ckfinder düzeltme\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\blogtextdeneme\ckfinder düzeltme\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\blogtextdeneme\ckfinder düzeltme\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\blogtextdeneme\ckfinder düzeltme\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\blogtextdeneme\ckfinder düzeltme\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\blogtextdeneme\ckfinder düzeltme\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.CopyComplete
+C:\Users\asus\OneDrive\Masaüstü\blogtextdeneme\ckfinder düzeltme\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\blogtextdeneme\ckfinder düzeltme\BlogSite\Blog.Data\obj\Debug\net6.0\refint\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\blogtextdeneme\ckfinder düzeltme\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.pdb
+C:\Users\asus\OneDrive\Masaüstü\blogtextdeneme\ckfinder düzeltme\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.genruntimeconfig.cache
+C:\Users\asus\OneDrive\Masaüstü\blogtextdeneme\ckfinder düzeltme\BlogSite\Blog.Data\obj\Debug\net6.0\ref\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BlogSite_AhmetMertArici\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.deps.json
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BlogSite_AhmetMertArici\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.runtimeconfig.json
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BlogSite_AhmetMertArici\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BlogSite_AhmetMertArici\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BlogSite_AhmetMertArici\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BlogSite_AhmetMertArici\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BlogSite_AhmetMertArici\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BlogSite_AhmetMertArici\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BlogSite_AhmetMertArici\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BlogSite_AhmetMertArici\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BlogSite_AhmetMertArici\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BlogSite_AhmetMertArici\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.CopyComplete
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BlogSite_AhmetMertArici\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BlogSite_AhmetMertArici\BlogSite\Blog.Data\obj\Debug\net6.0\refint\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BlogSite_AhmetMertArici\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BlogSite_AhmetMertArici\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.genruntimeconfig.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\AhmetMertArici_Odevler\BlogSite_AhmetMertArici\BlogSite\Blog.Data\obj\Debug\net6.0\ref\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.deps.json
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.runtimeconfig.json
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Data.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Data\bin\Debug\net6.0\Blog.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.CopyComplete
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Data\obj\Debug\net6.0\refint\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.pdb
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Data\obj\Debug\net6.0\Blog.Data.genruntimeconfig.cache
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Data\obj\Debug\net6.0\ref\Blog.Data.dll

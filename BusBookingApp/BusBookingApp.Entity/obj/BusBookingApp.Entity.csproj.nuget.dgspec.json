@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\AhmetMertArici_Odevler\\BusBookingApp_AhmetMertArıcı\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj": {}
+    "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\AhmetMertArici_Odevler\\BusBookingApp_AhmetMertArıcı\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj": {
+    "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\AhmetMertArici_Odevler\\BusBookingApp_AhmetMertArıcı\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj",
+        "projectUniqueName": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj",
         "projectName": "BusBookingApp.Entity",
-        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\AhmetMertArici_Odevler\\BusBookingApp_AhmetMertArıcı\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj",
+        "projectPath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\AhmetMertArici_Odevler\\BusBookingApp_AhmetMertArıcı\\BusBookingApp.Entity\\obj\\",
+        "outputPath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BusBookingApp\\BusBookingApp.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     }

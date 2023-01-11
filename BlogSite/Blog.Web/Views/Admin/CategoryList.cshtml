@@ -1,0 +1,72 @@
+﻿@using Blog.Entity
+@model List<Category>
+
+<h1 class="display-5 text-primary">Category List</h1>
+<hr />
+<div>
+    <a class="btn btn-sm btn-primary" asp-controller="Admin" asp-action="CategoryCreate">Kategori Oluştur</a>
+    <a class="btn btn-sm btn-warning" asp-controller="Account" asp-action="ManageAccount">Geri</a>
+
+    <hr />
+    @if (Model.Count > 0)
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var category in Model)
+                {
+                    <tr>
+
+                        <td>@category.CategoryId</td>
+                        <td>@category.CategoryName</td>
+                        <td>
+
+                            <a asp-controller="Admin"
+                       asp-action="CategoryEdit"
+                       asp-route-id=@category.CategoryId
+                       class="btn btn-sm btn-warning">Edit</a>
+                            <!-- Button trigger DeleteModal -->
+                            <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#DeleteModal_@category.CategoryId">
+                                Delete
+                            </button>
+
+                            <!-- DeleteModal -->
+                            <div class="modal fade" id="DeleteModal_@category.CategoryId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Warning!</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="text-danger">This category will be deleted!</p>
+                                            <p>Are you sure?</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                            <a asp-controller="Admin"
+                                       asp-action="CategoryDelete"
+                                       asp-route-id=@category.CategoryId
+                                       class="btn btn-danger">Yes</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        @await Html.PartialAsync("_NoCategory")
+        ;
+    }
+</div>

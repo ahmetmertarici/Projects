@@ -1,0 +1,20 @@
+﻿@using Blog.Entity
+@model WriterModel
+
+
+@if (User.IsInRole("Writer"))
+{
+    <partial name="_writerAccountPage" />
+
+}else if (User.IsInRole("Admin"))
+{
+    <partial name="_AdminAccountPage"/>
+}
+else
+{
+    <partial name="_UserAccountPage"/>
+}
+
+
+
+

@@ -1,0 +1,16 @@
+﻿@using Blog.Entity
+@model List<Article>
+
+<div class="row">
+    <div class="col-md-9">
+        @foreach (var article in Model)
+        {
+            @await Html.PartialAsync("_Article", article)
+        }
+    </div>
+    <div class="col-md-3">
+        @await Component.InvokeAsync("MostReadArticles")
+        <hr class="border border-black border-3 opacity-75">
+        @await Component.InvokeAsync("HighScoresArticles")
+    </div>
+</div>

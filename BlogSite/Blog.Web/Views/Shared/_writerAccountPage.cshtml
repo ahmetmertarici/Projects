@@ -1,0 +1,133 @@
+﻿@using Blog.Entity
+@model WriterModel
+@section Styles{
+    @await Html.PartialAsync("_DataTablesCssPartial")
+}
+    @section Scripts{
+    @await Html.PartialAsync("_DataTablesScriptsPartial")
+}
+    <h1>
+        Yazar Paneli
+    </h1>
+    <br />
+
+    <div class="container border border-5 mb-md-5" style="width:800px">
+        <div class="row">
+            <div class="col-md-5 text-center border-end">
+                <img width="250" src="~/images/@Model.Writer.Thumbnail" class="rounded-circle m-md-1" />
+            </div>
+            <div class="col-md-7 pt-md-3">
+                <div class="d-flex pb-3 d-flex flex-row-reverse">
+                    <a class="pe-2" asp-controller="Writer" asp-action="EditWriterInformation"><i class="fa-solid fa-user-pen" title="Kullanıcı Bilgilerini Düzenle"></i></a>
+                    <a class="pe-2" asp-controller="Writer" asp-action="ChangeUserPassword"><i class="fa-solid fa-lock" title="Şifreyi Değiştir"></i></a>
+                </div>
+                <div class="row d-flex">
+                    <div class="col-md-6">
+                        <label class="col-form-label"> <strong>Ad:</strong> </label>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="col-form-label">@Model.Writer.WriterName</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label class="col-form-label"> <strong>Soyad:</strong> </label>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="col-form-label">@Model.Writer.WriterSurname</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label class="col-form-label"> <strong>E-Mail:</strong> </label>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="col-form-label">@Model.Writer.Mail</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label class="col-form-label"> <strong>Kullanıcı Adı:</strong> </label>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="col-form-label">@Model.Writer.Nickname</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h1 class="display-5 text-primary">Makale Listesi</h1>
+    <hr />
+    <a class="btn btn-sm btn-primary" asp-controller="Writer" asp-action="ArticleCreate">Makale Oluştur</a>
+    <br />
+    <br />
+    <table class="table table-striped" id="myTable">
+        <thead>
+            <tr>
+                <th scope="col">Image</th>
+                <th scope="col">Başlık</th>
+                <th scope="col">Oluşturulma Tarihi</th>
+                <th class="content" scope="col">İçerik</th>
+                <th scope="col">Düzenle</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var article in Model.Articles)
+        {
+            <tr>
+                <td>
+                    <img src="~/images/@article.ImageUrl" width="150" height="50" />
+                </td>
+                <td>@article.Title</td>
+                <td>@article.CreateDate</td>
+                <td>
+                    @if (article.Content.Length > 100)
+                    {
+                        <p>@Html.Raw(article.Content.Substring(0, 100))...</p>
+                    }
+                    else
+                    {
+                        <p>@Html.Raw(article.Content)</p>
+                    }
+                </td>
+                <td>
+                    <a asp-controller="Writer"
+                   asp-action="ArticleDetailsEdit"
+                   asp-route-id=@article.ArticleId
+                   class="btn btn-sm btn-warning">Details/Edit</a>
+                    <!-- Button trigger DeleteModal -->
+                    <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#DeleteModal_@article.ArticleId">
+                        Delete
+                    </button>
+
+                    <!-- DeleteModal -->
+                    <div class="modal fade" id="DeleteModal_@article.ArticleId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Warning!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="text-danger">This article will be deleted!</p>
+                                    <p>Are you sure?</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                    <a asp-controller="Writer"
+                                   asp-action="ArticleDelete"
+                                   asp-route-id=@article.ArticleId
+                                   class="btn btn-danger">Yes</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

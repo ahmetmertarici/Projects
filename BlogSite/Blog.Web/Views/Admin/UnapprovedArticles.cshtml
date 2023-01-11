@@ -1,0 +1,124 @@
+﻿@using Blog.Entity
+@model List<Article>
+
+    @section Styles{
+    @await Html.PartialAsync("_DataTablesCssPartial")
+}
+    @section Scripts{
+    @await Html.PartialAsync("_DataTablesScriptsPartial")
+}
+
+
+
+<h1 class="display-5 text-primary">Makale Listesi</h1>
+<hr />
+<div>
+    <a class="btn btn-sm btn-primary" asp-controller="Admin" asp-action="ArticleList">Tüm Makaleler</a>
+</div>
+<hr />
+
+<table class="table table-striped" id="myTable">
+    <thead>
+        <tr>
+            <th scope="col">Image</th>
+            <th scope="col">Başlık</th>
+            <th scope="col">Yazar</th>
+            <th scope="col">Oluşturulma Tarihi</th>
+            <th scope="col">Makaleyi Onayla</th>
+            <th scope="col">Düzenle</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var article in Model)
+        {
+            <tr>
+                <td>
+                    <img src="~/images/@article.ImageUrl" width="50" />
+                </td>
+                <td>@article.Title</td>
+                <td>@article.Writer.Nickname</td>
+                <td>@article.CreateDate</td>
+                <td>
+                    <form id="isApprForm_@article.ArticleId"
+                      asp-controller="Admin"
+                      asp-action="UpdateIsApproved"
+                      asp-route-id=@article.ArticleId
+                      method="post">
+
+                        <div class="form-check">
+                            <input type="checkbox"
+                               class="form-check-input"
+                               name="isAppr"
+                               onchange="document.getElementById('isApprForm_@article.ArticleId').submit()"
+                               id="isAppr_@article.ArticleId"
+                               @(article.IsApproved ? "checked" : "") />
+                        </div>
+                    </form>
+                </td>
+                <td>
+                   <!-- Button trigger DetailsModal -->
+                    <button type="button" class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#EditModal_@article.ArticleId">
+                        Details
+                    </button>
+
+                    <!-- DetailsModal -->
+                    <div class="modal fade" id="EditModal_@article.ArticleId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">@article.Title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="~/images/@article.ImageUrl" class="img-fluid rounded-start" alt="...">
+                                    <p class="">@article.Content</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                    <a asp-controller="Admin"
+                                   asp-action="UpdateIsApproved"
+                                   asp-route-id=@article.ArticleId
+                                   class="btn btn-danger">@(article.IsApproved ? "Onayı Kaldır" : "Onayla")</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <!-- Button trigger DeleteModal -->
+                    <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#DeleteModal_@article.ArticleId">
+                        Delete
+                    </button>
+
+                    <!-- DeleteModal -->
+                    <div class="modal fade" id="DeleteModal_@article.ArticleId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Warning!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="text-danger">This article will be deleted!</p>
+                                    <p>Are you sure?</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                    <a 
+                                        asp-controller="Admin" 
+                                        asp-action="articleDelete"
+                                        asp-route-id=@article.ArticleId
+                                        class="btn btn-danger">Yes</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1331,11 +1331,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.API\\MiniShop.API.csproj",
+      "projectUniqueName": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.API\\MiniShop.API.csproj",
       "projectName": "MiniShop.API",
-      "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.API\\MiniShop.API.csproj",
+      "projectPath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.API\\MiniShop.API.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.API\\obj\\",
+      "outputPath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1352,11 +1352,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.Business\\MiniShop.Business.csproj": {
-              "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.Business\\MiniShop.Business.csproj"
+            "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.Business\\MiniShop.Business.csproj": {
+              "projectPath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.Business\\MiniShop.Business.csproj"
             },
-            "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.Data\\MiniShop.Data.csproj": {
-              "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.Data\\MiniShop.Data.csproj"
+            "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.Data\\MiniShop.Data.csproj": {
+              "projectPath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.Data\\MiniShop.Data.csproj"
             }
           }
         }
@@ -1394,7 +1394,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
       }
     }
   }

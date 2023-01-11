@@ -1,0 +1,36 @@
+﻿@using Blog.Entity
+@model List<Article>
+
+<div>
+    <div class="most-view-title text-md-center rounded-pill mb-md-2"> 
+        <label>En Çok Okunanlar</label>
+    </div>
+    @foreach (var article in Model)
+    {
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4 d-flex">
+                    <img src="~/images/@article.ImageUrl" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <a asp-controller="Blog" asp-action="ArticleDetails" asp-route-id="@article.ArticleId" class="text-decoration-none text-black"><p class="card-title">@article.Title</p></a>
+                        <p class="card-text"><small class="text-muted">Okunma Sayısı: @article.ViewsCount</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<style>
+    .most-view-title{
+        background-color: #4d4d4d;
+        font-family: 'Dancing Script', cursive;
+        font-size:30px;
+        color:white;
+    }
+</style>
+
+
+
+

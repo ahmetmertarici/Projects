@@ -1,0 +1,68 @@
+﻿@model WriterModel
+
+<h1 class="text-md-center">
+    Yönetici Paneli
+</h1>
+<br />
+<div class="text-center">
+    <a class="btn btn-success" asp-controller="Admin" asp-action="ArticleList">Makale Listesi</a>
+    <a class="btn btn-success" asp-controller="Admin" asp-action="CategoryList">Kategoriler</a>
+    <a class="btn btn-success" asp-controller="Admin" asp-action="UserList">Users</a>
+    <a class="btn btn-success" asp-controller="Admin" asp-action="RoleList">Roles</a>
+</div>
+<hr />
+
+<div class="container border border-5 mb-md-5" style="width:800px">
+    <div class="row">
+        <div class="col-md-5 text-center border-end">
+            @if (Model.User.Thumbnail == null)
+            {
+                <img width="250" src="~/images/thumbnail.jpg" class="rounded-circle m-md-1" />
+            }
+            else
+            {
+                <img width="250" src="~/images/@Model.User.Thumbnail" class="rounded-circle m-md-1" />
+
+            }
+        </div>
+        <div class="col-md-7 pt-md-3">
+            <div class="d-flex pb-3 d-flex flex-row-reverse">
+                <a class="pe-2" asp-controller="Admin" asp-action="EditAdminInformation"><i class="fa-solid fa-user-pen" title="Kullanıcı Bilgilerini Düzenle"></i></a>
+                <a class="pe-2" asp-controller="Admin" asp-action="ChangeAdminPassword"><i class="fa-solid fa-lock" title="Şifreyi Değiştir"></i></a>
+            </div>
+            <div class="row d-flex">
+                <div class="col-md-6">
+                    <label class="col-form-label"> <strong>Ad:</strong> </label>
+                </div>
+                <div class="col-md-6">
+                    <label class="col-form-label">@Model.User.FirstName</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label class="col-form-label"> <strong>Soyad:</strong> </label>
+                </div>
+                <div class="col-md-6">
+                    <label class="col-form-label">@Model.User.LastName</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label class="col-form-label"> <strong>E-Mail:</strong> </label>
+                </div>
+                <div class="col-md-6">
+                    <label class="col-form-label">@Model.User.Email</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label class="col-form-label"> <strong>Kullanıcı Adı:</strong> </label>
+                </div>
+                <div class="col-md-6">
+                    <label class="col-form-label">@Model.User.UserName</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
