@@ -225,6 +225,13 @@ namespace MiniShop.Web.Controllers
             ViewBag.Roles = await _roleManager.Roles.Select(r => r.Name).ToListAsync();
             return View(userModel);
         }
+        public async Task<IActionResult> UserDelete(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            _userManager.DeleteAsync(user);
+            return RedirectToAction("UserList");
+        }
+        
         public async Task<IActionResult> ChangeUserPassword(string id)
         {
             var user = await _userManager.FindByIdAsync(id);

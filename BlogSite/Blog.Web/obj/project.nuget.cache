@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k+V2eBFrJmJRGS2RPaAWEkZVKY20uIHlo9yAeeN9kvjRvc5CbulTrU6F+mZxpaLsSFVVuonXMBXl8wicZEPnrw==",
+  "dgSpecHash": "OclniHDcVXqq3OsaEWTsK0zEqVe0CUn42qySii5ou+M08E4aQ+YdvdDu/ULfEf92glQreMaGtWBpB2fmURZxwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\Blog.Web.csproj",
+  "projectFilePath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\Blog.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",

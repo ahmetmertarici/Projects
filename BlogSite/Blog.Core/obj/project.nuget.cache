@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4JsXxH2xSbZr8iA+IiB1c4jkuZJCwRj16jWVz2kLubOYEehKHkCCExeL+ZFM/xVBirYThQFl7uCCjsRtZOFGpA==",
+  "dgSpecHash": "Ww5+++WUZMmzzpwfBa59hcxeFpHaWZaOIfcxPQWV+NMJOlX0N+Gfqt0x8SJ+DKRujcByNiseAVWhlDBk3sbnWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Core\\Blog.Core.csproj",
+  "projectFilePath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Core\\Blog.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",

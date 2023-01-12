@@ -1,0 +1,71 @@
+.App{
+  width: 400px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.ekleme_formu input,
+.ekleme_formu button,
+.temizle {
+  padding: 10px;
+  border:0px;
+  outline: 0;
+  font-size: 16px;
+  margin-right: 2px;
+}
+
+.ekleme_formu input{
+  background-color: #e1e1e1;
+}
+
+.ekleme_formu button,
+.temizle{
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.liste{
+  padding: 20px 0;
+
+}
+
+.liste > div {
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.yapildi{
+  text-decoration: line-through;
+}
+
+.toDoItem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toDoItem > div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3px;
+}
+
+.btn{
+  border:none;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.btn-completed{
+  background-color: green;
+}
+.btn-delete{
+  background-color: red;
+}
