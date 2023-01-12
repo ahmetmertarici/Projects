@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YJDA1cT2rnmdPBFP465YXWo7TXE6mkaXN9V7hwVe6ne4/yrnYpZcnp952wQBOLQHOMyNVi5ZUDLakbnYrdwFoQ==",
+  "dgSpecHash": "a/KfoBX2so6KYBir9RGEisrbh2bYvk6vnm0JSjgoICO95KFT3H4lmW/bhssZ2JUt6A6YBL7rjhWtd/31Ld3w1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.Web\\MiniShop.Web.csproj",
+  "projectFilePath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.Web\\MiniShop.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.10\\microsoft.aspnetcore.cryptography.internal.6.0.10.nupkg.sha512",

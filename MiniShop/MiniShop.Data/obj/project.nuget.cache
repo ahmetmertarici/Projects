@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XpwlHxcrEaSlizAJnCkNdqaMebu0ebuektTBmh78kfQV/ETxRsVbAzoG0IAy5ewLyU4q8qTR2tOcF2H9TyXrsg==",
+  "dgSpecHash": "Dy8Vhh1XmIbmpKgGVSYNdnC92N3KzOu8dp3PHeGoVCUYYft83m3pddqPBz66QQECryxOrp5fIiDInINHzaERPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.Data\\MiniShop.Data.csproj",
+  "projectFilePath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.Data\\MiniShop.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.10\\microsoft.data.sqlite.core.6.0.10.nupkg.sha512",
