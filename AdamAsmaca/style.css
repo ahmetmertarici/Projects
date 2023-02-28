@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3a444e;
+    color: #fff;
+    height: 80vh; /*%80 i kullan*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    padding: 20px 20px;
+    height: 300px;
+    width: 450px;
+    position: relative;
+    display: flex;
+}
+
+.grafik{
+    fill: transparent;
+    stroke: #fff;
+    stroke-width: 4px;
+    justify-content: flex-start;
+}
+.item {
+    display: none;
+}
+#wrong-letters{
+    height: 100px;
+    padding: 5px;
+    margin-top: 20px;
+    
+}
+#word{
+    display: flex;
+    align-items:center;
+    font-size: 30px;
+    color: yellow;
+}
+
+.letter{
+    border-bottom: 3px solid yellow;
+    margin: 0 5px;
+    height: 40px;
+    width: 25px;
+    display: inline-flex;
+    justify-content: center;
+}
+#popup-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup {
+    background-color: yellowgreen;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
+}
+#message {
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 80px;
+    position: absolute;
+    bottom: -80px;
+    transition: transform 0.4s ease-in-out;
+}
+
+#message.show {
+    transform: translateY(-80px);
+}
+#play-again{
+    color: #3a444e;
+    border-radius: 5px;
+
+}
+#play-again:hover{
+    background-color: rgb(31, 31, 31);
+    color:#fff;
+    cursor: pointer;
+}

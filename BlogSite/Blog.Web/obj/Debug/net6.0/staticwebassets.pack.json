@@ -1,0 +1,801 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Blog.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Blog.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\Admin-3cfcb6fc-f1c5-4276-9b90-f238cac50a92.jpg",
+      "PackagePath": "staticwebassets\\images\\Admin-3cfcb6fc-f1c5-4276-9b90-f238cac50a92.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\Deneme 2-4736d80f-e928-42a3-8e80-459ddd16ae82.jpg",
+      "PackagePath": "staticwebassets\\images\\Deneme 2-4736d80f-e928-42a3-8e80-459ddd16ae82.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\Deneme Deneme Deneme-4bf9e24a-c926-440c-a801-e93bf38e8603.jpg",
+      "PackagePath": "staticwebassets\\images\\Deneme Deneme Deneme-4bf9e24a-c926-440c-a801-e93bf38e8603.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\Deneme Deneme Deneme-f7e9837e-b097-4767-bd21-72afdbb91785.jpg",
+      "PackagePath": "staticwebassets\\images\\Deneme Deneme Deneme-f7e9837e-b097-4767-bd21-72afdbb91785.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\Makale Deneme 2-6885b1f5-938a-4041-a0ee-3f9299e642af.jpg",
+      "PackagePath": "staticwebassets\\images\\Makale Deneme 2-6885b1f5-938a-4041-a0ee-3f9299e642af.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\Makale Deneme Deneme Deneme-70d58ee1-eb94-4d7c-bcf8-128a3e4d7f2d.jpg",
+      "PackagePath": "staticwebassets\\images\\Makale Deneme Deneme Deneme-70d58ee1-eb94-4d7c-bcf8-128a3e4d7f2d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\Makale Deneme Deneme Deneme-ff78f1d5-bb8e-4729-8c47-2f924ef2d40d.jpg",
+      "PackagePath": "staticwebassets\\images\\Makale Deneme Deneme Deneme-ff78f1d5-bb8e-4729-8c47-2f924ef2d40d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\Makale Deneme-10a364b3-71ae-43da-a7e2-53fe03a25008.jpg",
+      "PackagePath": "staticwebassets\\images\\Makale Deneme-10a364b3-71ae-43da-a7e2-53fe03a25008.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\Makale deneme-ddaa2bdf-cb95-442c-997a-58239e04ff73.jpg",
+      "PackagePath": "staticwebassets\\images\\Makale deneme-ddaa2bdf-cb95-442c-997a-58239e04ff73.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\dbasasf-3222ecc5-4eda-443d-a702-afd02d4b1b7a.jpg",
+      "PackagePath": "staticwebassets\\images\\dbasasf-3222ecc5-4eda-443d-a702-afd02d4b1b7a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\deneme deneme deneme-b41e7eba-7e8a-4545-9c54-1de9af900fc0.jpg",
+      "PackagePath": "staticwebassets\\images\\deneme deneme deneme-b41e7eba-7e8a-4545-9c54-1de9af900fc0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\deneme-18435655-67da-4c18-9316-278e1009e8ff.jpg",
+      "PackagePath": "staticwebassets\\images\\deneme-18435655-67da-4c18-9316-278e1009e8ff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\deneme-1892a9e8-9aaa-45b1-81f2-fa557ca13714.jpg",
+      "PackagePath": "staticwebassets\\images\\deneme-1892a9e8-9aaa-45b1-81f2-fa557ca13714.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\empty-star.png",
+      "PackagePath": "staticwebassets\\images\\empty-star.png"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\filled-star.jpeg",
+      "PackagePath": "staticwebassets\\images\\filled-star.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\kjnhşovjlşsdkj-11c4ebe0-0f05-43f6-98b7-95fd7f3b1f4c.jpg",
+      "PackagePath": "staticwebassets\\images\\kjnhşovjlşsdkj-11c4ebe0-0f05-43f6-98b7-95fd7f3b1f4c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\thumbnail_1.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbnail_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\thumbnail_2.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbnail_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\thumbnail_3.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbnail_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\thumbnail_4.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbnail_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\thumbnail_5.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbnail_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\thumbnail_6.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbnail_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\thumbnail_7.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbnail_7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\user-74e49ba0-3a07-4d66-bb9f-2b9b234b9619.jpg",
+      "PackagePath": "staticwebassets\\images\\user-74e49ba0-3a07-4d66-bb9f-2b9b234b9619.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\user-ae40c1e2-9c7f-4ed1-b5c1-a68c1bcf7a3d.jpg",
+      "PackagePath": "staticwebassets\\images\\user-ae40c1e2-9c7f-4ed1-b5c1-a68c1bcf7a3d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\user-faf33a56-2c64-4002-889d-84d921517a68.jpg",
+      "PackagePath": "staticwebassets\\images\\user-faf33a56-2c64-4002-889d-84d921517a68.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\writer-34af7230-eb12-4d8e-99b0-cbc96231b7dc.jpg",
+      "PackagePath": "staticwebassets\\images\\writer-34af7230-eb12-4d8e-99b0-cbc96231b7dc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\writer1-21457d46-a784-4759-8904-a84cc75cb15c.jpg",
+      "PackagePath": "staticwebassets\\images\\writer1-21457d46-a784-4759-8904-a84cc75cb15c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\writer1-4e0cb247-7f58-48e1-a44a-9fc6af1b1fa3.jpg",
+      "PackagePath": "staticwebassets\\images\\writer1-4e0cb247-7f58-48e1-a44a-9fc6af1b1fa3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\writer1-592526f7-6c11-4f93-b09c-13c8e1d341e2.jpg",
+      "PackagePath": "staticwebassets\\images\\writer1-592526f7-6c11-4f93-b09c-13c8e1d341e2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\writer1-5c08c113-e714-4b49-9eb4-3fb52f0de432.jpg",
+      "PackagePath": "staticwebassets\\images\\writer1-5c08c113-e714-4b49-9eb4-3fb52f0de432.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\writer1-7d22f9aa-6697-48a6-ba50-2aab10662229.jpg",
+      "PackagePath": "staticwebassets\\images\\writer1-7d22f9aa-6697-48a6-ba50-2aab10662229.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\writer1-8e16184c-e005-4e29-a31d-9c32ebde9743.jpg",
+      "PackagePath": "staticwebassets\\images\\writer1-8e16184c-e005-4e29-a31d-9c32ebde9743.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\writer1-a2994eae-b1e2-44ff-83e4-f236adfe54c4.jpg",
+      "PackagePath": "staticwebassets\\images\\writer1-a2994eae-b1e2-44ff-83e4-f236adfe54c4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\writer1-ca70c8c2-3bd8-4c03-9314-847e3268bddc.jpg",
+      "PackagePath": "staticwebassets\\images\\writer1-ca70c8c2-3bd8-4c03-9314-847e3268bddc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\writer1.-0cec4d5b-f999-4a1c-8273-67e383849f8f.jpg",
+      "PackagePath": "staticwebassets\\images\\writer1.-0cec4d5b-f999-4a1c-8273-67e383849f8f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\writer6-c6adf45f-d2d5-4630-9c38-c2d053f80eea.jpg",
+      "PackagePath": "staticwebassets\\images\\writer6-c6adf45f-d2d5-4630-9c38-c2d053f80eea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\öjfdnşlkajjkfwmkjsa-654f9dbd-a641-4c03-8cc9-8932321279fe.jpg",
+      "PackagePath": "staticwebassets\\images\\öjfdnşlkajjkfwmkjsa-654f9dbd-a641-4c03-8cc9-8932321279fe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\öjfdnşlkajjkfwmkjsa-65deb983-6ffa-4afe-88f1-1627ef1c3594.jpg",
+      "PackagePath": "staticwebassets\\images\\öjfdnşlkajjkfwmkjsa-65deb983-6ffa-4afe-88f1-1627ef1c3594.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\ömfnvlşdhşljfslş-0f4ff889-a3fd-414f-901c-32daa6eec14c.jpg",
+      "PackagePath": "staticwebassets\\images\\ömfnvlşdhşljfslş-0f4ff889-a3fd-414f-901c-32daa6eec14c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\ömfnvlşdhşljfslş-15c38deb-a409-4251-bcb6-d46592293458.jpg",
+      "PackagePath": "staticwebassets\\images\\ömfnvlşdhşljfslş-15c38deb-a409-4251-bcb6-d46592293458.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\images\\ömfnvlşdhşljfslş-21f1b7a9-858e-4bd5-a35f-448b62f817b9.jpg",
+      "PackagePath": "staticwebassets\\images\\ömfnvlşdhşljfslş-21f1b7a9-858e-4bd5-a35f-448b62f817b9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\README.md",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\ckeditor.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\ckeditor.js.map",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\ckeditor.js.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\index.html",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\sample\\css\\sample.css",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\sample\\css\\sample.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\sample\\img\\bg.png",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\sample\\img\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\sample\\img\\github.svg",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\sample\\img\\github.svg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\sample\\img\\logo.svg",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\sample\\img\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\sample\\img\\umbrellas.jpg",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\sample\\img\\umbrellas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\af.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\af.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\ar.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ar.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\ast.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ast.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\az.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\az.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\bg.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\bg.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\bn.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\bn.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\bs.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\bs.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\ca.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ca.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\cs.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\cs.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\da.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\da.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\de-ch.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\de-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\de.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\de.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\el.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\el.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\en-au.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\en-au.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\en-gb.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\en-gb.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\eo.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\eo.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\es-co.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\es-co.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\es.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\es.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\et.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\et.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\eu.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\eu.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\fa.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\fa.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\fi.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\fi.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\fr.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\fr.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\gl.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\gl.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\gu.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\gu.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\he.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\he.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\hi.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\hi.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\hr.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\hr.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\hu.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\hu.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\id.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\id.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\it.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\it.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\ja.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ja.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\jv.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\jv.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\km.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\km.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\kn.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\kn.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\ko.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ko.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\ku.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ku.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\lt.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\lt.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\lv.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\lv.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\ms.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ms.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\nb.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\nb.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\ne.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ne.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\nl.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\nl.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\no.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\no.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\oc.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\oc.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\pl.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\pl.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\pt-br.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\pt-br.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\pt.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\pt.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\ro.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ro.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\ru.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ru.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\si.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\si.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\sk.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\sk.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\sl.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\sl.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\sq.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\sq.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\sr-latn.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\sr-latn.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\sr.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\sr.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\sv.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\sv.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\th.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\th.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\tk.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\tk.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\tr.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\tr.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\tt.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\tt.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\ug.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ug.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\uk.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\uk.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\ur.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ur.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\uz.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\uz.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\vi.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\vi.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\zh-cn.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\zh-cn.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\ckeditor5\\translations\\zh.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\zh.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Blog.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Blog.Web.props",
+      "PackagePath": "build\\Blog.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Blog.Web.props",
+      "PackagePath": "buildMultiTargeting\\Blog.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Blog.Web.props",
+      "PackagePath": "buildTransitive\\Blog.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
