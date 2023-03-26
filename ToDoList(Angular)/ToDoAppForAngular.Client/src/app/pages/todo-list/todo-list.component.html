@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h2>Todos</h2>
+            <a class="btn btn-primary mb-2" routerLink="/todos-add">Add Todo</a>
+            <table class="table table-secondary">
+                <thead>
+                    <tr>
+                        <th>Completed</th>
+                        <th>Id</th>
+                        <th>Content</th>
+                        <th>Create</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody class="todolist">
+                    <tr *ngFor="let todo of todoList">
+                      <td> <input type="checkbox" class="form-check-input" [checked]="todo.isCompleted" (change)="isCompleted(todo.id)" > </td>
+                      <td>{{todo.id}}</td>
+                      <td><span> {{todo.content}} </span></td>
+                      <td> {{todo.created | date:'short'}} </td>
+                      <td>
+                        <button (click)="delete(todo.id)" class="btn btn-danger">Sil</button>
+                        <a class="btn btn-success mx-2" [routerLink]="['/todos-update', todo.id]" >Güncelle</a>
+                      </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
