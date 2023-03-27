@@ -1,3 +1,7 @@
-table td input[type="checkbox"]:checked + label {
+.completed {
+  background-color: #dcdcdc;
   text-decoration: line-through;
+}
+table {
+  table-layout: fixed;
 }

@@ -2,9 +2,9 @@
     <div class="row">
         <div class="col-md-8 offset-md-2">
             <h2>Todos</h2>
-            <a class="btn btn-primary mb-2" routerLink="/todos-add">Add Todo</a>
-            <table class="table table-secondary">
-                <thead>
+            <a class="btn btn btn-outline-secondary btn-sm mb-2" routerLink="/todos-add">Add Todo</a>
+            <table class="table">
+                <thead class="table-dark">
                     <tr>
                         <th>Completed</th>
                         <th>Id</th>
@@ -14,14 +14,14 @@
                     </tr>
                 </thead>
                 <tbody class="todolist">
-                    <tr *ngFor="let todo of todoList">
-                      <td> <input type="checkbox" class="form-check-input" [checked]="todo.isCompleted" (change)="isCompleted(todo.id)" > </td>
+                  <tr *ngFor="let todo of todoList" [class.completed]="todo.isCompleted">
+                      <td> <input type="checkbox" class="form-check-input text-secondary" [checked]="todo.isCompleted" (change)="isCompleted(todo.id)" > </td>
                       <td>{{todo.id}}</td>
-                      <td><span> {{todo.content}} </span></td>
+                      <td>{{todo.content}}</td>
                       <td> {{todo.created | date:'short'}} </td>
                       <td>
-                        <button (click)="delete(todo.id)" class="btn btn-danger">Sil</button>
-                        <a class="btn btn-success mx-2" [routerLink]="['/todos-update', todo.id]" >Güncelle</a>
+                        <button (click)="delete(todo.id)" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                        <a class="btn btn-success mx-2" [routerLink]="['/todos-update', todo.id]" > <i class="fa-solid fa-pen-to-square"></i> </a>
                       </td>
                     </tr>
                 </tbody>
