@@ -10,6 +10,7 @@ import { ArticleAddComponent } from './article/article-add/article-add.component
 import { ArticleUpdateComponent } from './article/article-update/article-update.component';
 import { ArticleListComponent } from './article/article-list/article-list.component';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     AppRoutingModule,
     MaterialModule,
     ComponentsModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    CKEditorModule
   ]
 })
 export class AdminModule { }

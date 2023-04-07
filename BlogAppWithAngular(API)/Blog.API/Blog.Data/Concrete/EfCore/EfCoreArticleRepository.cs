@@ -93,20 +93,7 @@ namespace Blog.Data.Concrete.EfCore
             await context.SaveChangesAsync();
         }
 
-        //private async Task<string> UploadImageAsync(IFormFile image)
-        //{
-        //    var extension = Path.GetExtension(image.FileName);
-        //    var randomName = $"{Guid.NewGuid()}{extension}";
-        //    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/articlePicture", randomName);
-
-        //    using (var stream = new FileStream(path, FileMode.Create))
-        //    {
-        //        await image.CopyToAsync(stream);
-        //    }
-
-        //    return randomName;
-        //}
-
+      
 
 
 

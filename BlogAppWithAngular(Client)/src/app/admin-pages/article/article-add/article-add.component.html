@@ -1,79 +1,36 @@
-
 <h1 class="text-center font mt-4">Makale Ekle</h1>
-<form [formGroup]="createArticleForm" (ngSubmit)="onSubmit()" enctype="multipart/form-data">
+<form class="mb-5" [formGroup]="createArticleForm" (ngSubmit)="onSubmit()" enctype="multipart/form-data">
   <mat-card>
     <mat-card-content>
       <mat-form-field>
         <mat-label>Title</mat-label>
-          <input matInput formControlName="title" />
-        </mat-form-field>
+        <input matInput formControlName="title" />
+        <mat-error *ngIf="createArticleForm.get('title')?.invalid && createArticleForm.get('title')?.touched">
+          Lütfen bir başlık girin.
+        </mat-error>
+      </mat-form-field>
 
-        <mat-form-field>
-          <mat-label>Content</mat-label>
-          <textarea matInput formControlName="content"></textarea>
-        </mat-form-field>
-
-        <mat-form-field>
-          <mat-label>Categories</mat-label>
-          <mat-select multiple formControlName="categoryIds">
-            <mat-option *ngFor="let category of categories" [value]="category.categoryId">{{ category.categoryName }}</mat-option>
-          </mat-select>
-
-        </mat-form-field>
-
-          <mat-label class="text-white mb-2">Resim Seç:</mat-label>
-          <input type="file"  (change)="onFileChange($event)" />
-
-      </mat-card-content>
-      <mat-card-actions>
-        <button class="mt-2" mat-raised-button color="primary" type="submit">Makale Oluştur</button>
-      </mat-card-actions>
-    </mat-card>
-  </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <div class="row">
-  <form [formGroup]="articleForm" (ngSubmit)="onSubmit()">
-    <div>
-      <label for="title">Title</label>
-      <input id="title" type="text" formControlName="title" />
-    </div>
-    <div>
-      <label for="content">Content</label>
-      <textarea id="content" formControlName="content"></textarea>
-    </div>
-    <div>
-      <label for="image">Image</label>
-      <input id="image" type="file" (change)="onImageSelected($event)" />
-    </div>
-    <div>
-      <label>Categories:</label>
-      <div *ngFor="let category of categories">
-        <input
-          type="checkbox"
-          (change)="onCategoryChange($event, category.categoryId)"
-        />
-        {{ category.categoryName }}
+      <div class="mb-4 bg">
+        <ckeditor formControlName="content" [editor]="Editor" (ready)="onEditorReady($event)"></ckeditor>
       </div>
-    </div>
 
 
+      <mat-form-field>
+        <mat-label>Categories</mat-label>
+        <mat-select multiple formControlName="categoryIds">
+          <mat-option *ngFor="let category of categories" [value]="category.categoryId">{{ category.categoryName }}</mat-option>
+        </mat-select>
+        <mat-error *ngIf="createArticleForm.get('categoryIds')?.invalid && createArticleForm.get('categoryIds')?.touched">
+          Lütfen en az bir kategori seçin.
+        </mat-error>
+      </mat-form-field>
 
-    <button type="submit">Submit</button>
-  </form>
+      <mat-label class="text-white mb-2">Resim Seç:</mat-label>
+      <input type="file" (change)="onFileChange($event)" />
 
-</div> -->
+    </mat-card-content>
+    <mat-card-actions>
+      <button class="mt-2" mat-raised-button color="primary" type="submit">Makale Oluştur</button>
+    </mat-card-actions>
+  </mat-card>
+</form>

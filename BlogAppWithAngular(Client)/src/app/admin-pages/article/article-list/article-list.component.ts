@@ -28,8 +28,8 @@ export class ArticleListComponent implements OnInit {
 
     });
   }
-
-
-
-
+  onIsApprovedChange(articleId: number) {
+    this.adminService.updateIsApproved(articleId).subscribe(() => {
+    });
+  }
 }

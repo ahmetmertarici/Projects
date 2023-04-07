@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AbstractControl, FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import DecoupledEditor from '@ckeditor/ckeditor5-build-decoupled-document';
 import { Category } from 'src/app/models/category';
 import { AdminService } from 'src/app/services/admin.service';
 import { CategoryService } from 'src/app/services/category.service';
@@ -15,6 +16,13 @@ import { MyvalidatorService } from 'src/app/services/myvalidator.service';
 export class ArticleAddComponent implements OnInit {
   createArticleForm: FormGroup;
   categories: Category[] | undefined;
+  public Editor = DecoupledEditor;
+  onEditorReady(editor: any) {
+    editor.ui.getEditableElement().parentElement.insertBefore(
+      editor.ui.view.toolbar.element,
+      editor.ui.getEditableElement()
+    );
+  }
 
   constructor(private fb: FormBuilder, private categoryService: CategoryService, private adminService: AdminService, private router: Router, public myValidation:MyvalidatorService) {
     this.createArticleForm = this.fb.group({
@@ -28,21 +36,9 @@ export class ArticleAddComponent implements OnInit {
   async ngOnInit() {
     this.categories = await this.categoryService.getCategories().toPromise();
   }
-  GetValidationMessages(f: AbstractControl, name: string) {
-    if (f.errors) {
-      for (let errroName in f.errors) {
-        if (errroName == "required") return `${name} alanı boş bırakılamaz`;
-        else if (errroName == "email") return `email formatı yanlış`;
-        else if (errroName == "minlength")
-          return `${name} alanız en az 5 karakter olmalıdır.`;
-      }
-    }
-    return null;
-  }
 
-  get getControls() {
-    return this.createArticleForm.controls;
-  }
+
+
 
   onFileChange(event: any) {
     if (event.target.files.length > 0) {
@@ -52,9 +48,6 @@ export class ArticleAddComponent implements OnInit {
       });
     }
   }
-
-  
-
   async onSubmit() {
     if (this.createArticleForm.valid) {
 

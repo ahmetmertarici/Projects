@@ -21,29 +21,29 @@ namespace Blog.API.Controllers
             _commentService = commentService;
         }
 
-        [HttpGet]
-        public async Task<ActionResult<List<Article>>> GetApprovedArticles()
-        {
-            var articles = await _articleService.GetApprovedArticlesAsync();
+        //[HttpGet]
+        //public async Task<ActionResult<List<Article>>> GetApprovedArticles()
+        //{
+        //    var articles = await _articleService.GetApprovedArticlesAsync();
 
-            var articleListDTO = new List<ArticleListDTO>();
+        //    var articleListDTO = new List<ArticleListDTO>();
 
-            foreach (var article in articles)
-            {
-                articleListDTO.Add(new ArticleListDTO()
-                {
-                    ArticleId = article.ArticleId,
-                    Title = article.Title,
-                    Content = article.Content,
-                    CreateDate = article.CreateDate,
-                    ViewsCount = article.ViewsCount,
-                    ScoreCount = article.ScoreCount,
-                    ImageUrl = article.ImageUrl,
-                    CommentCount = article.Comments.Count()
-                });
-            }
-            return Ok(articleListDTO);
-        }
+        //    foreach (var article in articles)
+        //    {
+        //        articleListDTO.Add(new ArticleListDTO()
+        //        {
+        //            ArticleId = article.ArticleId,
+        //            Title = article.Title,
+        //            Content = article.Content,
+        //            CreateDate = article.CreateDate,
+        //            ViewsCount = article.ViewsCount,
+        //            ScoreCount = article.ScoreCount,
+        //            ImageUrl = article.ImageUrl,
+        //            CommentCount = article.Comments.Count()
+        //        });
+        //    }
+        //    return Ok(articleListDTO);
+        //}
 
         [HttpGet("{page}/{pageSize}")]
         public async Task<ActionResult<List<Article>>> GetApprovedArticles(int page = 1, int pageSize = 7)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular\\Blog.API\\Blog.Entity\\Blog.Entity.csproj": {}
+    "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Entity\\Blog.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular\\Blog.API\\Blog.Entity\\Blog.Entity.csproj": {
+    "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Entity\\Blog.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular\\Blog.API\\Blog.Entity\\Blog.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Entity\\Blog.Entity.csproj",
         "projectName": "Blog.Entity",
-        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular\\Blog.API\\Blog.Entity\\Blog.Entity.csproj",
+        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Entity\\Blog.Entity.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular\\Blog.API\\Blog.Entity\\obj\\",
+        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

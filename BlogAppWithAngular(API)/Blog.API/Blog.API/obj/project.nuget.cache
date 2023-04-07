@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f2WqRU+x5ABZv3ZBzyZWFzA29xr5/DVVhlXjNJUQ2ttX6C9Ua6gyJefve1UIpRL5TNCPiZmaXMneHCs0BrSMnw==",
+  "dgSpecHash": "+Pcwte+ra15n+7mF5EHVRtaEFG/ylXDjA9I5ptfMhitPYVK6cS5GK2K/3jRUjSQ3hYv3CeJQCGq3pblaOTzV8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular\\Blog.API\\Blog.API\\Blog.API.csproj",
+  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\Blog.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\mailkit\\3.2.0\\mailkit.3.2.0.nupkg.sha512",
