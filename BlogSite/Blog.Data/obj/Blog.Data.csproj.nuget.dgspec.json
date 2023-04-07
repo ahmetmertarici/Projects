@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj": {}
+    "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj": {}
   },
   "projects": {
-    "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj": {
+    "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj",
         "projectName": "Blog.Data",
-        "projectPath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj",
+        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Data\\obj\\",
+        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj": {
-                "projectPath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj"
+              "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj": {
+                "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj"
               }
             }
           }
@@ -61,8 +61,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -71,18 +70,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj": {
+    "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj",
         "projectName": "Blog.Entity",
-        "projectPath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj",
+        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\obj\\",
+        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -116,8 +115,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -126,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
         }
       }
     }

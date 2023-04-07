@@ -580,8 +580,3 @@ C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Web\obj\De
 C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Web\obj\Debug\net6.0\Blog.Web.pdb
 C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Web\obj\Debug\net6.0\Blog.Web.genruntimeconfig.cache
 C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Web\obj\Debug\net6.0\ref\Blog.Web.dll
-C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Web\obj\Debug\net6.0\staticwebassets\msbuild.Blog.Web.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.Blog.Web.props
-C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Blog.Web.props
-C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Blog.Web.props
-C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogSite\Blog.Web\obj\Debug\net6.0\staticwebassets.pack.json

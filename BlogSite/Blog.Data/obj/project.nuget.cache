@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9cNMlqca/SYeTvG4SsjlP/Mpl8TM+6g3uyMBgRA3hYIcPEI2yLOmVVWYKKhkTgZw/llP2Zm+Ui5ET5inzFPpfw==",
+  "dgSpecHash": "iYTmu5bS4304FKD0pe7xVjDjZT5Fx98nf/BVP8E/UMqDTuEdmFCZlhBMrfL7HUbc8dQ2Wb9J7Iqn+8e91Yge/A==",
   "success": true,
-  "projectFilePath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj",
+  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.1\\microsoft.data.sqlite.core.7.0.1.nupkg.sha512",
