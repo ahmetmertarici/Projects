@@ -1,0 +1,1 @@
+A blog application developed using Angular 15 and ASP.NET Core API. It is still under development and will be completed as soon as possible.
