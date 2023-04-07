@@ -1,0 +1,36 @@
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+
+  .navbarStyle {
+    background-color: #8EA7E9;
+  }
+
+  .active {
+    color: #E5E0FF !important;
+    background-color: #7286D3;
+    border-radius: 10px;
+  }
+
+  .navbar-font {
+    font-family: Courgette;
+    font-size: 15px;
+  }
+
+  .social-media,
+  .logo {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-media a {
+    padding-left: 10px;
+    font-size: 30px;
+  }
+  .social-media a i {
+    color: #424874 ;
+  }
+
+  .logo img {
+    width: 200px;
+  }

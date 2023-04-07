@@ -1,0 +1,24 @@
+<div class="card border border-3 border-black rounded-4 mt-3">
+  <div class="card-header ">
+    <div class="text-center font">EN ÇOK OKUNANLAR</div>
+  </div>
+  <div *ngFor="let item of articles" class="mt-3 mb-3 ms-1">
+    <div class="row g-0">
+      <div class="col-md-4 d-flex">
+        <img [src]="'../../../assets/' + item.imageUrl" class="img-fluid rounded-4" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <a [routerLink]="['/Articles',item.title | urlformat, item.articleId]" class="text-decoration-none title">
+            <p class="card-title text-black title">{{item.title}}</p>
+          </a>
+          <p class="card-text"><small class="text-muted"><i class="fa-solid fa-eye"></i> {{item.viewsCount}} gürüntülenme sayısı</small></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<style>
+
+</style>

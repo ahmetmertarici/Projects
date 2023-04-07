@@ -1,0 +1,51 @@
+
+<h1 class="text-center font mt-3">Makale Listesi</h1>
+
+
+<div class="mat-elevation-z8 mt-3">
+  <table mat-table [dataSource]="dataSource">
+
+    <ng-container matColumnDef="imageUrl">
+      <th mat-header-cell *matHeaderCellDef> Resim </th>
+      <td mat-cell *matCellDef="let article">
+        <img style="width: 50px; height: 50px; " [src]="'../../../assets/' + article.imageUrl" >
+        
+         </td>
+    </ng-container>
+
+    <ng-container matColumnDef="title">
+      <th mat-header-cell *matHeaderCellDef> Başlık </th>
+      <td mat-cell *matCellDef="let article"> {{article.title}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="isApproved">
+      <th mat-header-cell *matHeaderCellDef> Onaylı mı </th>
+      <td mat-cell *matCellDef="let article"> {{article.isApproved}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="createdDate">
+      <th mat-header-cell *matHeaderCellDef> Oluşturulma Tarihi </th>
+      <td mat-cell *matCellDef="let article"> {{article.createDate | date:'dd.MM.yyyy'}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="viewsCount">
+      <th mat-header-cell *matHeaderCellDef> Görüntülenme Sayısı </th>
+      <td mat-cell *matCellDef="let article"> {{article.viewsCount}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="score">
+      <th mat-header-cell *matHeaderCellDef> Puanı </th>
+      <td mat-cell *matCellDef="let article"> {{article.score}} </td>
+    </ng-container>
+
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+  </table>
+  <mat-paginator [pageSizeOptions]="[10, 20, 30]"
+                 showFirstLastButtons
+                 aria-label="Select page of periodic elements">
+  </mat-paginator>
+
+</div>

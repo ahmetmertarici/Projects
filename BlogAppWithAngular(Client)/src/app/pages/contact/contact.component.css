@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.font{
+  font-family: Courgette;
+  font-size: 40px;
+  color: #424874;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.form-container > div {
+  width: 100% !important;
+}
+.form-container button {
+  width: fit-content;
+}

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Courgette&display=swap');
+
+.font{
+    font-family: Courgette;
+    font-size: 20px;
+    color: #424874;
+  }
+  .title{
+    font-family: Alkatra;
+    text-transform: capitalize;
+  }

@@ -1,0 +1,80 @@
+<div *ngIf="articles.length > 0; else emptyTemplate">
+  <div
+    *ngFor="
+      let item of articles
+        | paginate
+          : {
+              itemsPerPage: pageSize,
+              currentPage: page,
+              totalItems: totalCount
+            }
+    "
+  >
+    <ng-container
+      *ngTemplateOutlet="
+        horizontalTemplate;
+        context: {
+          articleId: item.articleId,
+          commentCount: item.commentCount,
+          viewsCount: item.viewsCount,
+          createDate: item.createDate,
+          content: item.content,
+          title: item.title,
+          imageUrl: item.imageUrl,
+          score: item.score
+        }
+      "
+    ></ng-container>
+  </div>
+</div>
+
+<ng-template #emptyTemplate>
+  <div class="alert alert-danger" role="alert">
+    Makale bulunamadı....
+  </div>
+</ng-template>
+
+<ng-template
+  #horizontalTemplate
+  let-articleId="articleId"
+  let-commentCount="commentCount"
+  let-viewsCount="viewsCount"
+  let-categoryName="categoryName"
+  let-createDate="createDate"
+  let-content="content"
+  let-title="title"
+  let-imageUrl="imageUrl"
+  let-score="score"
+>
+  <div class="card mb-3 border border-3 rounded-4">
+    <div class="row">
+      <div class="col-md-5 position-relative">
+        <img [src]="'../../../assets/' + imageUrl" class="img-fluid rounded-start h-100 ">
+      </div>
+      <div class="col-md-7">
+        <div class="card-body">
+          <h2 class="card-title title"> {{title}} </h2>
+          <p class="card-text content"> {{content}} </p>
+          <p class="card-text"><small class="text-body-secondary"> {{createDate | date: "dd.MM.yyyy"}} </small></p>
+        </div>
+      </div>
+      <div class="card-footer bg-transparent row border-0">
+        <div class="col-md-9">
+          <span class="badge rounded-pill ms-2 my-badge-1"> <i class="fa-sharp fa-solid fa-eye"></i> {{viewsCount}} görüntülenme sayısı</span>
+          <span class="badge rounded-pill text-bg-warning ms-2 my-badge"> <i class="fa-solid fa-star"></i> 5 / {{score}} puan</span>
+          <span class="badge rounded-pill text-bg-primary ms-2 my-badge"> <i class="fa-solid fa-comment"></i>  {{commentCount}} yorum</span>
+        </div>
+        <div class="col-md-3 d-flex justify-content-end">
+          <a [routerLink]="['/Articles',title | urlformat, articleId]" class="btn btn-sm " style="background-color: #14274E; color: white;">Devamını Oku</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</ng-template>
+
+<pagination-controls
+  (pageChange)="pageChanged($event)"
+  previousLabel="geri"
+  nextLabel="ileri"
+></pagination-controls>

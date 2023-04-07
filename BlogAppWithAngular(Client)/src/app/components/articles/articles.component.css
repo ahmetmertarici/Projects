@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Courgette&display=swap');
+
+
+.content
+{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* İlk 4 satırı göster */
+  -webkit-box-orient: vertical;
+}
+.title{
+  font-family: Alkatra;
+  text-transform: capitalize;
+}
+.my-badge {
+  font-size: .7rem;
+  padding: 0.5rem .5rem;
+}
+.my-badge-1 {
+  background-color: #878ECD;
+  font-size: .7rem;
+  padding: 0.5rem .5rem;
+}
