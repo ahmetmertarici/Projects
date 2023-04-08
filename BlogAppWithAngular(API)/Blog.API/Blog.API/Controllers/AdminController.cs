@@ -53,7 +53,6 @@ namespace Blog.API.Controllers
                 return NotFound();
             }
 
-            _articleService.IncreaseViewsCount(id);
             ArticleDetailDTO articleDetailDTO = new()
             {
                 ArticleId = article.ArticleId,
@@ -71,16 +70,20 @@ namespace Blog.API.Controllers
         }
 
         [HttpPost]
+        [Route("SaveArticlePicture")]
+        public async Task<IActionResult> SaveArticlePicture(IFormFile image)
+        {
+            var imageUrl = await _articleService.SaveImageAsync(image);
+            var result = new
+            {
+                path = "https://" + Request.Host + "/images/" + imageUrl
+            };
+            return Ok(result);
+        }
+        [HttpPost]
         [Route("CreateArticle")]
         public async Task<IActionResult> CreateArticle([FromForm] ArticleCreateDTO createArticleDto)
         {
-            // Resmi kaydet ve dosya adını al
-            string imageUrl = null;
-            if (createArticleDto.Image != null)
-            {
-                imageUrl = await _articleService.SaveImageAsync(createArticleDto.Image);
-            }
-
             // Article oluştur
             var article = new Article
             {
@@ -88,10 +91,10 @@ namespace Blog.API.Controllers
                 Content = createArticleDto.Content,
                 CreateDate = DateTime.Now.ToString("yyyy-MM-dd"),
                 ViewsCount = 0,
+                ImageUrl = createArticleDto.ImageUrl,
                 Score = null,
                 ScoreCount = null,
-                IsApproved = false,
-                ImageUrl = imageUrl,
+                IsApproved = false
             };
 
             // Article ve kategorileri kullanarak Article ve ArticleCategory nesnelerini kaydet
@@ -103,8 +106,7 @@ namespace Blog.API.Controllers
                 Title = createdArticle.Title,
                 CreateDate = createdArticle.CreateDate,
                 ViewsCount = createdArticle.ViewsCount,
-                Score = createdArticle.Score,
-                ImageUrl = createdArticle.ImageUrl
+                Score = createdArticle.Score
             };
 
             return Ok(articleListDTO);

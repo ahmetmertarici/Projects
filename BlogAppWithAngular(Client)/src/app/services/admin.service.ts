@@ -8,16 +8,16 @@ import { Observable } from 'rxjs';
 })
 export class AdminService {
 
-  constructor(private httpClient:HttpClient) { }
+  constructor(private httpClient: HttpClient) { }
 
-  private apiUrl:string="https://localhost:7000/api/Admin";
+  private apiUrl: string = "https://localhost:7000/api/Admin";
 
   getArticle(articleId: number): Observable<Article> {
     return this.httpClient.get<Article>(`${this.apiUrl}/GetArticle/${articleId}`);
   }
 
 
-  getAllArticles(){
+  getAllArticles() {
     return this.httpClient.get<Article[]>(this.apiUrl);
   }
 
@@ -29,10 +29,14 @@ export class AdminService {
     return this.httpClient.post<any>(`${this.apiUrl}/UpdateIsApproved/${articleId}`, {});
   }
 
+  saveArticlePicture(image: any) {
+    return this.httpClient.post<any>(`${this.apiUrl}/SaveArticlePicture`, image);
+  }
 
-updateArticle(articleId: number, formData: FormData): Observable<any> {
-  return this.httpClient.put(`${this.apiUrl}/UpdateArticle/${articleId}`, formData);
-}
+
+  updateArticle(articleId: number, formData: FormData): Observable<any> {
+    return this.httpClient.put(`${this.apiUrl}/UpdateArticle/${articleId}`, formData);
+  }
 
 
 }

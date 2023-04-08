@@ -6,6 +6,7 @@ import { Category } from 'src/app/models/category';
 import { AdminService } from 'src/app/services/admin.service';
 import { CategoryService } from 'src/app/services/category.service';
 import { MyvalidatorService } from 'src/app/services/myvalidator.service';
+import { arrayRequiredValidator } from 'src/app/shared/validators/array-required.validator';
 
 @Component({
   selector: 'app-article-add',
@@ -14,8 +15,14 @@ import { MyvalidatorService } from 'src/app/services/myvalidator.service';
 
 })
 export class ArticleAddComponent implements OnInit {
+  fileData: File | null = null;
+  image: string | null = null;
+  success!: boolean;
+  loading!: boolean;
+  info!: string;
   createArticleForm: FormGroup;
   categories: Category[] | undefined;
+
   public Editor = DecoupledEditor;
   onEditorReady(editor: any) {
     editor.ui.getEditableElement().parentElement.insertBefore(
@@ -24,19 +31,45 @@ export class ArticleAddComponent implements OnInit {
     );
   }
 
-  constructor(private fb: FormBuilder, private categoryService: CategoryService, private adminService: AdminService, private router: Router, public myValidation:MyvalidatorService) {
+  constructor(private fb: FormBuilder, private categoryService: CategoryService, private adminService: AdminService, private router: Router, public myValidation: MyvalidatorService) {
     this.createArticleForm = this.fb.group({
       title: ['', Validators.required],
       content: ['', Validators.required],
-      categoryIds: ['', Validators.required],
+      categoryIds: ['', arrayRequiredValidator()],
       image: [null]
     });
+
+    this.createArticleForm.valueChanges.subscribe(value => {
+      console.log('Form value:', value);
+    });
+
+    this.createArticleForm.statusChanges.subscribe(status => {
+      console.log('Form status:', status);
+    });
+
   }
 
   async ngOnInit() {
-    this.categories = await this.categoryService.getCategories().toPromise();
+    this.getCategory();
   }
 
+  //*********************************** */
+  upload(files: any) {
+    this.fileData = files.target.files[0];
+    let formData = new FormData();
+    if (this.fileData) {
+      formData.append("image", this.fileData);
+    }
+
+    this.adminService.saveArticlePicture(formData).subscribe(result => {
+      console.log(result.path);
+      this.image = result.path;
+
+      this.createArticleForm.controls['image'].setValue(this.image);
+
+    });
+  }
+  //**************************************** */
   onFileChange(event: any) {
     if (event.target.files.length > 0) {
       const file = event.target.files[0];
@@ -45,29 +78,39 @@ export class ArticleAddComponent implements OnInit {
       });
     }
   }
-  async onSubmit() {
+  getCategory() {
+    this.categoryService.getCategories().subscribe(result => {
+      this.categories = result;
+    })
+  }
+  onSubmit() {
     if (this.createArticleForm.valid) {
+      this.loading = true;
 
       const formData = new FormData();
       formData.append('title', this.createArticleForm.get('title')?.value);
       formData.append('content', this.createArticleForm.get('content')?.value);
+      formData.append('image', this.createArticleForm.get('image')?.value);
+      formData.append('imageUrl', this.image as string);
+
       const categoryIds = this.createArticleForm.get('categoryIds')?.value;
-      for (let i = 0; i < categoryIds.length; i++) {
-        formData.append(`categoryIds[${i}]`, categoryIds[i]);
+      for (const categoryId of categoryIds) {
+        formData.append('categoryIds', categoryId);
       }
 
-
-      if (this.createArticleForm.get('image')?.value) {
-        formData.append('image', this.createArticleForm.get('image')?.value);
-      }
-
-      try {
-        const response = await this.adminService.createArticle(formData).toPromise();
-        console.log('Article created successfully:', response);
-        this.router.navigate(['/admin/makale/liste']);
-      } catch (error) {
-        console.error('Error creating article:', error);
-      }
+      this.adminService.createArticle(formData).subscribe(
+        (result) => {
+          console.log("eklendi");
+          this.router.navigate(['/admin/makale/liste']);
+        },
+        (error) => {
+          console.error("Hata nesnesi:", error);
+          this.success = false;
+          this.info = "hata:" + error;
+        }
+      );
     }
   }
+
+
 }

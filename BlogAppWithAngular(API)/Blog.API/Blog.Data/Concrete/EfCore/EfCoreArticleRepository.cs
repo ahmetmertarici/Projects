@@ -67,14 +67,14 @@ namespace Blog.Data.Concrete.EfCore
         }
         public async Task<string> SaveImageAsync(IFormFile image)
         {
-            var extension = Path.GetExtension(image.FileName);
-            var randomName = $"{Guid.NewGuid()}{extension}";
-            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", randomName);
+
+            var fileName=Guid.NewGuid().ToString() + Path.GetExtension(image.FileName);
+            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
             using (var stream = new FileStream(path, FileMode.Create))
             {
                 await image.CopyToAsync(stream);
             }
-            return randomName;
+           return fileName;
         }
 
         public async Task CreateAsync(Article article)
@@ -92,10 +92,6 @@ namespace Blog.Data.Concrete.EfCore
             await context.ArticleCategories.AddRangeAsync(article.ArticleCategories);
             await context.SaveChangesAsync();
         }
-
-      
-
-
 
 
         public async Task CreateAsync(Article article, int[] categoryIds)

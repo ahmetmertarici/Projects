@@ -1,5 +1,3 @@
-// src/app/components/article-update/article-update.component.ts
-
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -27,7 +25,7 @@ export class ArticleUpdateComponent implements OnInit {
     );
   }
 
-  constructor(private fb: FormBuilder, private categoryService: CategoryService, private adminService: AdminService, private router: Router, public myValidation: MyvalidatorService, private activatedRoute: ActivatedRoute, private articleService:ArticleService) {
+  constructor(private fb: FormBuilder, private categoryService: CategoryService, private adminService: AdminService, private router: Router, public myValidation: MyvalidatorService, private activatedRoute: ActivatedRoute, private articleService: ArticleService) {
     this.updateArticleForm = this.fb.group({
       title: ['', Validators.required],
       content: ['', Validators.required],
@@ -49,8 +47,6 @@ export class ArticleUpdateComponent implements OnInit {
       });
     }
   }
-
-
 
   onFileChange(event: any) {
     if (event.target.files.length > 0) {
