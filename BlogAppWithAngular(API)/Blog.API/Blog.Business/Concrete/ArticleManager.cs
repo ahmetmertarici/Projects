@@ -133,6 +133,11 @@ namespace Blog.Business.Concrete
             throw new NotImplementedException();
         }
 
+        public async Task<Article> UpdateArticleAsync(int articleId, string title, string content, string imageUrl, int[] categoryIds)
+        {
+            return await _articleRepository.UpdateArticleAsync(articleId, title, content, imageUrl, categoryIds);
+        }
+
         public async Task UpdateAsync(Article article, int[] categoryIds)
         {
             await _articleRepository.UpdateAsync(article, categoryIds);

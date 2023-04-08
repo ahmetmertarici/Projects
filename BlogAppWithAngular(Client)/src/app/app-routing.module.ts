@@ -30,7 +30,7 @@ const routes: Routes = [
     {path:'anasayfa', component:AdminHomeComponent},
     {path:'makale', component:AdminArticleComponent, children:[
       {path:'liste', component:ArticleListComponent},
-      {path:'güncelle/:id', component:ArticleUpdateComponent},
+      {path:'guncelle/:id', component:ArticleUpdateComponent},
       {path:'ekle', component:ArticleAddComponent},
     ]}
   ]}

@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Article } from '../models/article';
-import { tap } from 'rxjs';
+import { Observable, tap } from 'rxjs';
 import { ArticlePg } from '../models/article-pg';
 
 @Injectable({
@@ -61,6 +61,9 @@ export class ArticleService {
   getAllArticles(){
     return this.httpClient.get<Article[]>(this.apiUrl);
   }
+
+
+
 
 
 }

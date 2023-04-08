@@ -12,6 +12,11 @@ export class AdminService {
 
   private apiUrl:string="https://localhost:7000/api/Admin";
 
+  getArticle(articleId: number): Observable<Article> {
+    return this.httpClient.get<Article>(`${this.apiUrl}/GetArticle/${articleId}`);
+  }
+
+
   getAllArticles(){
     return this.httpClient.get<Article[]>(this.apiUrl);
   }
@@ -23,5 +28,11 @@ export class AdminService {
   updateIsApproved(articleId: number): Observable<any> {
     return this.httpClient.post<any>(`${this.apiUrl}/UpdateIsApproved/${articleId}`, {});
   }
+
+
+updateArticle(articleId: number, formData: FormData): Observable<any> {
+  return this.httpClient.put(`${this.apiUrl}/UpdateArticle/${articleId}`, formData);
+}
+
 
 }

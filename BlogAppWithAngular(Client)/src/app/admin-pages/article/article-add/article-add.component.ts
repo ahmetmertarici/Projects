@@ -37,9 +37,6 @@ export class ArticleAddComponent implements OnInit {
     this.categories = await this.categoryService.getCategories().toPromise();
   }
 
-
-
-
   onFileChange(event: any) {
     if (event.target.files.length > 0) {
       const file = event.target.files[0];

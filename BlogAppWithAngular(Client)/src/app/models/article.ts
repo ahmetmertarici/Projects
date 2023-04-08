@@ -1,3 +1,5 @@
+import { Category } from "./category";
+
 export interface Article {
   articleId:number;
   title:string;
@@ -8,5 +10,6 @@ export interface Article {
   scoreCount:number;
   imageUrl:string;
   commentCount:number;
-  categories: string[];
+  categories: Category[];
+  categoryIds: number[]; 
 }

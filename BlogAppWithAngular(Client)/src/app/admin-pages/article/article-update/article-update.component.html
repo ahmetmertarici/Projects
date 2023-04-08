@@ -1,1 +1,43 @@
-<p>article-update works!</p>
+<!-- src/app/components/article-update/article-update.component.html -->
+
+<h1 class="text-center font mt-4">Makale Düzenle</h1>
+<form
+  class="mb-5"
+  [formGroup]="updateArticleForm"
+  (ngSubmit)="onSubmit()"
+  enctype="multipart/form-data"
+>
+<mat-card>
+  <mat-card-content>
+    <mat-form-field>
+      <mat-label>Title</mat-label>
+      <input matInput formControlName="title" />
+      <mat-error *ngIf="updateArticleForm.get('title')?.invalid && updateArticleForm.get('title')?.touched">
+        Lütfen bir başlık girin.
+      </mat-error>
+    </mat-form-field>
+
+    <div class="mb-4 bg">
+      <ckeditor formControlName="content" [editor]="Editor" (ready)="onEditorReady($event)"></ckeditor>
+    </div>
+
+
+    <mat-form-field>
+      <mat-label>Categories</mat-label>
+      <mat-select multiple formControlName="categoryIds">
+        <mat-option *ngFor="let category of categories" [value]="category.categoryId">{{ category.categoryName }}</mat-option>
+      </mat-select>
+      <mat-error *ngIf="updateArticleForm.get('categoryIds')?.invalid && updateArticleForm.get('categoryIds')?.touched">
+        Lütfen en az bir kategori seçin.
+      </mat-error>
+    </mat-form-field>
+
+    <mat-label class="text-white mb-2">Resim Seç:</mat-label>
+    <input type="file" (change)="onFileChange($event)" />
+
+  </mat-card-content>
+  <mat-card-actions>
+    <button class="mt-2" mat-raised-button color="primary" type="submit">Makale Oluştur</button>
+  </mat-card-actions>
+</mat-card>
+</form>

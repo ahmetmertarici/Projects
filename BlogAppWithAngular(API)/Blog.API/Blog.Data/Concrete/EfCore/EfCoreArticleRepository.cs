@@ -341,5 +341,61 @@ namespace Blog.Data.Concrete.EfCore
             context.Entry(article).State = EntityState.Modified;
             context.SaveChanges();
         }
+
+        public async Task<Article> UpdateArticleAsync(int articleId, string title, string content, string imageUrl, int[] categoryIds)
+        {
+            using (var transaction = await context.Database.BeginTransactionAsync())
+            {
+                try
+                {
+                    // Article bul
+                    var article = await context.Articles.FindAsync(articleId);
+                    if (article == null)
+                    {
+                        throw new Exception("Article not found.");
+                    }
+
+                    // Article güncelle
+                    article.Title = title;
+                    article.Content = content;
+                    if (imageUrl != null)
+                    {
+                        article.ImageUrl = imageUrl;
+                    }
+
+                    // Eski ArticleCategory nesnelerini sil
+                    var existingArticleCategories = context.ArticleCategories.Where(ac => ac.ArticleId == articleId);
+                    context.ArticleCategories.RemoveRange(existingArticleCategories);
+
+                    // Yeni ArticleCategory nesneleri ekle
+                    foreach (var categoryId in categoryIds)
+                    {
+                        var category = await context.Categories.FindAsync(categoryId);
+                        if (category == null)
+                        {
+                            throw new Exception("Category not found.");
+                        }
+
+                        var articleCategory = new ArticleCategory
+                        {
+                            Article = article,
+                            Category = category
+                        };
+
+                        context.ArticleCategories.Add(articleCategory);
+                    }
+
+                    await context.SaveChangesAsync();
+
+                    transaction.Commit();
+                    return article;
+                }
+                catch (Exception)
+                {
+                    transaction.Rollback();
+                    throw;
+                }
+            }
+        }
     }
 }

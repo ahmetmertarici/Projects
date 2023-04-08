@@ -12,7 +12,7 @@ import { AdminService } from 'src/app/services/admin.service';
 })
 export class ArticleListComponent implements OnInit {
 
-  displayedColumns: string[] = ['imageUrl', 'title', 'isApproved', 'createdDate', 'viewsCount', 'score'];
+  displayedColumns: string[] = ['imageUrl', 'title', 'isApproved', 'createdDate', 'viewsCount', 'score','actions'];
   dataSource:any;
   articles:Article[]=[];
   imageUrl: string = '';
