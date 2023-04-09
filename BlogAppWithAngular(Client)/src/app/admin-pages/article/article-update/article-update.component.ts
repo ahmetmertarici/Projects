@@ -17,6 +17,10 @@ export class ArticleUpdateComponent implements OnInit {
   updateArticleForm: FormGroup;
   categories: Category[] | undefined;
   articleId: number;
+  imageUrl: string | null = null;
+  fileData: File | null = null;
+  image: string | null = null;
+
   public Editor = DecoupledEditor;
   onEditorReady(editor: any) {
     editor.ui.getEditableElement().parentElement.insertBefore(
@@ -45,8 +49,32 @@ export class ArticleUpdateComponent implements OnInit {
         content: article.content,
         categoryIds: article.categoryIds
       });
+      this.imageUrl = article.imageUrl;
     }
+    this.getCategory();
   }
+  getCategory() {
+    this.categoryService.getCategories().subscribe(result => {
+      this.categories = result;
+    })
+  }
+
+  upload(files: any) {
+    this.fileData = files.target.files[0];
+    let formData = new FormData();
+    if (this.fileData) {
+      formData.append("image", this.fileData);
+    }
+
+    this.adminService.saveArticlePicture(formData).subscribe(result => {
+      console.log(result.path);
+      this.image = result.path;
+
+      this.updateArticleForm.controls['image'].setValue(this.image);
+
+    });
+  }
+
 
   onFileChange(event: any) {
     if (event.target.files.length > 0) {
@@ -58,6 +86,9 @@ export class ArticleUpdateComponent implements OnInit {
   }
 
   async onSubmit() {
+    console.log('Form valid mi?', this.updateArticleForm.valid);
+console.log('Form değerleri:', this.updateArticleForm.value);
+
     if (this.updateArticleForm.valid) {
       const formData = new FormData();
       formData.append('title', this.updateArticleForm.get('title')?.value);
@@ -79,5 +110,7 @@ export class ArticleUpdateComponent implements OnInit {
         console.error('Error updating article:', error);
       }
     }
-  }
+    console.log("valid değil");
+
+   }
 }

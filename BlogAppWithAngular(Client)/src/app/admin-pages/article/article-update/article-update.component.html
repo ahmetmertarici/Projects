@@ -31,28 +31,25 @@
             </mat-error>
           </mat-form-field>
 
-          <mat-label class="text-white mb-2">Resim Seç:</mat-label>
-          <input type="file" (change)="onFileChange($event)" />
-
         </mat-card-content>
         <mat-card-actions>
-          <button class="mt-2" mat-raised-button color="primary" type="submit">Makale Oluştur</button>
+          <button class="mt-2" mat-raised-button color="primary" type="submit">Makale Güncelle</button>
         </mat-card-actions>
       </mat-card>
     </form>
   </div>
   <div class="col-md-3">
-    <div class="col-md-3 ">
-      <!-- <div class="card border-secondary mb-3 image-box">
+      <div class="card border-secondary mb-3 image-box">
         <div class="card-header bg-transparent border-secondary">Resim Seç:</div>
         <div class="card-body text-secondary image-container">
-          <img [src]="image || '../../../../../../assets/logo.png'" class="fit-image">
+          <div *ngIf="imageUrl" class="mb-3">
+            <img [src]="imageUrl" alt="Makale Resmi" style="max-width: 100%;">
+          </div>
         </div>
         <div class="card-footer bg-transparent border-secondary input-group">
           <input type="file" (change)="upload($event)" class="form-control" />
         </div>
-      </div> -->
-    </div>
+      </div>
 
   </div>
 </div>

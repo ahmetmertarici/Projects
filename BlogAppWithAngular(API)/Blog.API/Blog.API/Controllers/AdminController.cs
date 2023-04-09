@@ -64,7 +64,8 @@ namespace Blog.API.Controllers
                 ScoreCount = article.ScoreCount,
                 IsApproved = article.IsApproved,
                 ImageUrl = article.ImageUrl,
-                CommentCount = article.Comments.Count()
+                CommentCount = article.Comments.Count(),
+                CategoryIds = article.ArticleCategories.Select(ac => ac.CategoryId).ToList()
             };
             return Ok(articleDetailDTO);
         }
@@ -127,7 +128,7 @@ namespace Blog.API.Controllers
 
         [HttpPut]
         [Route("UpdateArticle/{articleId}")]
-        public async Task<IActionResult> UpdateArticle([FromForm] ArticleUpdateDTO updateArticleDto)
+        public async Task<IActionResult> UpdateArticle([FromRoute] int articleId, [FromForm] ArticleUpdateDTO updateArticleDto)
         {
             // Resmi kaydet ve dosya adını al
             string imageUrl = null;
@@ -137,11 +138,11 @@ namespace Blog.API.Controllers
             }
 
             // Article ve kategorileri kullanarak Article ve ArticleCategory nesnelerini güncelle
-            var updatedArticle = await _articleService.UpdateArticleAsync(updateArticleDto.ArticleId, updateArticleDto.Title, updateArticleDto.Content, imageUrl, updateArticleDto.CategoryIds);
+            var updatedArticle = await _articleService.UpdateArticleAsync(articleId, updateArticleDto.Title, updateArticleDto.Content, imageUrl, updateArticleDto.CategoryIds);
 
             var articleListDTO = new ArticleListDTO()
             {
-                ArticleId = updatedArticle.ArticleId,
+                ArticleId = articleId,
                 Title = updatedArticle.Title,
                 CreateDate = updatedArticle.CreateDate,
                 ViewsCount = updatedArticle.ViewsCount,
@@ -150,6 +151,20 @@ namespace Blog.API.Controllers
             };
 
             return Ok(articleListDTO);
+        }
+
+        [HttpDelete]
+        [Route("DeleteArticle/{articleId}")]
+
+        public async Task<IActionResult> DeleteArticle(int articleId)
+        {
+            Article article = await _articleService.GetByIdAsync(articleId);
+            if (article == null)
+            {
+                return BadRequest();
+            }
+            _articleService.Delete(article);
+            return Ok();
         }
 
 

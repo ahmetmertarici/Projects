@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XYJnJrPBb83FTAHkGYQrwSIcUHCVv35dYMJbDJ3793A=",
+  "Hash": "6rVG7GUIDShYCCWEMrDwZEke54oBcvTFbQAcOx7UPUQ=",
   "Source": "Blog.API",
   "BasePath": "_content/Blog.API",
   "Mode": "Default",
@@ -119,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\images\\248cf0a4-1cef-4f47-b9eb-305b1aceebe8.jpg"
     },
     {
+      "Identity": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\images\\24a2c697-2fb4-4c8c-bc54-03aa92adf851.jpg",
+      "SourceId": "Blog.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\",
+      "BasePath": "_content/Blog.API",
+      "RelativePath": "images/24a2c697-2fb4-4c8c-bc54-03aa92adf851.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\24a2c697-2fb4-4c8c-bc54-03aa92adf851.jpg"
+    },
+    {
       "Identity": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\images\\26364a68-72c6-49c2-9c8f-29cd094a179f.jpg",
       "SourceId": "Blog.API",
       "SourceType": "Discovered",
@@ -221,6 +238,23 @@
       "OriginalItemSpec": "wwwroot\\images\\4ec889a0-dd02-41b3-8163-82f2cb054cf3.jpg"
     },
     {
+      "Identity": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\images\\5c82278d-7852-409c-81fd-dd93bda7e786.jpg",
+      "SourceId": "Blog.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\",
+      "BasePath": "_content/Blog.API",
+      "RelativePath": "images/5c82278d-7852-409c-81fd-dd93bda7e786.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5c82278d-7852-409c-81fd-dd93bda7e786.jpg"
+    },
+    {
       "Identity": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\images\\5e4a0253-183c-4b7e-94c6-54d6de9a2808.jpg",
       "SourceId": "Blog.API",
       "SourceType": "Discovered",
@@ -270,6 +304,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\62fe584d-8fa0-4726-8fee-6067be35f376.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\images\\6c43b8ad-dc42-4749-81dc-08fc2ace0418.jpg",
+      "SourceId": "Blog.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\",
+      "BasePath": "_content/Blog.API",
+      "RelativePath": "images/6c43b8ad-dc42-4749-81dc-08fc2ace0418.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\6c43b8ad-dc42-4749-81dc-08fc2ace0418.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\images\\6de1a8ee-9b97-4e59-979d-32875026f541.jpg",
+      "SourceId": "Blog.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\",
+      "BasePath": "_content/Blog.API",
+      "RelativePath": "images/6de1a8ee-9b97-4e59-979d-32875026f541.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\6de1a8ee-9b97-4e59-979d-32875026f541.jpg"
     },
     {
       "Identity": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\images\\71905a92-c0e2-4203-85b0-3bff5006bf91.jpg",
@@ -338,6 +406,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\7bbc05b6-6631-4d98-a1cc-0d97267e807d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\images\\7e0561f4-9e5b-4957-84bd-685afc74a055.jpg",
+      "SourceId": "Blog.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\",
+      "BasePath": "_content/Blog.API",
+      "RelativePath": "images/7e0561f4-9e5b-4957-84bd-685afc74a055.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\7e0561f4-9e5b-4957-84bd-685afc74a055.jpg"
     },
     {
       "Identity": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\images\\818ed959-f53f-45f4-b1b6-9c0af75ba707.jpg",
@@ -474,6 +559,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\bd1a520e-b98c-4e10-af5a-1a006884537e.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\images\\c3034ec1-7b08-4fbf-9c04-9ce705261212.jpg",
+      "SourceId": "Blog.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\",
+      "BasePath": "_content/Blog.API",
+      "RelativePath": "images/c3034ec1-7b08-4fbf-9c04-9ce705261212.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\c3034ec1-7b08-4fbf-9c04-9ce705261212.jpg"
     },
     {
       "Identity": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\images\\c3d3fe7e-01f0-458f-a6d3-05eeea59fde3.jpg",
@@ -646,6 +748,23 @@
       "OriginalItemSpec": "wwwroot\\images\\e293d769-652d-48c3-90e7-5f829102c9c5.jpg"
     },
     {
+      "Identity": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\images\\e2fb4cdb-3e63-4dbc-b537-1fb3dc503919.jpeg",
+      "SourceId": "Blog.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\",
+      "BasePath": "_content/Blog.API",
+      "RelativePath": "images/e2fb4cdb-3e63-4dbc-b537-1fb3dc503919.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\e2fb4cdb-3e63-4dbc-b537-1fb3dc503919.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\images\\e94f5eec-af8c-4597-a33e-cb049ab3bdcd.jpg",
       "SourceId": "Blog.API",
       "SourceType": "Discovered",
@@ -678,6 +797,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\eca3c940-10a8-449b-a5c6-f3b97550e928.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\images\\f2c8c5d3-96eb-43e2-ba65-2f628daf61dc.jpg",
+      "SourceId": "Blog.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\",
+      "BasePath": "_content/Blog.API",
+      "RelativePath": "images/f2c8c5d3-96eb-43e2-ba65-2f628daf61dc.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\f2c8c5d3-96eb-43e2-ba65-2f628daf61dc.jpg"
     },
     {
       "Identity": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\images\\f624b963-253e-4171-8c8b-f8c8d151ecd6.jpeg",

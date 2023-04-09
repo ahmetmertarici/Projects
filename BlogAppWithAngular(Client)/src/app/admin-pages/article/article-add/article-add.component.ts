@@ -39,13 +39,13 @@ export class ArticleAddComponent implements OnInit {
       image: [null]
     });
 
-    this.createArticleForm.valueChanges.subscribe(value => {
-      console.log('Form value:', value);
-    });
+    // this.createArticleForm.valueChanges.subscribe(value => {
+    //   console.log('Form value:', value);
+    // });
 
-    this.createArticleForm.statusChanges.subscribe(status => {
-      console.log('Form status:', status);
-    });
+    // this.createArticleForm.statusChanges.subscribe(status => {
+    //   console.log('Form status:', status);
+    // });
 
   }
 

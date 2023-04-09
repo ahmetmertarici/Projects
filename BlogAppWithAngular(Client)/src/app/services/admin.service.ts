@@ -38,5 +38,9 @@ export class AdminService {
     return this.httpClient.put(`${this.apiUrl}/UpdateArticle/${articleId}`, formData);
   }
 
+  deleteArticle(articleId:number){
+    return this.httpClient.delete(`${this.apiUrl}/DeleteArticle/${articleId}`)
+  }
+
 
 }

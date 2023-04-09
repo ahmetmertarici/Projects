@@ -15,5 +15,7 @@ namespace Blog.API.DTO
         public string ImageUrl { get; set; }
         public int? CommentCount { get; set; }
 
+        public List<int> CategoryIds { get; set; }
+
     }
 }
