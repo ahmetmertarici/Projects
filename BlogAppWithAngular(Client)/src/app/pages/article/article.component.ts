@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Article } from 'src/app/models/article';
 import { Category } from 'src/app/models/category';
 import { ArticleService } from 'src/app/services/article.service';
 
@@ -10,7 +11,7 @@ import { ArticleService } from 'src/app/services/article.service';
 })
 export class ArticleComponent implements OnInit {
 
-  article:any;
+  article:Article|null=null;
 
   constructor(private articleService:ArticleService, private route:ActivatedRoute){}
   ngOnInit(){

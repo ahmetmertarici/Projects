@@ -13,6 +13,11 @@ import { ArticleListComponent } from './admin-pages/article/article-list/article
 import { ArticleUpdateComponent } from './admin-pages/article/article-update/article-update.component';
 import { ArticleAddComponent } from './admin-pages/article/article-add/article-add.component';
 import { AdminArticleComponent } from './admin-pages/article/article/article.component';
+import { AdminLoginComponent } from './pages/admin-login/admin-login.component';
+import { CategoryComponent } from './admin-pages/category/category/category.component';
+import { CategoryListComponent } from './admin-pages/category/category-list/category-list.component';
+import { CategoryUpdateComponent } from './admin-pages/category/category-update/category-update.component';
+import { CategoryAddComponent } from './admin-pages/category/category-add/category-add.component';
 
 const routes: Routes = [
   {path:'', component:MainLayoutComponent, children:[
@@ -23,7 +28,8 @@ const routes: Routes = [
     { path: 'kategori/:name/:id/sayfa/:page', component: CategoryArticlesComponent },
     { path: "arama/sayfa/:page", component: SearchComponent },
     {path:'hakkimda', component:AboutMeComponent},
-    {path:'iletisim', component:ContactComponent}
+    {path:'iletisim', component:ContactComponent},
+    {path:'adminlogin', component:AdminLoginComponent}
   ]},
   {path:'admin', component:AdminLayoutComponent, children:[
     {path:'', component:AdminHomeComponent},
@@ -32,6 +38,11 @@ const routes: Routes = [
       {path:'liste', component:ArticleListComponent},
       {path:'guncelle/:id', component:ArticleUpdateComponent},
       {path:'ekle', component:ArticleAddComponent},
+    ]},
+    {path:'kategori', component:CategoryComponent, children:[
+      {path:'liste', component:CategoryListComponent},
+      {path:'guncelle/:id', component:CategoryUpdateComponent},
+      {path:'ekle', component:CategoryAddComponent}
     ]}
   ]}
 

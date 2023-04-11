@@ -19,6 +19,7 @@ namespace Blog.API.Controllers
             _categoryService = categoryService;
         }
 
+        //Article related actions
         [HttpGet]
         public async Task<ActionResult<List<Article>>> GetAllArticles()
         {
@@ -45,7 +46,6 @@ namespace Blog.API.Controllers
         [HttpGet("GetArticle/{id}")]
         public async Task<IActionResult> GetArticle(int id)
         {
-
             var article = await _articleService.GetArticleDetailsAsync(id);
 
             if (article == null)
@@ -81,6 +81,7 @@ namespace Blog.API.Controllers
             };
             return Ok(result);
         }
+        
         [HttpPost]
         [Route("CreateArticle")]
         public async Task<IActionResult> CreateArticle([FromForm] ArticleCreateDTO createArticleDto)
@@ -112,6 +113,7 @@ namespace Blog.API.Controllers
 
             return Ok(articleListDTO);
         }
+       
         [HttpPost]
         [Route("UpdateIsApproved/{id}")]
         public async Task<IActionResult> UpdateIsApproved(int id)
@@ -125,18 +127,12 @@ namespace Blog.API.Controllers
             return Ok();
         }
 
-
         [HttpPut]
         [Route("UpdateArticle/{articleId}")]
         public async Task<IActionResult> UpdateArticle([FromRoute] int articleId, [FromForm] ArticleUpdateDTO updateArticleDto)
         {
-            // Resmi kaydet ve dosya adını al
-            string imageUrl = null;
-            if (updateArticleDto.Image != null)
-            {
-                imageUrl = await _articleService.SaveImageAsync(updateArticleDto.Image);
-            }
 
+            var imageUrl = string.IsNullOrEmpty(updateArticleDto.ImageUrl) ? null : updateArticleDto.ImageUrl;
             // Article ve kategorileri kullanarak Article ve ArticleCategory nesnelerini güncelle
             var updatedArticle = await _articleService.UpdateArticleAsync(articleId, updateArticleDto.Title, updateArticleDto.Content, imageUrl, updateArticleDto.CategoryIds);
 
@@ -155,7 +151,6 @@ namespace Blog.API.Controllers
 
         [HttpDelete]
         [Route("DeleteArticle/{articleId}")]
-
         public async Task<IActionResult> DeleteArticle(int articleId)
         {
             Article article = await _articleService.GetByIdAsync(articleId);
@@ -171,6 +166,68 @@ namespace Blog.API.Controllers
 
 
 
+        //Category related actions
+        [HttpGet]
+        [Route("GetAllCategories")]
+        public async Task<IActionResult> GetAllCategories()
+        {
+            var categories = await _categoryService.GetAllAsync();
+            return Ok(categories);
+        }
+
+        [HttpPost]
+        [Route("CreateCategory")]
+        public async Task<IActionResult> CreateCategory([FromForm] CategoryCreateDTO categoryCreateDTO)
+        {
+            // Category oluştur
+            var newCategory = new Category
+            {
+                CategoryName= categoryCreateDTO.CategoryName
+            };
+
+            await _categoryService.CreateAsync(newCategory);
+
+            return Ok();
+        }
+
+        [HttpGet("GetCategory/{id}")]
+        public async Task<IActionResult> GetCategory(int id)
+        {
+            var category = await _categoryService.GetByIdAsync(id);
+
+            if (category == null)
+            {
+                return BadRequest();
+            }
+
+            CategoryCreateDTO categoryDTO = new()
+            {
+                CategoryName=category.CategoryName
+            };
+            return Ok(categoryDTO);
+        }
+
+        [HttpPut]
+        [Route("UpdateCategory/{categoryId}")]
+        public async Task<IActionResult> UpdateCategory([FromRoute] int categoryId, [FromForm] CategoryCreateDTO categoryDTO)
+        {
+            var updatedArticle = await _categoryService.UpdateCategoryAsync(categoryId, categoryDTO.CategoryName);
+
+            return Ok(updatedArticle);
+        }
+
+        [HttpDelete]
+        [Route("DeleteCategory/{categoryId}")]
+        public async Task<IActionResult> DeleteCategory(int categoryId)
+        {
+            Category category = await _categoryService.GetByIdAsync(categoryId);
+            if (category == null)
+            {
+                return BadRequest();
+            }
+            _categoryService.Delete(category);
+            return Ok();
+        }
 
 
 

@@ -8,6 +8,7 @@ namespace Blog.Data.Abstract
 {
     public interface ICategoryRepository: IRepository<Category>
     {
-        
+        Task<Category> UpdateCategoryAsync(int categoryId, string categoryName);
+
     }
 }

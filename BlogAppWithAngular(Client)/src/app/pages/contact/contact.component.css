@@ -16,3 +16,7 @@
 .form-container button {
   width: fit-content;
 }
+.white-input {
+  background-color: white;
+  color: black;
+}

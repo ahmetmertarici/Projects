@@ -41,5 +41,10 @@ namespace Blog.Business.Concrete
         {
             _categoryRepository.Update(category);
         }
+
+        public Task<Category> UpdateCategoryAsync(int categoryId, string categoryName)
+        {
+            return _categoryRepository.UpdateCategoryAsync(categoryId, categoryName);
+        }
     }
 }

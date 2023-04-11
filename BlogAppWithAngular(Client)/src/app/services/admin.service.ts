@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Article } from '../models/article';
 import { Observable } from 'rxjs';
+import { Category } from '../models/category';
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +16,6 @@ export class AdminService {
   getArticle(articleId: number): Observable<Article> {
     return this.httpClient.get<Article>(`${this.apiUrl}/GetArticle/${articleId}`);
   }
-
 
   getAllArticles() {
     return this.httpClient.get<Article[]>(this.apiUrl);
@@ -42,5 +42,26 @@ export class AdminService {
     return this.httpClient.delete(`${this.apiUrl}/DeleteArticle/${articleId}`)
   }
 
+  //*************************************************************************************************************************** */
+
+  getAllCategories(){
+    return this.httpClient.get<Category[]>(`${this.apiUrl}/GetAllCategories`)
+  }
+
+  createCategory(formData: FormData):Observable<any>{
+    return this.httpClient.post(`${this.apiUrl}/CreateCategory`, formData);
+  }
+
+  getCategory(categoryId: number): Observable<Category> {
+    return this.httpClient.get<Category>(`${this.apiUrl}/GetCategory/${categoryId}`);
+  }
+
+  updateCategory(categoryId: number, formData: FormData): Observable<any> {
+    return this.httpClient.put(`${this.apiUrl}/UpdateCategory/${categoryId}`, formData);
+  }
+
+  deleteCategory(categoryId:number){
+    return this.httpClient.delete(`${this.apiUrl}/DeleteCategory/${categoryId}`)
+  }
 
 }

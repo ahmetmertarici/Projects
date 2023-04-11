@@ -17,7 +17,7 @@ export class ArticleUpdateComponent implements OnInit {
   updateArticleForm: FormGroup;
   categories: Category[] | undefined;
   articleId: number;
-  imageUrl: string | null = null;
+  imageUrl!: string;
   fileData: File | null = null;
   image: string | null = null;
 
@@ -75,20 +75,7 @@ export class ArticleUpdateComponent implements OnInit {
     });
   }
 
-
-  onFileChange(event: any) {
-    if (event.target.files.length > 0) {
-      const file = event.target.files[0];
-      this.updateArticleForm.patchValue({
-        image: file
-      });
-    }
-  }
-
   async onSubmit() {
-    console.log('Form valid mi?', this.updateArticleForm.valid);
-console.log('Form değerleri:', this.updateArticleForm.value);
-
     if (this.updateArticleForm.valid) {
       const formData = new FormData();
       formData.append('title', this.updateArticleForm.get('title')?.value);
@@ -98,8 +85,18 @@ console.log('Form değerleri:', this.updateArticleForm.value);
         formData.append(`categoryIds[${i}]`, categoryIds[i]);
       }
 
-      if (this.updateArticleForm.get('image')?.value) {
-        formData.append('image', this.updateArticleForm.get('image')?.value);
+      if (this.fileData) {
+        let imageFormData = new FormData();
+        imageFormData.append("image", this.fileData);
+
+        try {
+          const imageResponse = await this.adminService.saveArticlePicture(imageFormData).toPromise();
+          this.imageUrl = imageResponse.path;
+
+          formData.append('imageUrl', this.imageUrl);
+        } catch (error) {
+          console.error('Error saving article image:', error);
+        }
       }
 
       try {
@@ -109,8 +106,9 @@ console.log('Form değerleri:', this.updateArticleForm.value);
       } catch (error) {
         console.error('Error updating article:', error);
       }
+    } else {
+      console.log("Form is not valid");
     }
-    console.log("valid değil");
+  }
 
-   }
 }

@@ -1,22 +1,49 @@
+<ng-container *ngIf="article">
 
-<div class="card border border-3 border-black rounded-4">
-  <div class="card-header mb-2">
-    <h2 class="card-title title">{{ article.title }}</h2>
-    <div>
-      <span class="badge rounded-pill text-bg-info ms-2 my-badge"> <i class="fa-sharp fa-solid fa-eye"></i>
-        {{article.viewsCount}} görüntülenme sayısı</span>
-      <span class="badge rounded-pill text-bg-warning ms-2 my-badge"> <i class="fa-solid fa-star"></i> 5 /
-        {{article.score}} puan</span>
-      <span class="badge rounded-pill text-bg-primary ms-2 my-badge"> <i class="fa-solid fa-comment"></i>
-        {{article.commentCount}} yorum</span>
+  <div class="card border border-3 border-black rounded-4">
+    <div class="card-header mb-2">
+
+      <!-- Categories -->
+      <div *ngIf="article.categories && article.categories.length > 0" class="mb-2">
+        <span *ngFor="let category of article.categories" class="badge rounded-pill categories-badge ms-2">
+          {{ category.categoryName }}
+        </span>
+      </div>
+
+
+      <h2 class="card-title title">{{ article.title }}</h2>
+      <div>
+        <span class="badge rounded-pill text-bg-info ms-2 my-badge"> <i class="fa-sharp fa-solid fa-eye"></i>
+          {{article.viewsCount}} görüntülenme sayısı</span>
+
+
+        <!-- Puan değeri mevcutsa -->
+        <ng-container *ngIf="article.score !== null && article.score !== undefined; else noScore">
+          <span class="badge rounded-pill text-bg-warning ms-2 my-badge">
+            <i class="fa-solid fa-star"></i> 5 / {{article.score}} puan
+          </span>
+        </ng-container>
+
+        <!-- Puan değeri mevcut değilse -->
+        <ng-template #noScore>
+          <span class="badge rounded-pill text-bg-warning ms-2 my-badge">
+            Henüz puan yok
+          </span>
+        </ng-template>
+
+
+
+        <span class="badge rounded-pill text-bg-primary ms-2 my-badge"> <i class="fa-solid fa-comment"></i>
+          {{article.commentCount}} yorum</span>
         <span class="badge rounded-pill text-bg-dark ms-2 my-badge"> <i class="fa-solid fa-calendar-days"></i>
           {{article.createDate | date: "dd.MM.yyyy" }} </span>
+      </div>
+    </div>
+    <div class="position-relative d-flex">
+      <img [src]=" article.imageUrl" class="mx-auto d-block img-fluid h-100 rounded rounded-5" alt="...">
+    </div>
+    <div class="card-body">
+      <div [innerHTML]="article.content"></div>
     </div>
   </div>
-  <div class="position-relative d-flex">
-    <img [src]="'../../../assets/' + article.imageUrl" class="mx-auto d-block img-fluid h-100 rounded rounded-5" alt="...">
-  </div>
-  <div class="card-body">
-    <div [innerHTML]="article.content"></div>
-  </div>
-</div>
+</ng-container>

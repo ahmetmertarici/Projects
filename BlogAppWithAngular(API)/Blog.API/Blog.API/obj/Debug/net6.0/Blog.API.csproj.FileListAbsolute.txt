@@ -612,3 +612,8 @@ C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogAppWithAngular(API)\
 C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogAppWithAngular(API)\Blog.API\Blog.API\obj\Debug\net6.0\Blog.API.pdb
 C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogAppWithAngular(API)\Blog.API\Blog.API\obj\Debug\net6.0\Blog.API.genruntimeconfig.cache
 C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogAppWithAngular(API)\Blog.API\Blog.API\obj\Debug\net6.0\ref\Blog.API.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogAppWithAngular(API)\Blog.API\Blog.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogAppWithAngular(API)\Blog.API\Blog.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogAppWithAngular(API)\Blog.API\Blog.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogAppWithAngular(API)\Blog.API\Blog.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogAppWithAngular(API)\Blog.API\Blog.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

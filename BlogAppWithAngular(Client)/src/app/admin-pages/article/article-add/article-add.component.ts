@@ -38,15 +38,6 @@ export class ArticleAddComponent implements OnInit {
       categoryIds: ['', arrayRequiredValidator()],
       image: [null]
     });
-
-    // this.createArticleForm.valueChanges.subscribe(value => {
-    //   console.log('Form value:', value);
-    // });
-
-    // this.createArticleForm.statusChanges.subscribe(status => {
-    //   console.log('Form status:', status);
-    // });
-
   }
 
   async ngOnInit() {
@@ -111,6 +102,4 @@ export class ArticleAddComponent implements OnInit {
       );
     }
   }
-
-
 }

@@ -1,8 +1,7 @@
-import { AfterViewInit, Component, OnInit, TemplateRef, ViewChild } from '@angular/core';
+import { Component, OnInit, TemplateRef, ViewChild } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { Article } from 'src/app/models/article';
 import { MatPaginator } from '@angular/material/paginator';
-import { ArticleService } from 'src/app/services/article.service';
 import { AdminService } from 'src/app/services/admin.service';
 import { MatDialog } from '@angular/material/dialog';
 

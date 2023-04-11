@@ -108,9 +108,13 @@ namespace Blog.Data.Concrete.EfCore
             context.SaveChangesAsync();
         }
 
-        public Task<List<Article>> GetAllArticlesAsync()
+        public async Task<List<Article>> GetAllArticlesAsync()
         {
-            throw new NotImplementedException();
+            return await context
+                .Articles
+                .Include(a=>a.ArticleCategories)
+                .ThenInclude(ac=>ac.Category)
+                .ToListAsync();
         }
 
         public async Task<List<Article>> GetApprovedArticlesAsync()

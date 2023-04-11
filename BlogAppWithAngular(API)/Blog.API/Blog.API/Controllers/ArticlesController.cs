@@ -51,12 +51,17 @@ namespace Blog.API.Controllers
             var approvedArticles = await _articleService.GetApprovedArticlesAsync();
             int totalCount = approvedArticles.Count();
 
-
             var articles = await _articleService.GetListArticlesAsync(page, pageSize);
             var articleListDTO = new List<ArticleListDTO>();
 
             foreach (var article in articles)
             {
+                var categories = article.ArticleCategories.Select(ac => new CategoryDTO
+                {
+                    CategoryId = ac.CategoryId,
+                    CategoryName = ac.Category.CategoryName
+                }).ToList();
+
                 articleListDTO.Add(new ArticleListDTO()
                 {
                     ArticleId = article.ArticleId,
@@ -67,7 +72,8 @@ namespace Blog.API.Controllers
                     ScoreCount = article.ScoreCount,
                     Score = article.Score,
                     ImageUrl = article.ImageUrl,
-                    CommentCount = article.Comments.Count()
+                    CommentCount = article.Comments.Count(),
+                    Categories = categories // Kategorileri ekleyin
                 });
             }
             var result = new
@@ -77,6 +83,7 @@ namespace Blog.API.Controllers
             };
             return Ok(result);
         }
+
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetArticleDetails(int id)
@@ -90,6 +97,11 @@ namespace Blog.API.Controllers
             }
 
             _articleService.IncreaseViewsCount(id);
+            var categories = article.ArticleCategories.Select(ac => new CategoryDTO
+            {
+                CategoryId = ac.CategoryId,
+                CategoryName = ac.Category.CategoryName
+            }).ToList();
             ArticleDetailDTO articleDetailDTO = new()
             {
                 ArticleId = article.ArticleId,
@@ -101,7 +113,8 @@ namespace Blog.API.Controllers
                 ScoreCount = article.ScoreCount,
                 IsApproved = article.IsApproved,
                 ImageUrl = article.ImageUrl,
-                CommentCount = article.Comments.Count()
+                CommentCount = article.Comments.Count(),
+                Categories = categories
             };
             return Ok(articleDetailDTO);
         }
@@ -142,7 +155,7 @@ namespace Blog.API.Controllers
         public async Task<ActionResult<List<Article>>> Search(string searchText, int page = 1, int pageSize = 7)
         {
 
-            var articles= await _articleService.GetSearchResultAsync(searchText, page, pageSize);
+            var articles = await _articleService.GetSearchResultAsync(searchText, page, pageSize);
             var articlesCount = _articleService.GetArticleSearchCount(searchText);
             var articleWithCategoryDTO = new List<ArticleWithCategoryDTO>();
 
@@ -173,7 +186,7 @@ namespace Blog.API.Controllers
         [Route("GetArticlesByMostView")]
         public async Task<ActionResult<List<Article>>> GetArticlesByMostView()
         {
-            var articles =await _articleService.MostViewedArticlesAsync();
+            var articles = await _articleService.MostViewedArticlesAsync();
             var articlesByMostViewDTO = new List<ArticlesByMostViewDTO>();
 
             foreach (var article in articles)

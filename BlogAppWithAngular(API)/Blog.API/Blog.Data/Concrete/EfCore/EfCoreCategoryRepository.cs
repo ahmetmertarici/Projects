@@ -18,5 +18,34 @@ namespace Blog.Data.Concrete.EfCore
         {
             get { return _dbContext as BlogContext; }
         }
+
+        public async Task<Category> UpdateCategoryAsync(int categoryId, string categoryName)
+        {
+            using (var transaction = await context.Database.BeginTransactionAsync())
+            {
+                try
+                {
+                    // Category bul
+                    var category = await context.Categories.FindAsync(categoryId);
+                    if (category == null)
+                    {
+                        throw new Exception("Article not found.");
+                    }
+
+                    // Category güncelle
+                    category.CategoryName = categoryName;
+
+                    await context.SaveChangesAsync();
+
+                    transaction.Commit();
+                    return category;
+                }
+                catch (Exception)
+                {
+                    transaction.Rollback();
+                    throw;
+                }
+            }
+        }
     }
 }

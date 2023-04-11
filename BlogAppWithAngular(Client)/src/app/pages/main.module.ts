@@ -15,6 +15,7 @@ import { MainNavComponent } from '../nav/main-nav/main-nav.component';
 import { ArticleComponent } from './article/article.component';
 import { CategoryArticlesComponent } from './category-articles/category-articles.component';
 import { SearchComponent } from './search/search.component';
+import { AdminLoginComponent } from './admin-login/admin-login.component';
 
 
 
@@ -27,7 +28,8 @@ import { SearchComponent } from './search/search.component';
     MainNavComponent,
     ArticleComponent,
     CategoryArticlesComponent,
-    SearchComponent
+    SearchComponent,
+    AdminLoginComponent
   ],
   imports: [
     CommonModule,

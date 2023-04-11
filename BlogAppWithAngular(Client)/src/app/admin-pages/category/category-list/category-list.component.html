@@ -1,0 +1,45 @@
+<h1 class="text-center font mt-3">Kategori Listesi</h1>
+
+<div class="mat-elevation-z8 mb-4">
+  <table mat-table [dataSource]="categories" class="full-width-table">
+
+    <!-- ID Column -->
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef>ID</th>
+      <td mat-cell *matCellDef="let category">{{category.categoryId}}</td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef>Name</th>
+      <td mat-cell *matCellDef="let category">{{category.categoryName}}</td>
+    </ng-container>
+
+    <!-- Actions Column -->
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef>İşlemler</th>
+      <td mat-cell *matCellDef="let category">
+        <button mat-mini-fab color="accent" [routerLink]="['/admin/kategori/guncelle', category.categoryId]" matTooltip="Düzenle" class="me-3">
+          <mat-icon>edit</mat-icon>
+        </button>
+        <button mat-mini-fab color="warn" (click)="openDeleteConfirmation(category.categoryId, category.categoryName)" matTooltip="Sil">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>
+<!-- MatDialog şablonu -->
+<ng-template #deleteDialogTemplate let-data>
+  <h2 mat-dialog-title>Silme Onayı</h2>
+  <mat-dialog-content class="mat-typography">
+    {{ data.message }}
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close="yes">Evet</button>
+    <button mat-button mat-dialog-close>Hayır</button>
+  </mat-dialog-actions>
+</ng-template>

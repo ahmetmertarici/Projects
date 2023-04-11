@@ -39,17 +39,17 @@
     </form>
   </div>
   <div class="col-md-3">
-      <div class="card border-secondary mb-3 image-box">
-        <div class="card-header bg-transparent border-secondary">Resim Seç:</div>
-        <div class="card-body text-secondary image-container">
-          <div *ngIf="imageUrl" class="mb-3">
-            <img [src]="imageUrl" alt="Makale Resmi" style="max-width: 100%;">
-          </div>
-        </div>
-        <div class="card-footer bg-transparent border-secondary input-group">
-          <input type="file" (change)="upload($event)" class="form-control" />
+    <div class="card border-secondary mb-3 image-box">
+      <div class="card-header bg-transparent border-secondary">Resim Seç:</div>
+      <div class="card-body text-secondary image-container">
+        <div *ngIf="imageUrl" class="mb-3">
+          <img [src]="imageUrl" alt="Makale Resmi" style="max-width: 100%;">
         </div>
       </div>
+      <div class="card-footer bg-transparent border-secondary input-group">
+        <input type="file" (change)="upload($event)" class="form-control" />
+      </div>
+    </div>
 
   </div>
 </div>

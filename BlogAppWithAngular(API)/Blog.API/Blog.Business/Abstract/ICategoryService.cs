@@ -15,5 +15,8 @@ namespace Blog.Business.Abstract
         void Update(Category category);
         void Delete(Category category);
         #endregion
+
+        Task<Category> UpdateCategoryAsync(int categoryId, string categoryName);
+
     }
 }

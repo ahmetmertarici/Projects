@@ -1,4 +1,3 @@
-// src/app/shared/validators/array-required.validator.ts
 import { AbstractControl, ValidatorFn } from '@angular/forms';
 
 export function arrayRequiredValidator(): ValidatorFn {

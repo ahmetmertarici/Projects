@@ -11,6 +11,10 @@ import { ArticleUpdateComponent } from './article/article-update/article-update.
 import { ArticleListComponent } from './article/article-list/article-list.component';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
+import { CategoryComponent } from './category/category/category.component';
+import { CategoryAddComponent } from './category/category-add/category-add.component';
+import { CategoryListComponent } from './category/category-list/category-list.component';
+import { CategoryUpdateComponent } from './category/category-update/category-update.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
     AdminArticleComponent,
     ArticleAddComponent,
     ArticleUpdateComponent,
-    ArticleListComponent
+    ArticleListComponent,
+    CategoryComponent,
+    CategoryAddComponent,
+    CategoryListComponent,
+    CategoryUpdateComponent
   ],
   imports: [
     CommonModule,

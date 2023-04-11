@@ -1,0 +1,26 @@
+
+
+<div class="login-container">
+<h1 class="text-center font mt-3">Admin Girişi</h1>
+  <mat-card>
+    <mat-card-content>
+      <form (ngSubmit)="login()">
+        <mat-form-field appearance="outline" class="login-input">
+          <mat-label>Email</mat-label>
+          <input matInput [(ngModel)]="email" name="email" type="email" required />
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="login-input">
+          <mat-label>Şifre</mat-label>
+          <input matInput [(ngModel)]="password" name="password" type="password" required />
+        </mat-form-field>
+
+        <mat-checkbox [(ngModel)]="rememberMe" name="rememberMe" class="login-checkbox">Beni Hatırla</mat-checkbox>
+
+        <div class="login-actions">
+          <button mat-raised-button color="primary" type="submit">Giriş Yap</button>
+        </div>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>
