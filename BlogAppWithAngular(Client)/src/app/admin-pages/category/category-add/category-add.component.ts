@@ -34,9 +34,6 @@ export class CategoryAddComponent implements OnInit {
           console.error("Hata nesnesi:", error);
         }
       );
-
-
-
     }
   }
 

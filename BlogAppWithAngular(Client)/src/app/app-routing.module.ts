@@ -18,6 +18,10 @@ import { CategoryComponent } from './admin-pages/category/category/category.comp
 import { CategoryListComponent } from './admin-pages/category/category-list/category-list.component';
 import { CategoryUpdateComponent } from './admin-pages/category/category-update/category-update.component';
 import { CategoryAddComponent } from './admin-pages/category/category-add/category-add.component';
+import { AdminAboutMeComponent } from './admin-pages/about-me/admin-about-me/admin-about-me.component';
+import { AboutMeListComponent } from './admin-pages/about-me/about-me-list/about-me-list.component';
+import { AboutMeUpdateComponent } from './admin-pages/about-me/about-me-update/about-me-update.component';
+import { AboutMeAddComponent } from './admin-pages/about-me/about-me-add/about-me-add.component';
 
 const routes: Routes = [
   {path:'', component:MainLayoutComponent, children:[
@@ -43,6 +47,11 @@ const routes: Routes = [
       {path:'liste', component:CategoryListComponent},
       {path:'guncelle/:id', component:CategoryUpdateComponent},
       {path:'ekle', component:CategoryAddComponent}
+    ]},
+    {path:'hakkimda-düzenle', component:AdminAboutMeComponent, children:[
+      {path:'liste', component:AboutMeListComponent},
+      {path:'guncelle/:id', component:AboutMeUpdateComponent},
+      {path:'ekle', component:AboutMeAddComponent}
     ]}
   ]}
 

@@ -53,10 +53,12 @@ builder.Services.AddDbContext<BlogContext>(options => options.UseSqlite(sqliteCo
 builder.Services.AddScoped<IArticleRepository, EfCoreArticleRepository>();
 builder.Services.AddScoped<ICategoryRepository, EfCoreCategoryRepository>();
 builder.Services.AddScoped<ICommentRepository, EfCoreCommentRepository>();
+builder.Services.AddScoped<IAboutMeRepository, EfCoreAboutMeRepository>();
 
 builder.Services.AddScoped<IArticleService, ArticleManager>();
 builder.Services.AddScoped<ICategoryService, CategoryManager>();
 builder.Services.AddScoped<ICommentService, CommentManager>();
+builder.Services.AddScoped<IAboutMeService, AboutMeManager>();
 
 builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
     policy.WithOrigins("http://localhost:4200", "https://localhost:4200").AllowAnyHeader().AllowAnyMethod()

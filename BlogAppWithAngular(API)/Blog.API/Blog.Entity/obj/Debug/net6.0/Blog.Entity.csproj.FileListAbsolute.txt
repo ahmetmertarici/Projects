@@ -154,3 +154,15 @@ C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogAppWithAngular(API)\
 C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\refint\Blog.Entity.dll
 C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\Blog.Entity.pdb
 C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\ref\Blog.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\Projects-31505d59b834f68613fa6af36b152e3f6860f80d\BlogAppWithAngular(API)\Blog.API\Blog.Entity\bin\Debug\net6.0\Blog.Entity.deps.json
+C:\Users\asus\OneDrive\Masaüstü\Projects-31505d59b834f68613fa6af36b152e3f6860f80d\BlogAppWithAngular(API)\Blog.API\Blog.Entity\bin\Debug\net6.0\Blog.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\Projects-31505d59b834f68613fa6af36b152e3f6860f80d\BlogAppWithAngular(API)\Blog.API\Blog.Entity\bin\Debug\net6.0\Blog.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\Projects-31505d59b834f68613fa6af36b152e3f6860f80d\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\Blog.Entity.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\Projects-31505d59b834f68613fa6af36b152e3f6860f80d\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\Blog.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\Projects-31505d59b834f68613fa6af36b152e3f6860f80d\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\Blog.Entity.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\Projects-31505d59b834f68613fa6af36b152e3f6860f80d\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\Blog.Entity.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\Projects-31505d59b834f68613fa6af36b152e3f6860f80d\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\Blog.Entity.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\Projects-31505d59b834f68613fa6af36b152e3f6860f80d\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\Blog.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\Projects-31505d59b834f68613fa6af36b152e3f6860f80d\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\refint\Blog.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\Projects-31505d59b834f68613fa6af36b152e3f6860f80d\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\Blog.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\Projects-31505d59b834f68613fa6af36b152e3f6860f80d\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\ref\Blog.Entity.dll

@@ -17,6 +17,7 @@ namespace Blog.Data.Concrete.EfCore
         public DbSet<Category> Categories { get; set; }
         public DbSet<ArticleCategory> ArticleCategories { get; set; }
         public DbSet<Comment> Comments { get; set; }
+        public DbSet<AboutMe> AboutMe { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         { 

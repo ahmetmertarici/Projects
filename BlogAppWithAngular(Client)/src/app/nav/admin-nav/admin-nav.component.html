@@ -11,12 +11,20 @@
           <a class="nav-link" routerLink="/admin">Anasayfa <span class="sr-only">(current)</span></a>
         </li>
 
+        <div class="dropdown ms-2">
+          <a class="btn btn-dark dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Hakkımda
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" routerLink="/admin/hakkimda-düzenle/ekle">Hakkımda Ekle</a></li>
+            <li><a class="dropdown-item" routerLink="/admin/hakkimda-düzenle/liste">Hakkımda Listele</a></li>
+          </ul>
+        </div>
 
         <div class="dropdown ms-2">
-          <a class="btn btn-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="btn btn-dark dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Makale
           </a>
-
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" routerLink="/admin/makale/ekle">Makale Ekle</a></li>
             <li><a class="dropdown-item" routerLink="/admin/makale/liste">Makaleleri Listele</a></li>
@@ -25,10 +33,9 @@
 
 
         <div class="dropdown ms-2">
-          <a class="btn btn-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="btn btn-dark dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Kategori
           </a>
-
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" routerLink="/admin/kategori/ekle">Kategori Ekle</a></li>
             <li><a class="dropdown-item" routerLink="/admin/kategori/liste">Kategorileri Listele</a></li>

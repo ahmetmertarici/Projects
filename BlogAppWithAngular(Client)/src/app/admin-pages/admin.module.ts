@@ -15,6 +15,10 @@ import { CategoryComponent } from './category/category/category.component';
 import { CategoryAddComponent } from './category/category-add/category-add.component';
 import { CategoryListComponent } from './category/category-list/category-list.component';
 import { CategoryUpdateComponent } from './category/category-update/category-update.component';
+import { AdminAboutMeComponent } from './about-me/admin-about-me/admin-about-me.component';
+import { AboutMeAddComponent } from './about-me/about-me-add/about-me-add.component';
+import { AboutMeListComponent } from './about-me/about-me-list/about-me-list.component';
+import { AboutMeUpdateComponent } from './about-me/about-me-update/about-me-update.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +31,11 @@ import { CategoryUpdateComponent } from './category/category-update/category-upd
     CategoryComponent,
     CategoryAddComponent,
     CategoryListComponent,
-    CategoryUpdateComponent
+    CategoryUpdateComponent,
+    AdminAboutMeComponent,
+    AboutMeAddComponent,
+    AboutMeListComponent,
+    AboutMeUpdateComponent,
   ],
   imports: [
     CommonModule,

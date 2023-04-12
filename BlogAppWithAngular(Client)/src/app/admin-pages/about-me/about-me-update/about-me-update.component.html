@@ -1,0 +1,25 @@
+<h1 class="text-center font mt-4">Hakkımda Sayfası Ekle</h1>
+
+<form class="mb-5" [formGroup]="updateAboutMeForm" (ngSubmit)="onSubmit()" enctype="multipart/form-data">
+  <mat-card>
+    <mat-card-content>
+      <mat-form-field>
+        <mat-label>Başlık:</mat-label>
+        <input matInput formControlName="title" />
+        <mat-error *ngIf="updateAboutMeForm.get('title')?.invalid && updateAboutMeForm.get('title')?.touched">
+          Lütfen bu alanı doldurun.
+        </mat-error>
+      </mat-form-field>
+    </mat-card-content>
+
+
+    <div class="mb-4 bg">
+      <ckeditor formControlName="content" [editor]="Editor" (ready)="onEditorReady($event)"></ckeditor>
+    </div>
+
+    <mat-card-actions>
+      <button class="mt-2" mat-raised-button color="primary" type="submit">Hakkımda Sayfası Oluştur</button>
+    </mat-card-actions>
+
+  </mat-card>
+</form>

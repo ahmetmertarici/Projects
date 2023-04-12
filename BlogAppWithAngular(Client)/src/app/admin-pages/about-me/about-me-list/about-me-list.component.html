@@ -1,0 +1,53 @@
+<h1 class="text-center font mt-3">Hakkımda Sayfası</h1>
+
+<div class="mat-elevation-z8 mb-4">
+  <table mat-table [dataSource]="aboutMe" class="full-width-table">
+
+    <!-- ID Column -->
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef>ID</th>
+      <td mat-cell *matCellDef="let aboutMe">{{aboutMe.aboutMeId}}</td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="title">
+      <th mat-header-cell *matHeaderCellDef>Başlık</th>
+      <td mat-cell *matCellDef="let aboutMe">{{aboutMe.title}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="isApproved">
+      <th mat-header-cell *matHeaderCellDef> Onaylı mı </th>
+      <td mat-cell *matCellDef="let aboutMe">
+        <mat-slide-toggle [checked]="aboutMe.isApproved"
+          (change)="onIsApprovedChange(aboutMe.aboutMeId)"></mat-slide-toggle>
+      </td>
+    </ng-container>
+
+    <!-- Actions Column -->
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef>İşlemler</th>
+      <td mat-cell *matCellDef="let aboutMe">
+        <button mat-mini-fab color="accent" [routerLink]="['/admin/hakkimda-düzenle/guncelle', aboutMe.aboutMeId]" matTooltip="Düzenle" class="me-3">
+          <mat-icon>edit</mat-icon>
+        </button>
+        <button mat-mini-fab color="warn" (click)="openDeleteConfirmation(aboutMe.aboutMeId, aboutMe.content)" matTooltip="Sil">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>
+<!-- MatDialog şablonu -->
+<ng-template #deleteDialogTemplate let-data>
+  <h2 mat-dialog-title>Silme Onayı</h2>
+  <mat-dialog-content class="mat-typography">
+    {{ data.message }}
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close="yes">Evet</button>
+    <button mat-button mat-dialog-close>Hayır</button>
+  </mat-dialog-actions>
+</ng-template>

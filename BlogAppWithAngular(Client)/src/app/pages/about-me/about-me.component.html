@@ -1,4 +1,9 @@
 <app-page-title [title]="'Hakkımda'" ></app-page-title>
+<div *ngFor="let item of aboutMe" class="mt-3 mb-3 ms-1">
+
+  <div class="card-text content" [innerHTML]="item.content"></div>
+
+</div>
 
 
-<p>about-me works!</p>
+
