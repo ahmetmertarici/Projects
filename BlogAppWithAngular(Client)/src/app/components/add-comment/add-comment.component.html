@@ -1,0 +1,21 @@
+
+
+<div class="font mt-5">Yorum Yap</div>
+<form class="row mt-2 g-3" [formGroup]="commentForm" (ngSubmit)="onSubmit()">
+  <div class="col-md-6">
+    <input type="text" class="form-control" id="name" formControlName="name" placeholder="Adınızı girin">
+  </div>
+  <div class="col-12">
+    <textarea class="form-control" id="comment" rows="3" formControlName="text" placeholder="Yorumunuzu girin"></textarea>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary" [disabled]="!commentForm.valid">Yorum Gönder</button>
+  </div>
+</form>
+
+<div *ngIf="success" class="success-message">
+  {{info}}
+</div>
+
+
+

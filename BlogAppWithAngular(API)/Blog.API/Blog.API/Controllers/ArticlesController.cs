@@ -13,12 +13,10 @@ namespace Blog.API.Controllers
     public class ArticlesController : ControllerBase
     {
         private IArticleService _articleService;
-        private ICommentService _commentService;
 
-        public ArticlesController(IArticleService articleService, ICommentService commentService)
+        public ArticlesController(IArticleService articleService)
         {
             _articleService = articleService;
-            _commentService = commentService;
         }
 
         //[HttpGet]
@@ -221,6 +219,22 @@ namespace Blog.API.Controllers
             return Ok(highScoresArticlesDTO);
 
         }
+
+
+        [HttpPut("{articleId}/rating")]
+        public async Task<IActionResult> UpdateRating(int articleId, [FromBody] RatingUpdateDTO model)
+        {
+            _articleService.SendScore(model.Star, articleId);
+            return Ok();
+        }
+        [HttpGet("{id}/score")]
+        public async Task<IActionResult> GetArticleScore(int id)
+        {
+            var articleScore = _articleService.GetArticleScore(id);
+            return Ok(articleScore);
+        }
+
+
 
 
     }

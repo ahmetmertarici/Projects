@@ -62,6 +62,13 @@ export class ArticleService {
     return this.httpClient.get<Article[]>(this.apiUrl);
   }
 
+  updateRating(articleId: number, star: number): Observable<any> {
+    return this.httpClient.put(`${this.apiUrl}/${articleId}/rating`, { star: star });
+  }
+
+  getArticleScore(articleId: number): Observable<{ Score: number}> {
+    return this.httpClient.get<{ Score: number}>(`${this.apiUrl}/${articleId}/score`);
+  }
 
 
 

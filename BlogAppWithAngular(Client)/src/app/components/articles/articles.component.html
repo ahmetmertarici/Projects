@@ -49,9 +49,9 @@
       <div class="col-md-7">
         <div class="card-body">
           <div class="categories mb-2 text-center">
-            <span class="badge rounded-pill ms-2 categories-badge" *ngFor="let category of categories">
+            <a [routerLink]="['/kategori', category.categoryName | urlformat, category.categoryId]" class="badge rounded-pill ms-2 categories-badge text-decoration-none" *ngFor="let category of categories">
               {{category.categoryName}}
-            </span>
+            </a>
           </div>
           <h2 class="card-title title"> {{title}} </h2>
           <div class="card-text content" [innerHTML]="content"></div>
@@ -70,7 +70,7 @@
           <!-- Puan değeri mevcutsa -->
           <ng-container *ngIf="score !== null && score !== undefined; else noScore">
             <span class="badge rounded-pill text-bg-warning ms-2 my-badge">
-              <i class="fa-solid fa-star"></i> 5 / {{score}} puan
+              <i class="fa-solid fa-star"></i> 5 / {{score  | number:'1.0-2'}} puan
             </span>
           </ng-container>
 

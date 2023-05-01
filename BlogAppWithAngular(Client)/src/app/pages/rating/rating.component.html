@@ -1,0 +1,13 @@
+<div class="rating">
+  <i
+    *ngFor="let star of [1, 2, 3, 4, 5]"
+    class="fa-solid fa-star"
+    [ngClass]="{
+      'text-warning': (!isRated && hoveredStar !== null && star <= hoveredStar) || (isRated && star <= (ratedStar || 0)),
+      'text-muted': (!isRated && hoveredStar === null) || (isRated && star > (ratedStar || 0))
+    }"
+    (click)="onClick(star)"
+    (mouseenter)="onMouseEnter(star)"
+    (mouseleave)="onMouseLeave()"
+  ></i>
+</div>

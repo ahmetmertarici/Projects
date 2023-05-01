@@ -1,42 +1,39 @@
 <ng-container *ngIf="article">
-
   <div class="card border border-3 border-black rounded-4">
     <div class="card-header mb-2">
-
       <!-- Categories -->
       <div *ngIf="article.categories && article.categories.length > 0" class="mb-2">
         <span *ngFor="let category of article.categories" class="badge rounded-pill categories-badge ms-2">
           {{ category.categoryName }}
         </span>
       </div>
-
-
       <h2 class="card-title title">{{ article.title }}</h2>
-      <div>
-        <span class="badge rounded-pill text-bg-info ms-2 my-badge"> <i class="fa-sharp fa-solid fa-eye"></i>
-          {{article.viewsCount}} görüntülenme sayısı</span>
+      <div class="d-flex">
 
+        <div class="col-md-9">
+          <span class="badge rounded-pill text-bg-info ms-2 my-badge"> <i class="fa-sharp fa-solid fa-eye"></i>
+            {{article.viewsCount}} görüntülenme sayısı</span>
+          <!-- Puan değeri mevcutsa -->
+          <ng-container *ngIf="article.score !== null && article.score !== undefined; else noScore">
+            <span class="badge rounded-pill text-bg-warning ms-2 my-badge">
+              <i class="fa-solid fa-star"></i> 5 / {{article.score | number:'1.0-2'}} puan
+            </span>
+          </ng-container>
+          <!-- Puan değeri mevcut değilse -->
+          <ng-template #noScore>
+            <span class="badge rounded-pill text-bg-warning ms-2 my-badge">
+              Henüz puan yok
+            </span>
+          </ng-template>
+          <span class="badge rounded-pill text-bg-primary ms-2 my-badge"> <i class="fa-solid fa-comment"></i>
+            {{article.commentCount}} yorum</span>
+          <span class="badge rounded-pill text-bg-dark ms-2 my-badge"> <i class="fa-solid fa-calendar-days"></i>
+            {{article.createDate | date: "dd.MM.yyyy" }} </span>
 
-        <!-- Puan değeri mevcutsa -->
-        <ng-container *ngIf="article.score !== null && article.score !== undefined; else noScore">
-          <span class="badge rounded-pill text-bg-warning ms-2 my-badge">
-            <i class="fa-solid fa-star"></i> 5 / {{article.score}} puan
-          </span>
-        </ng-container>
-
-        <!-- Puan değeri mevcut değilse -->
-        <ng-template #noScore>
-          <span class="badge rounded-pill text-bg-warning ms-2 my-badge">
-            Henüz puan yok
-          </span>
-        </ng-template>
-
-
-
-        <span class="badge rounded-pill text-bg-primary ms-2 my-badge"> <i class="fa-solid fa-comment"></i>
-          {{article.commentCount}} yorum</span>
-        <span class="badge rounded-pill text-bg-dark ms-2 my-badge"> <i class="fa-solid fa-calendar-days"></i>
-          {{article.createDate | date: "dd.MM.yyyy" }} </span>
+        </div>
+        <div class="col-md-3 d-flex justify-content-end">
+          <app-rating (rate)="rateArticle($event)"></app-rating>
+        </div>
       </div>
     </div>
     <div class="position-relative d-flex">
@@ -47,3 +44,8 @@
     </div>
   </div>
 </ng-container>
+
+
+<app-add-comment></app-add-comment>
+
+<app-list-comment></app-list-comment>

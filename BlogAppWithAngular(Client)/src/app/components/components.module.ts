@@ -8,6 +8,9 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { UrlformatPipe } from '../Pipes/urlformat.pipe';
 import { MenuArticleMostViewComponent } from './menu-article-most-view/menu-article-most-view.component';
 import { MenuArticleHighScoreComponent } from './menu-article-high-score/menu-article-high-score.component';
+import { AddCommentComponent } from './add-comment/add-comment.component';
+import { ListCommentComponent } from './list-comment/list-comment.component';
+import { MaterialModule } from '../modules/material/material.module';
 
 
 
@@ -18,12 +21,15 @@ import { MenuArticleHighScoreComponent } from './menu-article-high-score/menu-ar
     ArticlesComponent,
     UrlformatPipe,
     MenuArticleMostViewComponent,
-    MenuArticleHighScoreComponent
+    MenuArticleHighScoreComponent,
+    AddCommentComponent,
+    ListCommentComponent
   ],
   imports: [
     CommonModule,
     RouterModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    MaterialModule
   ],
   exports:[
     MenuCategoryComponent,
@@ -31,7 +37,9 @@ import { MenuArticleHighScoreComponent } from './menu-article-high-score/menu-ar
     ArticlesComponent,
     UrlformatPipe,
     MenuArticleMostViewComponent,
-    MenuArticleHighScoreComponent
+    MenuArticleHighScoreComponent,
+    AddCommentComponent,
+    ListCommentComponent
 
   ]
 })

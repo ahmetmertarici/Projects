@@ -287,8 +287,6 @@ namespace Blog.Data.Concrete.EfCore
                 .ToListAsync();
         }
 
-        
-
         public void SendScore(int score, int id)
         {
             var article = context.Articles
@@ -396,6 +394,15 @@ namespace Blog.Data.Concrete.EfCore
                     throw;
                 }
             }
+        }
+
+        public double GetArticleScore(int id)
+        {
+            return (double)context
+                 .Articles
+                 .Where(a => a.ArticleId == id)
+                 .Select(a=>a.Score)
+                 .FirstOrDefault();
         }
     }
 }

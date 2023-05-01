@@ -1,10 +1,11 @@
 export interface Comment {
   CommentId :number;
-  Text :string;
-  Name :string;
+  text :string;
+  name :string;
   LastName? :string;
   Email? :string;
-  CommentDate :string;
+  commentDate :string;
   CommentLike? :number;
   CommentDislike? :number;
+  ArticleId:number;
 }

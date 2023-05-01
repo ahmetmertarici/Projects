@@ -16,6 +16,7 @@ import { ArticleComponent } from './article/article.component';
 import { CategoryArticlesComponent } from './category-articles/category-articles.component';
 import { SearchComponent } from './search/search.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
+import { RatingComponent } from './rating/rating.component';
 
 
 
@@ -29,7 +30,8 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
     ArticleComponent,
     CategoryArticlesComponent,
     SearchComponent,
-    AdminLoginComponent
+    AdminLoginComponent,
+    RatingComponent
   ],
   imports: [
     CommonModule,

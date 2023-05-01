@@ -63,6 +63,11 @@ namespace Blog.Business.Concrete
             return _articleRepository.GetArticlesByCategoriesAsync(category, page, pageSize);
         }
 
+        public double GetArticleScore(int id)
+        {
+            return _articleRepository.GetArticleScore(id);
+        }
+
         public int GetArticleSearchCount(string searchText)
         {
             return _articleRepository.GetArticleSearchCount(searchText);

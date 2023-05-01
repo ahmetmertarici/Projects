@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AkcJw+F2yqkayAIwb+WBLyCJv8JeJltCqyB2R8ncrlg=",
+  "Hash": "TRRbwEZyA6f5I67JOONZbEvH+LtFP1xYap0dL02aJAI=",
   "Source": "Blog.API",
   "BasePath": "_content/Blog.API",
   "Mode": "Default",
@@ -508,6 +508,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\5c82278d-7852-409c-81fd-dd93bda7e786.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\images\\5d9f0beb-00ab-4c0b-8f15-a1d73626be51.jpg",
+      "SourceId": "Blog.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\",
+      "BasePath": "_content/Blog.API",
+      "RelativePath": "images/5d9f0beb-00ab-4c0b-8f15-a1d73626be51.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5d9f0beb-00ab-4c0b-8f15-a1d73626be51.jpg"
     },
     {
       "Identity": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.API\\wwwroot\\images\\5e4a0253-183c-4b7e-94c6-54d6de9a2808.jpg",
