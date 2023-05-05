@@ -49,7 +49,7 @@
       <div class="col-md-7">
         <div class="card-body">
           <div class="categories mb-2 text-center">
-            <a [routerLink]="['/kategori', category.categoryName | urlformat, category.categoryId]" class="badge rounded-pill ms-2 categories-badge text-decoration-none" *ngFor="let category of categories">
+            <a [routerLink]="['/kategori', category.categoryName | urlformat, category.categoryId]" class="badge rounded-pill ms-2 categories-badge text-decoration-none text-white" *ngFor="let category of categories">
               {{category.categoryName}}
             </a>
           </div>

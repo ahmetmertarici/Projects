@@ -34,3 +34,8 @@
   .logo img {
     width: 200px;
   }
+
+  .nav-item:hover{
+    background-color: #7286D3;
+    border-radius: 10px;
+  }

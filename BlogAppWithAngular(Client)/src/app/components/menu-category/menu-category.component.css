@@ -10,4 +10,16 @@
   font-family: Courgette;
   color: #7286D3;
 }
+.active {
+  font-weight: bold;
+  border: 3px solid #424874;
+  border-radius: 5px;
+  padding: 4px;
+}
+.category:hover{
+  border: 3px solid #424874;
+  border-radius: 5px;
+  padding: 4px;
+
+}
 

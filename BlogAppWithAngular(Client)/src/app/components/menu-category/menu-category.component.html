@@ -9,8 +9,8 @@
     </div>
 
     <h3 *ngFor="let category of categories">
-      <strong>
-        <a [routerLink]="['/kategori', category.categoryName | urlformat, category.categoryId]" class="btn btn-link text-decoration-none text-style">
+      <strong class="category">
+        <a routerLinkActive="active" [routerLink]="['/kategori', category.categoryName | urlformat, category.categoryId]" class="btn btn-link text-decoration-none text-style">
         <i class="fa-sharp fa-solid fa-share text-primary-emphasis pe-3"></i>{{category.categoryName}}
         </a>
       </strong>

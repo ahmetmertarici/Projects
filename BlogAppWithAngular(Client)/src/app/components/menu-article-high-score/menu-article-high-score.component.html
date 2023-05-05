@@ -17,7 +17,7 @@
           <a [routerLink]="['/Articles',item.title | urlformat, item.articleId]" class="text-decoration-none title">
             <p class="card-title text-black title">{{item.title}}</p>
           </a>
-          <p class="card-text"><small class="text-muted"><i class="fa-solid fa-star"></i> {{item.score}} puan</small></p>
+          <p class="card-text"><small class="text-muted"><i class="fa-solid fa-star"></i> {{item.score | number:'0.1-2'}} puan</small></p>
         </div>
       </div>
     </div>
