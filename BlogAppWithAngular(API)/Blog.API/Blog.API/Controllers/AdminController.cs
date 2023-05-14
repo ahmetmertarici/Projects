@@ -12,11 +12,13 @@ namespace Blog.API.Controllers
     {
         private IArticleService _articleService;
         private ICategoryService _categoryService;
+        private ICommentService _commentService;
 
-        public AdminController(IArticleService articleService, ICategoryService categoryService)
+        public AdminController(IArticleService articleService, ICategoryService categoryService, ICommentService commentService)
         {
             _articleService = articleService;
             _categoryService = categoryService;
+            _commentService = commentService;
         }
 
         //Article related actions
@@ -163,9 +165,6 @@ namespace Blog.API.Controllers
         }
 
 
-
-
-
         //Category related actions
         [HttpGet]
         [Route("GetAllCategories")]
@@ -227,6 +226,24 @@ namespace Blog.API.Controllers
             }
             _categoryService.Delete(category);
             return Ok();
+        }
+
+        [HttpGet]
+        [Route("Statistics")]
+        public async Task<IActionResult> Statistics()
+        {
+            int articlesCount =await _articleService.GetArticlesCountAsync();
+            int categoriesCount = await _categoryService.GetCategoriesCountAsync();
+            int commentsCount = await _commentService.GetCommentsCountAsync();
+
+            var statistics = new StatisticsDTO()
+            {
+                ArticlesCount= articlesCount,
+                CategoriesCount= categoriesCount,
+                CommentsCount= commentsCount
+            };
+
+            return Ok(statistics);
         }
 
 

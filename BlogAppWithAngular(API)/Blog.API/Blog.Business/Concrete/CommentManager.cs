@@ -55,5 +55,10 @@ namespace Blog.Business.Concrete
         {
             _commentRepository.IncreaseCommentLikeCount(commentId);
         }
+
+        public async Task<int> GetCommentsCountAsync()
+        {
+            return await _commentRepository.GetCommentsCountAsync();
+        }
     }
 }

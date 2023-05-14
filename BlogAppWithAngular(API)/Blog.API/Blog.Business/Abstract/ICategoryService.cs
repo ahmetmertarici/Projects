@@ -17,6 +17,7 @@ namespace Blog.Business.Abstract
         #endregion
 
         Task<Category> UpdateCategoryAsync(int categoryId, string categoryName);
+        Task<int> GetCategoriesCountAsync();
 
     }
 }

@@ -27,6 +27,14 @@ namespace Blog.Data.Concrete.EfCore
                 .Where(c => c.ArticleId == id)
                 .ToListAsync();
         }
+
+        public async Task<int> GetCommentsCountAsync()
+        {
+            return await context
+                .Comments
+                .CountAsync();
+        }
+
         public void IncreaseCommentDislikeCount(int commentId)
         {
             var comment = context.Comments

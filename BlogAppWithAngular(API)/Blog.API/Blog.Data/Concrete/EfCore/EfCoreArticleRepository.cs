@@ -404,5 +404,12 @@ namespace Blog.Data.Concrete.EfCore
                  .Select(a=>a.Score)
                  .FirstOrDefault();
         }
+
+        public async Task<int> GetArticlesCountAsync()
+        {
+            return await context
+                .Articles
+                .CountAsync();
+        }
     }
 }

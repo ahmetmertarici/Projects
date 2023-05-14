@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { Article } from '../models/article';
 import { Observable } from 'rxjs';
 import { Category } from '../models/category';
+import { Statistics } from '../models/statistics';
 
 @Injectable({
   providedIn: 'root'
@@ -62,6 +63,10 @@ export class AdminService {
 
   deleteCategory(categoryId:number){
     return this.httpClient.delete(`${this.apiUrl}/DeleteCategory/${categoryId}`)
+  }
+
+  getStatistics(): Observable<Statistics> {
+    return this.httpClient.get<Statistics>(`${this.apiUrl}/Statistics`);
   }
 
 }

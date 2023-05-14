@@ -19,5 +19,6 @@ namespace Blog.Business.Abstract
         Task<List<Comment>> GetCommentsByArticleAsync(int id);
         void IncreaseCommentLikeCount(int commentId);
         void IncreaseCommentDislikeCount(int commentId);
+        Task<int> GetCommentsCountAsync();
     }
 }

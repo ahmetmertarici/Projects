@@ -178,3 +178,15 @@ D:\Data\Desktop\PROJECT\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\ob
 D:\Data\Desktop\PROJECT\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\refint\Blog.Entity.dll
 D:\Data\Desktop\PROJECT\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\Blog.Entity.pdb
 D:\Data\Desktop\PROJECT\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\ref\Blog.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\bin\Debug\net6.0\Blog.Entity.deps.json
+C:\Users\asus\OneDrive\Masaüstü\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\bin\Debug\net6.0\Blog.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\bin\Debug\net6.0\Blog.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\Blog.Entity.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\Blog.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\Blog.Entity.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\Blog.Entity.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\Blog.Entity.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\Blog.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\refint\Blog.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\Blog.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Entity\obj\Debug\net6.0\ref\Blog.Entity.dll

@@ -68,6 +68,11 @@ namespace Blog.Business.Concrete
             return _articleRepository.GetArticleScore(id);
         }
 
+        public async Task<int> GetArticlesCountAsync()
+        {
+            return await _articleRepository.GetArticlesCountAsync();
+        }
+
         public int GetArticleSearchCount(string searchText)
         {
             return _articleRepository.GetArticleSearchCount(searchText);

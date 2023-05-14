@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Blog.Data.Abstract;
 using Blog.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace Blog.Data.Concrete.EfCore
 {
@@ -17,6 +18,13 @@ namespace Blog.Data.Concrete.EfCore
         private BlogContext context
         {
             get { return _dbContext as BlogContext; }
+        }
+
+        public async Task<int> GetCategoriesCountAsync()
+        {
+            return await context
+                .Categories
+                .CountAsync();
         }
 
         public async Task<Category> UpdateCategoryAsync(int categoryId, string categoryName)

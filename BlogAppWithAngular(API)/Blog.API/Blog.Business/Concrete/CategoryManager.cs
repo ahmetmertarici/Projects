@@ -37,6 +37,11 @@ namespace Blog.Business.Concrete
             return await _categoryRepository.GetByIdAsync(id);
         }
 
+        public async Task<int> GetCategoriesCountAsync()
+        {
+            return await _categoryRepository.GetCategoriesCountAsync();
+        }
+
         public void Update(Category category)
         {
             _categoryRepository.Update(category);

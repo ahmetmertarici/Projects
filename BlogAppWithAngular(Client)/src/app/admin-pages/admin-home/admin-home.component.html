@@ -1,1 +1,22 @@
-<p>admin-home works!</p>
+<div class="container">
+  <div class="row mt-4">
+      <div class="col-md-4 d-flex justify-content-center">
+          <span class="badge text-bg-warning badge-custom">
+            Toplam Makale Sayısı <br>
+            {{ statistics?.articlesCount}}
+          </span>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+          <span class="badge text-bg-warning badge-custom">
+            Toplam Kategori Sayısı <br>
+            {{statistics?.categoriesCount}}
+          </span>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+          <span class="badge text-bg-warning badge-custom">
+            Toplam Yorum Sayısı <br>
+            {{statistics?.commentsCount}}
+          </span>
+      </div>
+  </div>
+</div>

@@ -42,6 +42,7 @@ namespace Blog.Business.Abstract
         Task<string> SaveImageAsync(IFormFile image);
         Task<Article> UpdateArticleAsync(int articleId, string title, string content, string imageUrl, int[] categoryIds);
         double GetArticleScore(int id);
+        Task<int> GetArticlesCountAsync();
 
 
     }
