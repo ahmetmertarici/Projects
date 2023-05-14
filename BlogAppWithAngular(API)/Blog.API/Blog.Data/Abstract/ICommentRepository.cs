@@ -12,6 +12,8 @@ namespace Blog.Data.Abstract
         void IncreaseCommentLikeCount(int commentId);
         void IncreaseCommentDislikeCount(int commentId);
         Task<int> GetCommentsCountAsync();
+        Task<List<Comment>> GetAllCommentsAsync();
+
 
     }
 }

@@ -1,22 +1,14 @@
-<div class="container">
-  <div class="row mt-4">
-      <div class="col-md-4 d-flex justify-content-center">
-          <span class="badge text-bg-warning badge-custom">
-            Toplam Makale Sayısı <br>
-            {{ statistics?.articlesCount}}
-          </span>
-      </div>
-      <div class="col-md-4 d-flex justify-content-center">
-          <span class="badge text-bg-warning badge-custom">
-            Toplam Kategori Sayısı <br>
-            {{statistics?.categoriesCount}}
-          </span>
-      </div>
-      <div class="col-md-4 d-flex justify-content-center">
-          <span class="badge text-bg-warning badge-custom">
-            Toplam Yorum Sayısı <br>
-            {{statistics?.commentsCount}}
-          </span>
-      </div>
+
+<div class="row">
+  <app-statistics></app-statistics>
+</div>
+
+<div class="row mt-4">
+  <div class="col-md-6">
+    <app-all-comments></app-all-comments>
+  </div>
+
+  <div class="col-md-6">
+
   </div>
 </div>

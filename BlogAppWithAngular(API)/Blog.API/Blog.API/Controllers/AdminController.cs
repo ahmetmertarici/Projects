@@ -247,7 +247,13 @@ namespace Blog.API.Controllers
         }
 
 
-
+        [HttpGet]
+        [Route("AllComments")]
+        public async Task<IActionResult> AllComments()
+        {
+            var comments = await _commentService.GetAllCommentsAsync();
+            return Ok(comments);
+        }
 
 
 

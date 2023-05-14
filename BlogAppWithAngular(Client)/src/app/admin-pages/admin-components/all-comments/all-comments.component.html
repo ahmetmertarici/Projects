@@ -1,0 +1,10 @@
+<h3>Son Yorumlar</h3>
+<div class="card" *ngFor="let comment of comments" >
+  <div class="card-header">
+    {{comment.articleId}}
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"> {{comment.text}} </li>
+    <li class="list-group-item"> {{comment.name}} / {{comment.commentDate  | date: "dd.MM.yyyy"}} </li>
+  </ul>
+</div>

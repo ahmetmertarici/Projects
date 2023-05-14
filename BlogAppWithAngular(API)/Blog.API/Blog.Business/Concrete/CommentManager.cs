@@ -60,5 +60,10 @@ namespace Blog.Business.Concrete
         {
             return await _commentRepository.GetCommentsCountAsync();
         }
+
+        public async Task<List<Comment>> GetAllCommentsAsync()
+        {
+            return await _commentRepository.GetAllCommentsAsync();
+        }
     }
 }

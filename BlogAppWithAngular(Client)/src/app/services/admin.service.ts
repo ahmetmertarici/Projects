@@ -4,6 +4,8 @@ import { Article } from '../models/article';
 import { Observable } from 'rxjs';
 import { Category } from '../models/category';
 import { Statistics } from '../models/statistics';
+import { Comment } from 'src/app/models/comment';
+
 
 @Injectable({
   providedIn: 'root'
@@ -67,6 +69,10 @@ export class AdminService {
 
   getStatistics(): Observable<Statistics> {
     return this.httpClient.get<Statistics>(`${this.apiUrl}/Statistics`);
+  }
+
+  getAllComments(){
+    return this.httpClient.get<Comment[]>(`${this.apiUrl}/AllComments`);
   }
 
 }

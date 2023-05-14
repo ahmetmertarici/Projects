@@ -20,6 +20,14 @@ namespace Blog.Data.Concrete.EfCore
             get { return _dbContext as BlogContext; }
         }
 
+        public async Task<List<Comment>> GetAllCommentsAsync()
+        {
+            return await context
+                .Comments
+                .OrderByDescending(comment => comment.CommentDate)
+                .ToListAsync();
+        }
+
         public async Task<List<Comment>> GetCommentsByArticleAsync(int id)
         {
             return await context

@@ -19,6 +19,8 @@ import { AdminAboutMeComponent } from './about-me/admin-about-me/admin-about-me.
 import { AboutMeAddComponent } from './about-me/about-me-add/about-me-add.component';
 import { AboutMeListComponent } from './about-me/about-me-list/about-me-list.component';
 import { AboutMeUpdateComponent } from './about-me/about-me-update/about-me-update.component';
+import { StatisticsComponent } from './admin-components/statistics/statistics.component';
+import { AllCommentsComponent } from './admin-components/all-comments/all-comments.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,8 @@ import { AboutMeUpdateComponent } from './about-me/about-me-update/about-me-upda
     AboutMeAddComponent,
     AboutMeListComponent,
     AboutMeUpdateComponent,
+    StatisticsComponent,
+    AllCommentsComponent,
   ],
   imports: [
     CommonModule,
@@ -44,6 +48,10 @@ import { AboutMeUpdateComponent } from './about-me/about-me-update/about-me-upda
     ComponentsModule,
     MatPaginatorModule,
     CKEditorModule
+  ],
+  exports: [
+    StatisticsComponent,
+    AllCommentsComponent
   ]
 })
 export class AdminModule { }
