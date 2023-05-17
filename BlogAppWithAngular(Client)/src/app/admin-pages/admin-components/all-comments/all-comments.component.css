@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.font{
+    font-family: Courgette;
+    font-size: 30px;
+    color: #ffffff;
+}
+.card-header{
+    background-color:rgb(145, 138, 128);
+    color: #ffffff;
+
+}
+.container{
+    background-color: #2e2f3a;
+}
