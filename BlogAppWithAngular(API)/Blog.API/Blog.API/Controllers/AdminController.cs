@@ -252,7 +252,19 @@ namespace Blog.API.Controllers
         public async Task<IActionResult> AllComments()
         {
             var comments = await _commentService.GetAllCommentsAsync();
-            return Ok(comments);
+            var result = comments.Select(c => new CommentDTO
+            {
+                CommentId = c.CommentId,
+                Text = c.Text,
+                Name = c.Name,
+                LastName = c.LastName,
+                Email = c.Email,
+                CommentDate = c.CommentDate,
+                CommentLike = c.CommentLike,
+                CommentDislike = c.CommentDislike,
+                ArticleTitle = c.Article.Title 
+            }).ToList();
+            return Ok(result);
         }
 
 

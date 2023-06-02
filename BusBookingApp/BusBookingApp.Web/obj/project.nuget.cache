@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FYzBEF5ismFEfFPzEtHN8l0hD4A+VR/pECx/r4i1Yxo+DQLXBeHIZ+veqYNT1VF0m1WXv5sQyrUCwuo3N0jZTA==",
+  "dgSpecHash": "uRYcHKPkH6qtGylFyWFIMkl7DCMoZ2K+wiZOXf1T7Z3FMiEgM0WDmNthX9Rey6UPTAygYcdlVde8zO+DPFbQvA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BusBookingApp\\BusBookingApp.Web\\BusBookingApp.Web.csproj",
+  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Web\\BusBookingApp.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\iyzipay\\2.1.46\\iyzipay.2.1.46.nupkg.sha512",

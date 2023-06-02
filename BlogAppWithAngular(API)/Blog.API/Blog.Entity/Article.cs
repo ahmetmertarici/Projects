@@ -16,7 +16,6 @@ namespace Blog.Entity
         public int? ScoreCount { get; set; } 
         public bool IsApproved { get; set; }
         public string? ImageUrl { get; set; }
-
         public List<ArticleCategory> ArticleCategories { get; set; }
         public List<Comment> Comments { get; set; }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5eQaD7qacXqoNStBw1qUqYSUzHp6ulK4q0jSlgS6V8f/UZij/Wsta2IPXPztv2Xnu6/04MxYH/ymBHmqVdw5BQ==",
+  "dgSpecHash": "fufQZKX6f+si+HZoYtQ1IcKgEP65HTuWlS/mf+KOOUVoIIWWwaaxR2m3u0KmOiH305FBPcvWvisX5MIxp/tPjQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj",
+  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

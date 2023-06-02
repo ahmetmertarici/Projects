@@ -24,6 +24,7 @@ namespace Blog.Data.Concrete.EfCore
         {
             return await context
                 .Comments
+                .Include(c=>c.Article)
                 .OrderByDescending(comment => comment.CommentDate)
                 .ToListAsync();
         }

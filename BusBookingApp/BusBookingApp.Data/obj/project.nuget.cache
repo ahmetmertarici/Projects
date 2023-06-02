@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2EQQWfpo3TIr720Y39HWMVoIGghDGfYYYw4lUZr51sXNoHzygNWUE7RHBjIHE2Pf75VUcb36/VuZ0qKeVMFKYg==",
+  "dgSpecHash": "4J+xonl+kJYsjw26WiqcdrOoTxEq60XmG1VhCdu4C2AJd2SF5f0g1RQtjFefusxTb9zp9ejbrRNZ37FrhTfLug==",
   "success": true,
-  "projectFilePath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BusBookingApp\\BusBookingApp.Data\\BusBookingApp.Data.csproj",
+  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Data\\BusBookingApp.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.10\\microsoft.data.sqlite.core.6.0.10.nupkg.sha512",

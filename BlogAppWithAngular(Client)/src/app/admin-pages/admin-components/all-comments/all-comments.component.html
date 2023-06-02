@@ -1,17 +1,17 @@
 
-<div class="container border">
+<div class="container border mb-1">
   <div class="text-center font mb-3 mt-2">Son Yorumlar</div>
-  <div class="card" *ngFor="let comment of pagedComments" > 
+  <div class="card mb-2" *ngFor="let comment of pagedComments" >
     <div class="card-header">
-      {{comment.articleId}}
+      {{comment.articleTitle}}
     </div>
     <ul class="list-group list-group-flush">
       <li class="list-group-item"> {{comment.text}} </li>
       <li class="list-group-item"> {{comment.name}} / {{comment.commentDate  | date: "dd.MM.yyyy"}} </li>
     </ul>
   </div>
-  <mat-paginator [length]="comments.length" 
-                 [pageSize]="commentsPerPage" 
+  <mat-paginator [length]="comments.length"
+                 [pageSize]="commentsPerPage"
                  [pageSizeOptions]="[5, 10, 20]"
                  (page)="pageChanged($event)">
   </mat-paginator>

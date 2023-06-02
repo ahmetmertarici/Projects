@@ -1,5 +1,3 @@
-import { Article } from "./article";
-
 export interface Comment {
   commentId :number;
   text :string;
@@ -10,4 +8,5 @@ export interface Comment {
   commentLike? :number;
   commentDislike? :number;
   articleId:number;
+  articleTitle: string;
 }
