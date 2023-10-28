@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Business\\Blog.Business.csproj": {}
+    "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Business\\Blog.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Business\\Blog.Business.csproj": {
+    "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Business\\Blog.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Business\\Blog.Business.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Business\\Blog.Business.csproj",
         "projectName": "Blog.Business",
-        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Business\\Blog.Business.csproj",
+        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Business\\Blog.Business.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Business\\obj\\",
+        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj": {
-                "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj"
+              "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj": {
+                "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj"
               }
             }
           }
@@ -53,23 +53,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.315\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj": {
+    "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj",
         "projectName": "Blog.Data",
-        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj",
+        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Data\\Blog.Data.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Data\\obj\\",
+        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,8 +92,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj": {
-                "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj"
+              "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj": {
+                "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj"
               }
             }
           }
@@ -123,23 +129,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.315\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj": {
+    "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj",
         "projectName": "Blog.Entity",
-        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj",
+        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\obj\\",
+        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -177,12 +189,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.315\\RuntimeIdentifierGraph.json"
         }
       }
     }

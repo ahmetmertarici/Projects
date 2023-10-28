@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8XTFCFDeh+xiDOAB4Wos/qqc9JzBCTw8EqgQH/kygk1CaJsIM7gX0G5stiqpGk1pg6ElpqWafVoMrTEG1PKgWQ==",
+  "dgSpecHash": "at3nbW2wTVzLUyEaLBTe4AIhj8XeRPj7WKbq0hBKN24ZeIRHZOqB06VZIZK7Npux/zH6fWKpRrG35x7mkxGdAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Entity\\Blog.Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

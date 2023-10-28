@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GUgoC7yPkavetCR7PO7zV0UD2G9oZWv/wV0hdTqUag0BjdefXczvPUtetdyaXRnAAQjhoDtF5m7GsnZnviH+EQ==",
+  "dgSpecHash": "S53BCS+Ae4H9Kyyqfk9HREAku9RQKAIuvqPoMH0YjLo+RAGFD53tlCl/ZW5RxBe3FgjTk0QnjoHkMJwrNv4ijg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Web\\Blog.Web.csproj",
+  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Web\\Blog.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",
@@ -44,7 +44,9 @@
     "C:\\Users\\asus\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
+    "C:\\Users\\asus\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512"
   ],
   "logs": [
     {

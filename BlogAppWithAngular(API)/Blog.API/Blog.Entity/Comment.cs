@@ -17,5 +17,7 @@ namespace Blog.Entity
         public int? CommentDislike { get; set; }
         public int ArticleId { get; set; }
         public Article Article { get; set; }
+        public bool Status { get; set; }
+
     }
 }

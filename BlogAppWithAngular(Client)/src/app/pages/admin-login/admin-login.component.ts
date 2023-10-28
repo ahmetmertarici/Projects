@@ -15,13 +15,14 @@ export class AdminLoginComponent{
   constructor(private authService: AuthenticationService, private router: Router) { }
 
   login() {
-    // this.authService.isAuthenticated(this.email, this.password, this.rememberMe).subscribe(
-    //   () => {
-    //     this.router.navigate(['/admin']); // Giriş başarılı olduğunda admin paneline yönlendirin.
-    //   },
-    //   () => {
-    //     alert('Kullanıcı adı yada şifre hatalı:');
-    //   }
-    // );
+    this.authService.login(this.email, this.password, this.rememberMe).subscribe(
+      () => {
+        this.router.navigate(['/admin']);
+      },
+      (error) => {
+        console.log('API Error: ', error);
+        alert('Kullanıcı adı yada şifre hatalı:');
+      }
+    );
   }
 }

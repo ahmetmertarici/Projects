@@ -18,6 +18,7 @@ namespace Blog.Data.Concrete.EfCore
         public DbSet<ArticleCategory> ArticleCategories { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<AboutMe> AboutMe { get; set; }
+        public DbSet<ToDoList> ToDoList { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         { 
@@ -108,6 +109,12 @@ namespace Blog.Data.Concrete.EfCore
                     new Comment() {CommentId=10, Name= "alii", Text= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean vel elit scelerisque mauris pellentesque. Consectetur a erat nam at lectus urna duis convallis.", CommentDate= "2022-10-17 12:56:30", ArticleId=1 }
                 );
 
+            modelBuilder
+                .Entity<ToDoList>()
+                .HasData(
+                    new ToDoList() { ID = 1, Title = "Deneme", Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean vel elit scelerisque mauris pellentesque. Consectetur a erat nam at lectus urna duis convallis.", Comment= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", Completed = false, Status=true },
+                    new ToDoList() { ID = 2, Title = "Deneme", Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean vel elit scelerisque mauris pellentesque. Consectetur a erat nam at lectus urna duis convallis.", Comment = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", Completed = false, Status = true }
+                );
         }
     }
 }

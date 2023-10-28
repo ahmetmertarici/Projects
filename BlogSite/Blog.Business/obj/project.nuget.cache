@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ms8E3bh3wOij2yurvhX/e40FpZldQ5F52AyQ2X8MZ1kvvvUTsg9LDRB3miN70T8qafFZuqn2yxBagoc/BqJM3g==",
+  "dgSpecHash": "4sbz6MDSCTFPvwRAG9YsjBo+gcJkANVPPrjL3JObo2qlLrYCLrb/NuF6RtgG5xNDezVxJOKrDn840FUMT1gHkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\BlogSite\\Blog.Business\\Blog.Business.csproj",
+  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogSite\\Blog.Business\\Blog.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.1\\microsoft.data.sqlite.core.7.0.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.1\\microsoft.entityframeworkcore.7.0.1.nupkg.sha512",
@@ -28,7 +28,8 @@
     "C:\\Users\\asus\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
+    "C:\\Users\\asus\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512"
   ],
   "logs": []
 }

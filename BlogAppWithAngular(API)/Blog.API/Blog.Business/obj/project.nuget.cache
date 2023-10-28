@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qE2eJ8MlPDQ29PP93gdAVEpVrqn15V6mBcqfM5SUUK1eLfV0aNvNUDr7CO+bFghypwJuW/owHgOZdJ85t/psxA==",
+  "dgSpecHash": "F3g4crCHzEVtlNrTfDVWbDJRF/8WNUcyOQYwPHg1rez0z70qQQUhBl9KFPbc7o2NfY6BF2++b6sEKqW5/RxDjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Business\\Blog.Business.csproj",
+  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Business\\Blog.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.hosting\\2.2.7\\microsoft.aspnetcore.hosting.2.2.7.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
@@ -49,7 +49,8 @@
     "C:\\Users\\asus\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
+    "C:\\Users\\asus\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512"
   ],
   "logs": []
 }

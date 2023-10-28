@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NUUvSq88oU5q5HlNXjk39Y5PPhtpYbtESLuR5PU/P2tt0R2cVwiELv44CK76iXW5+qRHq28n8BNzOtGnKaizuA==",
+  "dgSpecHash": "5G9m9xkFULspV1hnHLkhkmx7txpuHuq//fl6KmyrOR652is+LAoNMEqqODT/OyKhMm7XNSnh3blOyWQBdfX0CQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Core\\Blog.Core.csproj",
+  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Core\\Blog.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\mailkit\\3.2.0\\mailkit.3.2.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.15\\microsoft.aspnetcore.cryptography.internal.6.0.15.nupkg.sha512",
@@ -67,7 +67,8 @@
     "C:\\Users\\asus\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.0\\system.security.cryptography.pkcs.6.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
+    "C:\\Users\\asus\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512"
   ],
   "logs": []
 }

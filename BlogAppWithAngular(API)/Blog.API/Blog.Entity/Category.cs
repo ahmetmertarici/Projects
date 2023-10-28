@@ -10,5 +10,7 @@ namespace Blog.Entity
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }
         public List<ArticleCategory> ArticleCategories { get; set; }
+        public bool Status { get; set; }
+
     }
 }

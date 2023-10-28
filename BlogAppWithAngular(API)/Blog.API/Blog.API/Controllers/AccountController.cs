@@ -24,32 +24,53 @@ namespace Blog.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(LoginDTO loginDTO)
         {
-            //var myIdentityUser = await _userManager.FindByEmailAsync(loginDTO.Email);
-            //if (myIdentityUser == null)
-            //{
-            //    return BadRequest();
-            //}
+            var myIdentityUser = await _userManager.FindByEmailAsync(loginDTO.Email);
+            if (myIdentityUser == null)
+            {
+                return BadRequest();
+            }
 
             //if (!await _userManager.IsInRoleAsync(myIdentityUser, "Admin"))
             //{
             //    return Unauthorized();
             //}
 
-            //var result = await _signInManager.PasswordSignInAsync(myIdentityUser, loginDTO.Password, loginDTO.RememberMe, false);
-            //if (result.Succeeded)
-            //{
-            //    var claims = new List<Claim>
-            //    {
-            //        new Claim(ClaimTypes.Name, myIdentityUser.UserName),
-            //        new Claim(ClaimTypes.Role, "Admin")
-            //    };
-            //    var token = GenerateJwtToken(claims); // JWT token oluşturma işlemi
-
-            //    return Ok(new { token, userRole = "Admin" });
-            //}
-            return Ok();
+            var result = await _signInManager.PasswordSignInAsync(myIdentityUser, loginDTO.Password, loginDTO.RememberMe, false);
+            if (result.Succeeded)
+            {
+                return Ok(new { userRole = "Admin" });
+            }
+            return BadRequest();
         }
+        [HttpPost]
+        public async Task<IActionResult> Register(RegisterDTO registerDTO)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest("Invalid model state.");
+            }
 
+            // Create a new user
+            MyIdentityUser myIdentityUser = new()
+            {
+                FirstName = registerDTO.FirstName,
+                LastName = registerDTO.LastName,
+                Email = registerDTO.Email,
+                UserName = registerDTO.UserName,
+            };
+
+            // Try to create the user
+            var result = await _userManager.CreateAsync(myIdentityUser, registerDTO.Password);
+
+            if (result.Succeeded)
+            {
+                return Ok(new { Message = "Registration successful." });
+            }
+            else
+            {
+                return BadRequest(result.Errors.Select(e => e.Description).ToList());
+            }
+        }
 
         [HttpPost]
         public async Task<IActionResult> Logout()

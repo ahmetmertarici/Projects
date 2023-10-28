@@ -142,3 +142,15 @@ C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBooking
 C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\refint\BusBookingApp.Entity.dll
 C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.pdb
 C:\Users\asus\OneDrive\Masaüstü\BAU\Projects\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\ref\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BusBookingApp\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.deps.json
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BusBookingApp\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BusBookingApp\BusBookingApp.Entity\bin\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\refint\BusBookingApp.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\BusBookingApp.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BusBookingApp\BusBookingApp.Entity\obj\Debug\net6.0\ref\BusBookingApp.Entity.dll

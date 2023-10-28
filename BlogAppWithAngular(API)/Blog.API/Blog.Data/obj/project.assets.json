@@ -1842,11 +1842,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Data\\Blog.Data.csproj",
+      "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Data\\Blog.Data.csproj",
       "projectName": "Blog.Data",
-      "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Data\\Blog.Data.csproj",
+      "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Data\\Blog.Data.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Data\\obj\\",
+      "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1863,8 +1863,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Entity\\Blog.Entity.csproj": {
-              "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Entity\\Blog.Entity.csproj"
+            "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Entity\\Blog.Entity.csproj": {
+              "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Entity\\Blog.Entity.csproj"
             }
           }
         }
@@ -1908,12 +1908,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.20, 6.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.311\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.315\\RuntimeIdentifierGraph.json"
       }
     }
   }

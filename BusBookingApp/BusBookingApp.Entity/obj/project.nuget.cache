@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fufQZKX6f+si+HZoYtQ1IcKgEP65HTuWlS/mf+KOOUVoIIWWwaaxR2m3u0KmOiH305FBPcvWvisX5MIxp/tPjQ==",
+  "dgSpecHash": "ls4e08yKZe/PzUur2NMIN9daD6WEj/ClCxSIUY7uAkVbM7VxvhG9+MJ4k7i1Y0cEdY8tFR6q1EhiwZ3nh+Fowg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

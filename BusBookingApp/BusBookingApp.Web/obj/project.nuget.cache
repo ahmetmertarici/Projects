@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uRYcHKPkH6qtGylFyWFIMkl7DCMoZ2K+wiZOXf1T7Z3FMiEgM0WDmNthX9Rey6UPTAygYcdlVde8zO+DPFbQvA==",
+  "dgSpecHash": "b12jHBRmE6J/tJTckfEq6uJrrFNUHRIIyfu3TlKAJdctEoKdl6dDScGIwRe87RpL1fJ5YuRrsjcTQ3YD6f2iyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Web\\BusBookingApp.Web.csproj",
+  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Web\\BusBookingApp.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\iyzipay\\2.1.46\\iyzipay.2.1.46.nupkg.sha512",
@@ -40,7 +40,9 @@
     "C:\\Users\\asus\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\asus\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512"
   ],
   "logs": []
 }

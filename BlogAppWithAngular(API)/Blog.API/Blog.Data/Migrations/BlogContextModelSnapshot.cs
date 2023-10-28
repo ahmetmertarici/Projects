@@ -65,6 +65,9 @@ namespace Blog.Data.Migrations
                     b.Property<int?>("ScoreCount")
                         .HasColumnType("INTEGER");
 
+                    b.Property<bool>("Status")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -85,6 +88,7 @@ namespace Blog.Data.Migrations
                             ImageUrl = "1.jpg",
                             IsApproved = true,
                             Score = 4.0999999999999996,
+                            Status = false,
                             Title = "lectus proin nibh nisl condimentum",
                             ViewsCount = 15
                         },
@@ -96,6 +100,7 @@ namespace Blog.Data.Migrations
                             ImageUrl = "2.jpg",
                             IsApproved = true,
                             Score = 3.1000000000000001,
+                            Status = false,
                             Title = "lectus proin nibh nisl condimentum",
                             ViewsCount = 18
                         },
@@ -107,6 +112,7 @@ namespace Blog.Data.Migrations
                             ImageUrl = "3.jpg",
                             IsApproved = true,
                             Score = 4.5,
+                            Status = false,
                             Title = "lectus proin nibh nisl condimentum",
                             ViewsCount = 25
                         },
@@ -118,6 +124,7 @@ namespace Blog.Data.Migrations
                             ImageUrl = "4.jpg",
                             IsApproved = true,
                             Score = 2.1000000000000001,
+                            Status = false,
                             Title = "lectus proin nibh nisl condimentum",
                             ViewsCount = 75
                         },
@@ -129,6 +136,7 @@ namespace Blog.Data.Migrations
                             ImageUrl = "5.jpg",
                             IsApproved = true,
                             Score = 2.1000000000000001,
+                            Status = false,
                             Title = "lectus proin nibh nisl condimentum",
                             ViewsCount = 40
                         },
@@ -140,6 +148,7 @@ namespace Blog.Data.Migrations
                             ImageUrl = "6.jpg",
                             IsApproved = true,
                             Score = 2.1000000000000001,
+                            Status = false,
                             Title = "lectus proin nibh nisl condimentum",
                             ViewsCount = 85
                         },
@@ -151,6 +160,7 @@ namespace Blog.Data.Migrations
                             ImageUrl = "7.jpg",
                             IsApproved = true,
                             Score = 2.1000000000000001,
+                            Status = false,
                             Title = "lectus proin nibh nisl condimentum",
                             ViewsCount = 19
                         },
@@ -162,6 +172,7 @@ namespace Blog.Data.Migrations
                             ImageUrl = "8.jpg",
                             IsApproved = true,
                             Score = 2.1000000000000001,
+                            Status = false,
                             Title = "lectus proin nibh nisl condimentum",
                             ViewsCount = 25
                         },
@@ -173,6 +184,7 @@ namespace Blog.Data.Migrations
                             ImageUrl = "9.jpg",
                             IsApproved = true,
                             Score = 2.1000000000000001,
+                            Status = false,
                             Title = "lectus proin nibh nisl condimentum",
                             ViewsCount = 55
                         },
@@ -184,6 +196,7 @@ namespace Blog.Data.Migrations
                             ImageUrl = "10.jpg",
                             IsApproved = true,
                             Score = 2.1000000000000001,
+                            Status = false,
                             Title = "lectus proin nibh nisl condimentum",
                             ViewsCount = 8
                         },
@@ -195,6 +208,7 @@ namespace Blog.Data.Migrations
                             ImageUrl = "11.jpg",
                             IsApproved = true,
                             Score = 2.1000000000000001,
+                            Status = false,
                             Title = "lectus proin nibh nisl condimentum",
                             ViewsCount = 7
                         },
@@ -206,6 +220,7 @@ namespace Blog.Data.Migrations
                             ImageUrl = "12.jpg",
                             IsApproved = true,
                             Score = 2.1000000000000001,
+                            Status = false,
                             Title = "lectus proin nibh nisl condimentum",
                             ViewsCount = 5
                         });
@@ -353,6 +368,9 @@ namespace Blog.Data.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<bool>("Status")
+                        .HasColumnType("INTEGER");
+
                     b.HasKey("CategoryId");
 
                     b.ToTable("Categories");
@@ -361,37 +379,44 @@ namespace Blog.Data.Migrations
                         new
                         {
                             CategoryId = 1,
-                            CategoryName = "Teknoloji"
+                            CategoryName = "Teknoloji",
+                            Status = false
                         },
                         new
                         {
                             CategoryId = 2,
-                            CategoryName = "Seyahat"
+                            CategoryName = "Seyahat",
+                            Status = false
                         },
                         new
                         {
                             CategoryId = 3,
-                            CategoryName = "Sanat ve Fotografcilik"
+                            CategoryName = "Sanat ve Fotografcilik",
+                            Status = false
                         },
                         new
                         {
                             CategoryId = 4,
-                            CategoryName = "Yemek"
+                            CategoryName = "Yemek",
+                            Status = false
                         },
                         new
                         {
                             CategoryId = 5,
-                            CategoryName = "Saglik ve Fitness"
+                            CategoryName = "Saglik ve Fitness",
+                            Status = false
                         },
                         new
                         {
                             CategoryId = 6,
-                            CategoryName = "Moda"
+                            CategoryName = "Moda",
+                            Status = false
                         },
                         new
                         {
                             CategoryId = 7,
-                            CategoryName = "Finans"
+                            CategoryName = "Finans",
+                            Status = false
                         });
                 });
 
@@ -424,6 +449,9 @@ namespace Blog.Data.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<bool>("Status")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Text")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -441,6 +469,7 @@ namespace Blog.Data.Migrations
                             ArticleId = 1,
                             CommentDate = "2022-10-17 12:56:30",
                             Name = "ahmet",
+                            Status = false,
                             Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean vel elit scelerisque mauris pellentesque. Consectetur a erat nam at lectus urna duis convallis."
                         },
                         new
@@ -449,6 +478,7 @@ namespace Blog.Data.Migrations
                             ArticleId = 1,
                             CommentDate = "2022-10-17 12:56:30",
                             Name = "alii",
+                            Status = false,
                             Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean vel elit scelerisque mauris pellentesque. Consectetur a erat nam at lectus urna duis convallis."
                         },
                         new
@@ -457,6 +487,7 @@ namespace Blog.Data.Migrations
                             ArticleId = 1,
                             CommentDate = "2022-10-17 12:56:30",
                             Name = "yasar1",
+                            Status = false,
                             Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean vel elit scelerisque mauris pellentesque. Consectetur a erat nam at lectus urna duis convallis."
                         },
                         new
@@ -465,6 +496,7 @@ namespace Blog.Data.Migrations
                             ArticleId = 2,
                             CommentDate = "2022-10-17 12:56:30",
                             Name = "ahmet",
+                            Status = false,
                             Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean vel elit scelerisque mauris pellentesque. Consectetur a erat nam at lectus urna duis convallis."
                         },
                         new
@@ -473,6 +505,7 @@ namespace Blog.Data.Migrations
                             ArticleId = 2,
                             CommentDate = "2022-10-17 12:56:30",
                             Name = "sila5",
+                            Status = false,
                             Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean vel elit scelerisque mauris pellentesque. Consectetur a erat nam at lectus urna duis convallis."
                         },
                         new
@@ -481,6 +514,7 @@ namespace Blog.Data.Migrations
                             ArticleId = 3,
                             CommentDate = "2022-10-17 12:56:30",
                             Name = "yasar1",
+                            Status = false,
                             Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean vel elit scelerisque mauris pellentesque. Consectetur a erat nam at lectus urna duis convallis."
                         },
                         new
@@ -489,6 +523,7 @@ namespace Blog.Data.Migrations
                             ArticleId = 3,
                             CommentDate = "2022-10-17 12:56:30",
                             Name = "ahmet",
+                            Status = false,
                             Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean vel elit scelerisque mauris pellentesque. Consectetur a erat nam at lectus urna duis convallis."
                         },
                         new
@@ -497,6 +532,7 @@ namespace Blog.Data.Migrations
                             ArticleId = 3,
                             CommentDate = "2022-10-17 12:56:30",
                             Name = "alii",
+                            Status = false,
                             Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean vel elit scelerisque mauris pellentesque. Consectetur a erat nam at lectus urna duis convallis."
                         },
                         new
@@ -505,6 +541,7 @@ namespace Blog.Data.Migrations
                             ArticleId = 2,
                             CommentDate = "2022-10-17 12:56:30",
                             Name = "sila5",
+                            Status = false,
                             Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean vel elit scelerisque mauris pellentesque. Consectetur a erat nam at lectus urna duis convallis."
                         },
                         new
@@ -513,7 +550,55 @@ namespace Blog.Data.Migrations
                             ArticleId = 1,
                             CommentDate = "2022-10-17 12:56:30",
                             Name = "alii",
+                            Status = false,
                             Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean vel elit scelerisque mauris pellentesque. Consectetur a erat nam at lectus urna duis convallis."
+                        });
+                });
+
+            modelBuilder.Entity("Blog.Entity.ToDoList", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Comment")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("Completed")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Text")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("ToDoList");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            Comment = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                            Completed = false,
+                            Status = true,
+                            Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean vel elit scelerisque mauris pellentesque. Consectetur a erat nam at lectus urna duis convallis.",
+                            Title = "Deneme"
+                        },
+                        new
+                        {
+                            ID = 2,
+                            Comment = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                            Completed = false,
+                            Status = true,
+                            Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean vel elit scelerisque mauris pellentesque. Consectetur a erat nam at lectus urna duis convallis.",
+                            Title = "Deneme"
                         });
                 });
 

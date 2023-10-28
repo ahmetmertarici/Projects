@@ -21,6 +21,8 @@ import { AboutMeListComponent } from './about-me/about-me-list/about-me-list.com
 import { AboutMeUpdateComponent } from './about-me/about-me-update/about-me-update.component';
 import { StatisticsComponent } from './admin-components/statistics/statistics.component';
 import { AllCommentsComponent } from './admin-components/all-comments/all-comments.component';
+import { AccountComponent } from './account/account/account.component';
+import { AccountAddComponent } from './account/account-add/account-add.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +42,8 @@ import { AllCommentsComponent } from './admin-components/all-comments/all-commen
     AboutMeUpdateComponent,
     StatisticsComponent,
     AllCommentsComponent,
+    AccountComponent,
+    AccountAddComponent,
   ],
   imports: [
     CommonModule,

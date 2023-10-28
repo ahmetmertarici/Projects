@@ -253,3 +253,20 @@ C:\Users\asus\OneDrive\Masaüstü\Projects\BlogAppWithAngular(API)\Blog.API\Blog
 C:\Users\asus\OneDrive\Masaüstü\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\obj\Debug\net6.0\Blog.Data.pdb
 C:\Users\asus\OneDrive\Masaüstü\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\obj\Debug\net6.0\Blog.Data.genruntimeconfig.cache
 C:\Users\asus\OneDrive\Masaüstü\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\obj\Debug\net6.0\ref\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\bin\Debug\net6.0\Blog.Data.deps.json
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\bin\Debug\net6.0\Blog.Data.runtimeconfig.json
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\bin\Debug\net6.0\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\bin\Debug\net6.0\Blog.Data.pdb
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\bin\Debug\net6.0\Blog.Entity.dll
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\bin\Debug\net6.0\Blog.Entity.pdb
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\obj\Debug\net6.0\Blog.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\obj\Debug\net6.0\Blog.Data.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\obj\Debug\net6.0\Blog.Data.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\obj\Debug\net6.0\Blog.Data.csproj.CopyComplete
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\obj\Debug\net6.0\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\obj\Debug\net6.0\refint\Blog.Data.dll
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\obj\Debug\net6.0\Blog.Data.pdb
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\obj\Debug\net6.0\Blog.Data.genruntimeconfig.cache
+C:\Users\asus\OneDrive\Masaüstü\Github Project\Projects\BlogAppWithAngular(API)\Blog.API\Blog.Data\obj\Debug\net6.0\ref\Blog.Data.dll

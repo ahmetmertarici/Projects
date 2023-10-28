@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Business\\BusBookingApp.Business.csproj": {}
+    "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Business\\BusBookingApp.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Business\\BusBookingApp.Business.csproj": {
+    "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Business\\BusBookingApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Business\\BusBookingApp.Business.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Business\\BusBookingApp.Business.csproj",
         "projectName": "BusBookingApp.Business",
-        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Business\\BusBookingApp.Business.csproj",
+        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Business\\BusBookingApp.Business.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Business\\obj\\",
+        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Data\\BusBookingApp.Data.csproj": {
-                "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Data\\BusBookingApp.Data.csproj"
+              "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Data\\BusBookingApp.Data.csproj": {
+                "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Data\\BusBookingApp.Data.csproj"
               }
             }
           }
@@ -53,23 +53,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.311\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.315\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Data\\BusBookingApp.Data.csproj": {
+    "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Data\\BusBookingApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Data\\BusBookingApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Data\\BusBookingApp.Data.csproj",
         "projectName": "BusBookingApp.Data",
-        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Data\\BusBookingApp.Data.csproj",
+        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Data\\BusBookingApp.Data.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Data\\obj\\",
+        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,8 +92,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj": {
-                "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj"
+              "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj": {
+                "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj"
               }
             }
           }
@@ -121,23 +127,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.311\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.315\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj": {
+    "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj",
         "projectName": "BusBookingApp.Entity",
-        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj",
+        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Entity\\obj\\",
+        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -175,12 +187,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.311\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.315\\RuntimeIdentifierGraph.json"
         }
       }
     }

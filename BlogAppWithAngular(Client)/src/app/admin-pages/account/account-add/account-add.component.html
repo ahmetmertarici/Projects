@@ -1,0 +1,48 @@
+<div class="login-container">
+  <h1 class="text-center font mt-3">Admin Hesabı Oluştur</h1>
+  <mat-card>
+    <mat-card-content>
+      <form (ngSubmit)="register()" class="form-container">
+        <div class="form-row">
+          <!-- First row -->
+          <mat-form-field appearance="outline" class="login-input">
+            <mat-label>First Name</mat-label>
+            <input matInput [(ngModel)]="registerModel.FirstName" name="FirstName" required />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" class="login-input">
+            <mat-label>Last Name</mat-label>
+            <input matInput [(ngModel)]="registerModel.LastName" name="LastName" required />
+          </mat-form-field>
+        </div>
+
+        <div class="form-row">
+          <!-- Second row -->
+          <mat-form-field appearance="outline" class="login-input">
+            <mat-label>Email</mat-label>
+            <input matInput [(ngModel)]="registerModel.Email" name="Email" type="email" required />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" class="login-input">
+            <mat-label>Username</mat-label>
+            <input matInput [(ngModel)]="registerModel.UserName" name="UserName" required />
+          </mat-form-field>
+        </div>
+
+        <div class="form-row">
+          <!-- Third row -->
+          <mat-form-field appearance="outline" class="login-input">
+            <mat-label>Password</mat-label>
+            <input matInput [(ngModel)]="registerModel.Password" name="Password" type="password" required />
+          </mat-form-field>
+        </div>
+
+        <div class="login-actions">
+          <button mat-raised-button color="primary" type="submit">Hesap Oluştur
+
+          </button>
+        </div>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>

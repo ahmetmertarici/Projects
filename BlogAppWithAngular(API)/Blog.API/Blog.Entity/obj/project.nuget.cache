@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mLXgDiL8zJjgAE06QmJMmr07V5iQik2cA45yApBfsQUhHS89sV5sJ5gsqQiey5zoyqD4UgImzWzlr09swdqUGw==",
+  "dgSpecHash": "MIzyqhCEFnazBPvHBkltZ5VY96Md0BQZmJkmTwGhtEoQAqyiEm1y5wKCUK78N9Slz1w79wg+0dtbhF5ISR5P3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Entity\\Blog.Entity.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Entity\\Blog.Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

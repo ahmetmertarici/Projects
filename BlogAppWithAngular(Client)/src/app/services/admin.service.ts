@@ -5,6 +5,7 @@ import { Observable } from 'rxjs';
 import { Category } from '../models/category';
 import { Statistics } from '../models/statistics';
 import { Comment } from 'src/app/models/comment';
+import { RegisterModel } from '../models/register-model';
 
 
 @Injectable({
@@ -66,13 +67,16 @@ export class AdminService {
   deleteCategory(categoryId:number){
     return this.httpClient.delete(`${this.apiUrl}/DeleteCategory/${categoryId}`)
   }
-
+  //*************************************************************************************************************************** */
   getStatistics(): Observable<Statistics> {
     return this.httpClient.get<Statistics>(`${this.apiUrl}/Statistics`);
   }
 
   getAllComments(){
     return this.httpClient.get<Comment[]>(`${this.apiUrl}/AllComments`);
+  }
+  registerUser(registerModel: RegisterModel): Observable<any> {
+    return this.httpClient.post("https://localhost:7000/api/Account/Register", registerModel);
   }
 
 }

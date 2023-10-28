@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj": {}
+    "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj": {
+    "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj",
         "projectName": "BusBookingApp.Entity",
-        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj",
+        "projectPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Entity\\BusBookingApp.Entity.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Projects\\BusBookingApp\\BusBookingApp.Entity\\obj\\",
+        "outputPath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BusBookingApp\\BusBookingApp.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,12 +49,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.311\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.315\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -22,6 +22,9 @@ import { AdminAboutMeComponent } from './admin-pages/about-me/admin-about-me/adm
 import { AboutMeListComponent } from './admin-pages/about-me/about-me-list/about-me-list.component';
 import { AboutMeUpdateComponent } from './admin-pages/about-me/about-me-update/about-me-update.component';
 import { AboutMeAddComponent } from './admin-pages/about-me/about-me-add/about-me-add.component';
+import { AccountComponent } from './admin-pages/account/account/account.component';
+import { AccountAddComponent } from './admin-pages/account/account-add/account-add.component';
+import { AuthGuardService } from './services/auth-guard.service';
 
 const routes: Routes = [
   {path:'', component:MainLayoutComponent, children:[
@@ -35,7 +38,7 @@ const routes: Routes = [
     {path:'iletisim', component:ContactComponent},
     {path:'adminlogin', component:AdminLoginComponent}
   ]},
-  {path:'admin', component:AdminLayoutComponent, children:[
+  {path:'admin', component:AdminLayoutComponent, canActivate: [AuthGuardService], children:[
     {path:'', component:AdminHomeComponent},
     {path:'anasayfa', component:AdminHomeComponent},
     {path:'makale', component:AdminArticleComponent, children:[
@@ -52,6 +55,14 @@ const routes: Routes = [
       {path:'liste', component:AboutMeListComponent},
       {path:'guncelle/:id', component:AboutMeUpdateComponent},
       {path:'ekle', component:AboutMeAddComponent}
+    ]},
+    // {path:'yapilacaklar-düzenle', component:AdminAboutMeComponent, children:[
+    //   {path:'liste', component:AboutMeListComponent},
+    //   {path:'guncelle/:id', component:AboutMeUpdateComponent},
+    //   {path:'ekle', component:AboutMeAddComponent}
+    // ]},
+    {path:'hesap', component:AccountComponent, children:[
+      {path:'ekle',component:AccountAddComponent}
     ]}
   ]}
 
