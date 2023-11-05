@@ -17,7 +17,7 @@
     </ng-container>
 
     <ng-container matColumnDef="isApproved">
-      <th mat-header-cell *matHeaderCellDef> Onaylı mı </th>
+      <th mat-header-cell *matHeaderCellDef> Yayında mı? </th>
       <td mat-cell *matCellDef="let article">
         <mat-slide-toggle [checked]="article.isApproved"
           (change)="onIsApprovedChange(article.articleId)"></mat-slide-toggle>
@@ -28,6 +28,14 @@
       <th mat-header-cell *matHeaderCellDef> Oluşturulma Tarihi </th>
       <td mat-cell *matCellDef="let article"> {{article.createDate | date:'dd.MM.yyyy'}} </td>
     </ng-container>
+
+    <ng-container matColumnDef="publishDate">
+      <th mat-header-cell *matHeaderCellDef> Yayınlanacağı Tarih </th>
+      <td mat-cell *matCellDef="let article">
+        {{ article.isApproved ? 'Yayında' : (article.publishDate | date:'dd.MM.yyyy') }}
+      </td>
+    </ng-container>
+
 
     <ng-container matColumnDef="viewsCount">
       <th mat-header-cell *matHeaderCellDef> Görüntülenme Sayısı </th>

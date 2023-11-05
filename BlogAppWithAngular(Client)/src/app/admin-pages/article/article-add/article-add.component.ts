@@ -36,7 +36,10 @@ export class ArticleAddComponent implements OnInit {
       title: ['', Validators.required],
       content: ['', Validators.required],
       categoryIds: ['', arrayRequiredValidator()],
-      image: [null]
+      image: [null],
+      publishDate: [null],
+      publishTime: [null]
+
     });
   }
 
@@ -83,6 +86,24 @@ export class ArticleAddComponent implements OnInit {
       formData.append('content', this.createArticleForm.get('content')?.value);
       formData.append('image', this.createArticleForm.get('image')?.value);
       formData.append('imageUrl', this.image as string);
+
+
+      // publishDate ve publishTime alanlarını kontrol et ve ekle
+      const publishDate = this.createArticleForm.get('publishDate')?.value;
+      const publishTime = this.createArticleForm.get('publishTime')?.value;
+      console.log('Publish Date:', publishDate);
+      console.log('Publish Time:', publishTime);
+      // Sadece publishDate ve publishTime değerleri varsa bunları ekle
+      if (publishDate && publishTime) {
+        // Yayın tarihi ve saati birleştir
+        const publishDateTime = new Date(publishDate);
+        const [hours, minutes] = publishTime.split(':');
+        publishDateTime.setHours(parseInt(hours), parseInt(minutes));
+
+        // Form verilerine ekle
+        formData.append('publishDate', publishDateTime.toISOString());
+      }
+
 
       const categoryIds = this.createArticleForm.get('categoryIds')?.value;
       for (const categoryId of categoryIds) {

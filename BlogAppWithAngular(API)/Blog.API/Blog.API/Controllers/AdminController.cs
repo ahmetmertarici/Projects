@@ -21,7 +21,8 @@ namespace Blog.API.Controllers
             _commentService = commentService;
         }
 
-        //Article related actions
+
+        #region Article
         [HttpGet]
         public async Task<ActionResult<List<Article>>> GetAllArticles()
         {
@@ -37,9 +38,8 @@ namespace Blog.API.Controllers
                     ViewsCount = article.ViewsCount,
                     Score = article.Score,
                     ImageUrl = article.ImageUrl,
-                    IsApproved = article.IsApproved
-
-
+                    IsApproved = article.IsApproved,
+                    PublishDate = article.PublishDate
                 });
             }
             return Ok(articleListDTO);
@@ -67,6 +67,7 @@ namespace Blog.API.Controllers
                 IsApproved = article.IsApproved,
                 ImageUrl = article.ImageUrl,
                 CommentCount = article.Comments.Count(),
+                PublishDate=article.PublishDate,
                 CategoryIds = article.ArticleCategories.Select(ac => ac.CategoryId).ToList()
             };
             return Ok(articleDetailDTO);
@@ -83,7 +84,7 @@ namespace Blog.API.Controllers
             };
             return Ok(result);
         }
-        
+
         [HttpPost]
         [Route("CreateArticle")]
         public async Task<IActionResult> CreateArticle([FromForm] ArticleCreateDTO createArticleDto)
@@ -93,13 +94,25 @@ namespace Blog.API.Controllers
             {
                 Title = createArticleDto.Title,
                 Content = createArticleDto.Content,
-                CreateDate = DateTime.Now.ToString("yyyy-MM-dd"),
+                CreateDate = DateTime.Now.ToString("yyyy-MM-dd"), // Burada sadece oluşturma tarihi ayarlanmalı
                 ViewsCount = 0,
                 ImageUrl = createArticleDto.ImageUrl,
                 Score = null,
                 ScoreCount = null,
-                IsApproved = false
+                IsApproved = createArticleDto.IsApproved // IsApproved durumu DTO'dan alınmalı
             };
+
+            // PublishDate kontrol ediliyor ve ayarlanıyor
+            if (createArticleDto.PublishDate.HasValue)
+            {
+                // Eğer bir tarih belirlendiyse, PublishDate ayarlanıyor
+                article.PublishDate = createArticleDto.PublishDate.Value;
+            }
+            else if (!createArticleDto.PublishDate.HasValue)
+            {
+                // Eğer onaylanmamışsa, yayınlama tarihi hemen şimdi olarak ayarlanıyor (opsiyonel)
+                article.IsApproved = true;
+            }
 
             // Article ve kategorileri kullanarak Article ve ArticleCategory nesnelerini kaydet
             var createdArticle = await _articleService.CreateArticleAsync(article, createArticleDto.CategoryIds.ToArray());
@@ -108,14 +121,15 @@ namespace Blog.API.Controllers
             {
                 ArticleId = createdArticle.ArticleId,
                 Title = createdArticle.Title,
-                CreateDate = createdArticle.CreateDate,
+                CreateDate = createdArticle.CreateDate.ToString(), // Tarih formatınız varsa
                 ViewsCount = createdArticle.ViewsCount,
                 Score = createdArticle.Score
             };
 
             return Ok(articleListDTO);
         }
-       
+
+
         [HttpPost]
         [Route("UpdateIsApproved/{id}")]
         public async Task<IActionResult> UpdateIsApproved(int id)
@@ -136,7 +150,7 @@ namespace Blog.API.Controllers
 
             var imageUrl = string.IsNullOrEmpty(updateArticleDto.ImageUrl) ? null : updateArticleDto.ImageUrl;
             // Article ve kategorileri kullanarak Article ve ArticleCategory nesnelerini güncelle
-            var updatedArticle = await _articleService.UpdateArticleAsync(articleId, updateArticleDto.Title, updateArticleDto.Content, imageUrl, updateArticleDto.CategoryIds);
+            var updatedArticle = await _articleService.UpdateArticleAsync(articleId, updateArticleDto.Title, updateArticleDto.Content, imageUrl, updateArticleDto.CategoryIds, updateArticleDto.PublishDate);
 
             var articleListDTO = new ArticleListDTO()
             {
@@ -163,6 +177,10 @@ namespace Blog.API.Controllers
             _articleService.Delete(article);
             return Ok();
         }
+        #endregion
+
+
+        #region Category
 
 
         //Category related actions
@@ -227,6 +245,7 @@ namespace Blog.API.Controllers
             _categoryService.Delete(category);
             return Ok();
         }
+        #endregion
 
         [HttpGet]
         [Route("Statistics")]

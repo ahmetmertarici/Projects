@@ -34,7 +34,9 @@ export class ArticleUpdateComponent implements OnInit {
       title: ['', Validators.required],
       content: ['', Validators.required],
       categoryIds: ['', Validators.required],
-      image: [null]
+      image: [null],
+      publishDate: [null],
+      publishTime: [null]
     });
 
     this.articleId = parseInt(this.activatedRoute.snapshot.paramMap.get('id') || '0', 10);
@@ -47,7 +49,10 @@ export class ArticleUpdateComponent implements OnInit {
       this.updateArticleForm.patchValue({
         title: article.title,
         content: article.content,
-        categoryIds: article.categoryIds
+        categoryIds: article.categoryIds,
+        publishDate: article.publishDate ? new Date(article.publishDate) : null,
+        publishTime: article.publishDate ? new Date(article.publishDate).toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' }) : null
+
       });
       this.imageUrl = article.imageUrl;
     }
@@ -98,6 +103,15 @@ export class ArticleUpdateComponent implements OnInit {
           console.error('Error saving article image:', error);
         }
       }
+      // publishDate ve publishTime alanlarını kontrol et ve ekle
+    const publishDate = this.updateArticleForm.get('publishDate')?.value;
+    const publishTime = this.updateArticleForm.get('publishTime')?.value;
+
+    if (publishDate && publishTime) {
+      // Yayın tarihi ve saati birleştir
+      const publishDateTime = this.combineDateAndTime(publishDate, publishTime);
+      formData.append('publishDate', publishDateTime.toISOString());
+    }
 
       try {
         const response = await this.adminService.updateArticle(this.articleId, formData).toPromise();
@@ -109,6 +123,14 @@ export class ArticleUpdateComponent implements OnInit {
     } else {
       console.log("Form is not valid");
     }
+  }
+
+  private combineDateAndTime(date: any, time: string): Date {
+    const year = date.getFullYear();
+    const month = date.getMonth();
+    const day = date.getDate();
+    const [hours, minutes] = time.split(':').map(Number);
+    return new Date(Date.UTC(year, month, day, hours, minutes));
   }
 
 }

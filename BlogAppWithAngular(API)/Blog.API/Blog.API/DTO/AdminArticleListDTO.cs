@@ -9,5 +9,7 @@
         public double? Score { get; set; }
         public string? ImageUrl { get; set; }
         public bool IsApproved { get; set; }
+        public DateTime? PublishDate { get; set; }
+
     }
 }

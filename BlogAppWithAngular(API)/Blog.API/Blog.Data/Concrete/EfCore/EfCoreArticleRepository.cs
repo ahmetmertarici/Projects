@@ -340,7 +340,7 @@ namespace Blog.Data.Concrete.EfCore
             context.SaveChanges();
         }
 
-        public async Task<Article> UpdateArticleAsync(int articleId, string title, string content, string imageUrl, int[] categoryIds)
+        public async Task<Article> UpdateArticleAsync(int articleId, string title, string content, string imageUrl, int[] categoryIds, DateTime? publishDate)
         {
             using (var transaction = await context.Database.BeginTransactionAsync())
             {
@@ -360,6 +360,7 @@ namespace Blog.Data.Concrete.EfCore
                     {
                         article.ImageUrl = imageUrl;
                     }
+                    article.PublishDate = publishDate;
 
                     // Eski ArticleCategory nesnelerini sil
                     var existingArticleCategories = context.ArticleCategories.Where(ac => ac.ArticleId == articleId);
@@ -410,6 +411,15 @@ namespace Blog.Data.Concrete.EfCore
             return await context
                 .Articles
                 .CountAsync();
+        }
+
+        public async Task<IEnumerable<Article>> GetArticlesToPublishAsync()
+        {
+            var articles = await context.Articles
+            .Where(a => a.PublishDate <= DateTime.Now && !a.IsApproved)
+            .ToListAsync();
+
+            return articles;
         }
     }
 }

@@ -1,0 +1,58 @@
+<h1 class="text-center font mt-3">Yapılacaklar Listesi</h1>
+
+<div class="mat-elevation-z8 mt-3 mb-4">
+  <table mat-table [dataSource]="dataSource">
+
+    <ng-container matColumnDef="title">
+      <th mat-header-cell *matHeaderCellDef class="title"> Başlık </th>
+      <td mat-cell *matCellDef="let toDo" class="title"> {{toDo.title}} </td>
+    </ng-container>
+    <ng-container matColumnDef="text">
+      <th mat-header-cell *matHeaderCellDef class="text"> İçerik </th>
+      <td mat-cell *matCellDef="let toDo" class="text"> {{toDo.text}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="completed">
+      <th mat-header-cell *matHeaderCellDef class="completed"> Tamamlandı Mı </th>
+      <td mat-cell *matCellDef="let toDo" class="completed">
+        <mat-slide-toggle [checked]="toDo.completed"
+          (change)="onIsApprovedChange(toDo.completed)"></mat-slide-toggle>
+      </td>
+    </ng-container>
+
+
+
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef class="actions"> İşlemler </th>
+      <td mat-cell *matCellDef="let toDo" class="actions">
+        <button mat-mini-fab color="accent" [routerLink]="['/admin/yapilacaklar/guncelle', toDo.id]" class="me-3"
+          matTooltip="Düzenle">
+          <mat-icon>edit</mat-icon>
+        </button>
+        <button mat-mini-fab color="primary" class="btn-sm" matTooltip="Sil"
+          (click)="openDeleteConfirmation(toDo.id, toDo.title)">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </td>
+    </ng-container>
+
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+  </table>
+  <mat-paginator [pageSizeOptions]="[10, 20, 30]" showFirstLastButtons aria-label="Select page of periodic elements">
+  </mat-paginator>
+
+</div>
+<!-- MatDialog şablonu -->
+<ng-template #deleteDialogTemplate let-data>
+  <h2 mat-dialog-title>Silme Onayı</h2>
+  <mat-dialog-content class="mat-typography">
+    {{ data.message }}
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close="yes">Evet</button>
+    <button mat-button mat-dialog-close>Hayır</button>
+  </mat-dialog-actions>
+</ng-template>

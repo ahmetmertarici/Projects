@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+.font{
+  font-family: Courgette;
+  font-size: 40px;
+  color: #424874;
+}
+
+
+table {
+  width: 100%;
+}
+.mat-table {
+  background-color: #fff; /* beyaz arka plan */
+  color: #000; /* siyah metin rengi */
+}
+th.title, td.title {
+  width: 20%;
+}
+
+th.text, td.text {
+  width: 60%;
+}
+
+th.completed, td.completed {
+  width: 10%;
+}
+
+th.actions, td.actions {
+  width: 10%;
+}
+th.title, td.title {
+  width: 20%;
+}
+
+th.text, td.text {
+  width: 60%;
+}
+
+th.completed, td.completed {
+  width: 10%;
+}
+
+th.actions, td.actions {
+  width: 10%;
+}

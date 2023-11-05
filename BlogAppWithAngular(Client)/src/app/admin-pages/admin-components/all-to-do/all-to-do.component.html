@@ -1,0 +1,49 @@
+<div class="container border mb-1">
+  <div class="text-center font mb-3 mt-2">Yapılacaklar Listesi</div>
+  <div class="row mb-2">
+    <div class="col-md-6 d-flex ">
+      <span class="badge text-bg-warning badge-custom me-2">
+        Tamamlanan Sayısı <br>
+        {{completedCount}}
+      </span>
+      <span class="badge text-bg-warning badge-custom">
+        Tamamlanmayanların Sayısı <br>
+        {{uncompletedCount}}
+      </span>
+    </div>
+    <div class="col-md-6 d-flex justify-content-end">
+      <button routerLink="/admin/yapilacaklar/ekle" mat-mini-fab color="accent" class="btn-sm" matTooltip="Ekle">
+      <mat-icon>add</mat-icon>
+      </button>
+    </div>
+  </div>
+  <!-- <div class="row"> -->
+    <div class="card mb-2 custom-card-height" *ngFor="let toDo of pagedToDo">
+      <div class="card-header d-flex align-items-center">
+        <div class="col-md-11 d-flex align-items-center">
+          {{toDo.title}}
+        </div>
+        <div class="col-md-1 d-flex align-items-center">
+          <section class="example-section">
+            <mat-checkbox class="example-margin" [(ngModel)]="toDo.completed" (change)="updateCompleted(toDo)"></mat-checkbox>
+          </section>
+        </div>
+      </div>
+      <ul class="list-group list-group-flush">
+        <div class="relative-container">
+          <div *ngIf="toDo.completed" class="completed-overlay">
+            Tamamlandı
+          </div>
+          <li class="list-group-item " [ngClass]="{'text-completed': toDo.completed}"> {{toDo.text}} </li>
+        </div>
+      </ul>
+    </div>
+  <!-- </div> -->
+
+
+  <mat-paginator [length]="toDo.length"
+                 [pageSize]="toDoPerPage"
+                 [pageSizeOptions]="[5, 10, 20]"
+                 (page)="pageChanged($event)">
+  </mat-paginator>
+</div>

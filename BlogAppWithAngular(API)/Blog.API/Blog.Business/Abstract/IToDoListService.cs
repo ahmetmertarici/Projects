@@ -16,5 +16,7 @@ namespace Blog.Business.Abstract
         void Update(ToDoList toDoList);
         void Delete(ToDoList toDoList);
         #endregion
+        Task UpdateCompleted(ToDoList toDoList);
+
     }
 }

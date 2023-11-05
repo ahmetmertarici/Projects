@@ -11,5 +11,6 @@ export interface Article {
   imageUrl:string;
   commentCount:number;
   categories: Category[];
-  categoryIds: number[]; 
+  categoryIds: number[];
+  publishDate?: Date;
 }

@@ -9,5 +9,6 @@ namespace Blog.Data.Abstract
 {
     public interface IToDoListRepository : IRepository<ToDoList>
     {
+        Task UpdateCompleted(ToDoList toDoList);
     }
 }

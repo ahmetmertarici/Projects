@@ -28,9 +28,14 @@ export class AuthenticationService {
     return userRole === 'Admin' && token != null;
   }
 
-  logout(): void {
-    // Clear user role and token from local storage
-    localStorage.removeItem('userRole');
-    localStorage.removeItem('token');
+
+  logout(): Observable<any> {
+    return this.http.post<any>(`${this.apiUrl}/logout`, {}).pipe(
+      map(() => {
+        localStorage.removeItem('userRole');
+        localStorage.removeItem('token');
+      })
+    );
   }
+
 }

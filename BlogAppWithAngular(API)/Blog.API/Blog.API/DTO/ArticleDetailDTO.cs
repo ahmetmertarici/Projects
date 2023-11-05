@@ -14,7 +14,7 @@ namespace Blog.API.DTO
         public bool IsApproved { get; set; }
         public string ImageUrl { get; set; }
         public int? CommentCount { get; set; }
-
+        public DateTime? PublishDate { get; set; }
 
         public List<CategoryDTO> Categories { get; set; }
         public List<int> CategoryIds { get; set; }

@@ -12,7 +12,7 @@ import { MatDialog } from '@angular/material/dialog';
 })
 export class ArticleListComponent implements OnInit {
 
-  displayedColumns: string[] = ['imageUrl', 'title', 'isApproved', 'createdDate', 'viewsCount', 'score', 'actions'];
+  displayedColumns: string[] = ['imageUrl', 'title', 'isApproved', 'createdDate', 'publishDate', 'viewsCount', 'score', 'actions'];
   dataSource: any;
   articles: Article[] = [];
   imageUrl: string = '';
@@ -32,10 +32,14 @@ export class ArticleListComponent implements OnInit {
 
   getAllArticles(): void {
     this.adminService.getAllArticles().subscribe(data => {
-      this.articles = data;
-      this.dataSource = new MatTableDataSource<Article>(data);
+      this.articles = data.map(article => ({
+        ...article,
+        publishDate: article.publishDate ? new Date(article.publishDate) : undefined
+      }));
+      this.dataSource = new MatTableDataSource<Article>(this.articles);
       this.dataSource.paginator = this.paginator;
     });
+
   }
 
   onIsApprovedChange(articleId: number): void {

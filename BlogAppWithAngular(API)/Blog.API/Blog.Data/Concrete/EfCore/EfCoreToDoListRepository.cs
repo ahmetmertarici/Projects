@@ -1,5 +1,6 @@
 ﻿using Blog.Data.Abstract;
 using Blog.Entity;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,20 @@ namespace Blog.Data.Concrete.EfCore
         private BlogContext context
         {
             get { return _dbContext as BlogContext; }
+        }
+
+        public async Task UpdateCompleted(ToDoList toDoList)
+        {
+            if (toDoList.Completed)
+            {
+                toDoList.Completed = false;
+            }
+            else
+            {
+                toDoList.Completed = true;
+            };
+            context.Entry(toDoList).State = EntityState.Modified;
+            context.SaveChanges();
         }
     }
 }

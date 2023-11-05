@@ -59,6 +59,9 @@ namespace Blog.Data.Migrations
                     b.Property<bool>("IsApproved")
                         .HasColumnType("INTEGER");
 
+                    b.Property<DateTime?>("PublishDate")
+                        .HasColumnType("TEXT");
+
                     b.Property<double?>("Score")
                         .HasColumnType("REAL");
 

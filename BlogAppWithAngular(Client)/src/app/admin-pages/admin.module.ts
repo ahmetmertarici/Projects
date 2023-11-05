@@ -23,7 +23,15 @@ import { StatisticsComponent } from './admin-components/statistics/statistics.co
 import { AllCommentsComponent } from './admin-components/all-comments/all-comments.component';
 import { AccountComponent } from './account/account/account.component';
 import { AccountAddComponent } from './account/account-add/account-add.component';
-
+import { ToDoListListComponent } from './toDoList/to-do-list-list/to-do-list-list.component';
+import { ToDoListAddComponent } from './toDoList/to-do-list-add/to-do-list-add.component';
+import { ToDoListUpdateComponent } from './toDoList/to-do-list-update/to-do-list-update.component';
+import { AllToDoComponent } from './admin-components/all-to-do/all-to-do.component';
+import { AdminToDoListComponent } from './toDoList/admin-to-do-list/admin-to-do-list.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatNativeDateModule } from '@angular/material/core';
+import {MatDatepickerModule} from '@angular/material/datepicker';
 @NgModule({
   declarations: [
     AdminLayoutComponent,
@@ -44,6 +52,11 @@ import { AccountAddComponent } from './account/account-add/account-add.component
     AllCommentsComponent,
     AccountComponent,
     AccountAddComponent,
+    ToDoListListComponent,
+    ToDoListAddComponent,
+    ToDoListUpdateComponent,
+    AllToDoComponent,
+    AdminToDoListComponent,
   ],
   imports: [
     CommonModule,
@@ -51,11 +64,16 @@ import { AccountAddComponent } from './account/account-add/account-add.component
     MaterialModule,
     ComponentsModule,
     MatPaginatorModule,
-    CKEditorModule
+    CKEditorModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule
   ],
   exports: [
     StatisticsComponent,
-    AllCommentsComponent
+    AllCommentsComponent,
+    AllToDoComponent
   ]
 })
 export class AdminModule { }

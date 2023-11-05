@@ -143,9 +143,9 @@ namespace Blog.Business.Concrete
             throw new NotImplementedException();
         }
 
-        public async Task<Article> UpdateArticleAsync(int articleId, string title, string content, string imageUrl, int[] categoryIds)
+        public async Task<Article> UpdateArticleAsync(int articleId, string title, string content, string imageUrl, int[] categoryIds, DateTime? publishDate)
         {
-            return await _articleRepository.UpdateArticleAsync(articleId, title, content, imageUrl, categoryIds);
+            return await _articleRepository.UpdateArticleAsync(articleId, title, content, imageUrl, categoryIds, publishDate);
         }
 
         public async Task UpdateAsync(Article article, int[] categoryIds)

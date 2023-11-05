@@ -25,6 +25,10 @@ import { AboutMeAddComponent } from './admin-pages/about-me/about-me-add/about-m
 import { AccountComponent } from './admin-pages/account/account/account.component';
 import { AccountAddComponent } from './admin-pages/account/account-add/account-add.component';
 import { AuthGuardService } from './services/auth-guard.service';
+import { AdminToDoListComponent } from './admin-pages/toDoList/admin-to-do-list/admin-to-do-list.component';
+import { ToDoListListComponent } from './admin-pages/toDoList/to-do-list-list/to-do-list-list.component';
+import { ToDoListUpdateComponent } from './admin-pages/toDoList/to-do-list-update/to-do-list-update.component';
+import { ToDoListAddComponent } from './admin-pages/toDoList/to-do-list-add/to-do-list-add.component';
 
 const routes: Routes = [
   {path:'', component:MainLayoutComponent, children:[
@@ -51,16 +55,16 @@ const routes: Routes = [
       {path:'guncelle/:id', component:CategoryUpdateComponent},
       {path:'ekle', component:CategoryAddComponent}
     ]},
-    {path:'hakkimda-düzenle', component:AdminAboutMeComponent, children:[
+    {path:'hakkimda', component:AdminAboutMeComponent, children:[
       {path:'liste', component:AboutMeListComponent},
       {path:'guncelle/:id', component:AboutMeUpdateComponent},
       {path:'ekle', component:AboutMeAddComponent}
     ]},
-    // {path:'yapilacaklar-düzenle', component:AdminAboutMeComponent, children:[
-    //   {path:'liste', component:AboutMeListComponent},
-    //   {path:'guncelle/:id', component:AboutMeUpdateComponent},
-    //   {path:'ekle', component:AboutMeAddComponent}
-    // ]},
+    {path:'yapilacaklar', component:AdminToDoListComponent, children:[
+      {path:'liste', component:ToDoListListComponent},
+      {path:'guncelle/:id', component:ToDoListUpdateComponent},
+      {path:'ekle', component:ToDoListAddComponent}
+    ]},
     {path:'hesap', component:AccountComponent, children:[
       {path:'ekle',component:AccountAddComponent}
     ]}

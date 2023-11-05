@@ -1,9 +1,9 @@
 <h1 class="text-center font mt-4">Makale Düzenle</h1>
+<form class="mb-5" [formGroup]="updateArticleForm" (ngSubmit)="onSubmit()" enctype="multipart/form-data">
 
 <div class="row">
   <div class="col-md-9">
 
-    <form class="mb-5" [formGroup]="updateArticleForm" (ngSubmit)="onSubmit()" enctype="multipart/form-data">
       <mat-card>
         <mat-card-content>
           <mat-form-field>
@@ -36,20 +36,36 @@
           <button class="mt-2" mat-raised-button color="primary" type="submit">Makale Güncelle</button>
         </mat-card-actions>
       </mat-card>
-    </form>
   </div>
   <div class="col-md-3">
-    <div class="card border-secondary mb-3 image-box">
-      <div class="card-header bg-transparent border-secondary">Resim Seç:</div>
-      <div class="card-body text-secondary image-container">
-        <div *ngIf="imageUrl" class="mb-3">
-          <img [src]="imageUrl" alt="Makale Resmi" style="max-width: 100%;">
+    <div class="row">
+      <div class="card border-secondary mb-3 image-box">
+        <div class="card-header bg-transparent border-secondary">Resim Seç:</div>
+        <div class="card-body text-secondary image-container">
+          <div *ngIf="imageUrl" class="mb-3">
+            <img [src]="imageUrl" alt="Makale Resmi" style="max-width: 100%;">
+          </div>
+        </div>
+        <div class="card-footer bg-transparent border-secondary input-group">
+          <input type="file" (change)="upload($event)" class="form-control" />
         </div>
       </div>
-      <div class="card-footer bg-transparent border-secondary input-group">
-        <input type="file" (change)="upload($event)" class="form-control" />
+    </div>
+    <div class="row">
+      <mat-form-field>
+        <mat-label>Yayınlanma Tarihi</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="publishDate">
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <div class="cs-form" >
+        <input type="time" formControlName="publishTime" style="background-color: #424242; color: aliceblue;" class="form-control" />
       </div>
     </div>
 
+
   </div>
 </div>
+</form>

@@ -18,14 +18,14 @@ namespace Blog.Business.Concrete
             _toDoRepository = toDoRepository;
         }
 
-        public Task CreateAsync(ToDoList toDoList)
+        public async Task CreateAsync(ToDoList toDoList)
         {
-            throw new NotImplementedException();
+            await _toDoRepository.CreateAsync(toDoList);
         }
 
         public void Delete(ToDoList toDoList)
         {
-            throw new NotImplementedException();
+            _toDoRepository.Delete(toDoList);
         }
 
         public async Task<List<ToDoList>> GetAllAsync()
@@ -33,14 +33,20 @@ namespace Blog.Business.Concrete
             return await _toDoRepository.GetAllAsync();
         }
 
-        public Task<ToDoList> GetByIdAsync(int id)
+        public async Task<ToDoList> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _toDoRepository.GetByIdAsync(id);
         }
 
         public void Update(ToDoList toDoList)
         {
-            throw new NotImplementedException();
+            _toDoRepository.Update(toDoList);
+        }
+
+        public async Task UpdateCompleted(ToDoList toDoList)
+        {
+            await _toDoRepository.UpdateCompleted(toDoList);
+
         }
     }
 }

@@ -1,0 +1,38 @@
+<h1 class="text-center font mt-4">Yapılacak Ekle</h1>
+
+<form class="mb-5" [formGroup]="updateTodoForm" (ngSubmit)="onSubmit()" enctype="multipart/form-data">
+  <mat-card>
+    <mat-card-content>
+      <mat-form-field>
+        <mat-label>Başlık:</mat-label>
+        <input matInput formControlName="title" />
+        <mat-error *ngIf="updateTodoForm.get('title')?.invalid && updateTodoForm.get('title')?.touched">
+          Lütfen bir başlık girin.
+        </mat-error>
+      </mat-form-field>
+    </mat-card-content>
+
+    <mat-card-content>
+      <mat-form-field>
+        <mat-label>İçerik:</mat-label>
+        <textarea class="icerik" matInput formControlName="text" ></textarea>
+        <mat-error *ngIf="updateTodoForm.get('text')?.invalid && updateTodoForm.get('text')?.touched">
+          Bu alan zorunludur.
+        </mat-error>
+      </mat-form-field>
+    </mat-card-content>
+
+    <mat-card-content>
+      <mat-form-field>
+        <mat-label>Yorum:</mat-label>
+        <input matInput formControlName="comment" />
+      </mat-form-field>
+    </mat-card-content>
+
+
+    <mat-card-actions>
+      <button class="mt-2" mat-raised-button color="primary" type="submit">Görev Oluştur</button>
+    </mat-card-actions>
+
+  </mat-card>
+</form>
