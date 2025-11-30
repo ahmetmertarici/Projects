@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "M+l9Dy125nkTIPadGIuRLqm3ruHDd5ZqItnitioEZTmztjxhk3GFHww5EXtBup+Mxk32fklgNCA1xtDlJyPvtQ==",
+  "dgSpecHash": "caNpZOgU08c0YzWZoc8HLes5jDynC1MII13WpCoF/kmDTL1db9PLz3CcPmx7JrhX+Nqr5HGxhlY+OJhCpfgkHQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\BlogAppWithAngular(API)\\Blog.API\\Blog.Core\\Blog.Core.csproj",
   "expectedPackageFiles": [
@@ -81,7 +81,9 @@
     "C:\\Users\\asus\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512"
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.31\\microsoft.windowsdesktop.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.31\\microsoft.netcore.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.31\\microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512"
   ],
   "logs": []
 }

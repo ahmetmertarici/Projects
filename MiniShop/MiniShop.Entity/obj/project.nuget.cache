@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3GOetKcjShSmAPAKAC5p8zbzxgex5g3jOpN17ypUbmeRUuHyliN3gq+1YXoysTlML8BR8PvsAb1+HKpd0JeD/w==",
+  "dgSpecHash": "WsmZVvNXxqx7TIcgs8jc7ERp+klqSpciS1zvhV4Zpjh1WTqBJnaD1mNzgl9BTcadsXVA/wCHJzBpm11XBTG2xQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\asus\\OneDrive\\Masaüstü\\BAU\\Projects\\Projects\\MiniShop\\MiniShop.Entity\\MiniShop.Entity.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Masaüstü\\Github Project\\Projects\\MiniShop\\MiniShop.Entity\\MiniShop.Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512"
+  ],
   "logs": []
 }
